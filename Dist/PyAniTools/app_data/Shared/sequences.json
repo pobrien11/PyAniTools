@@ -1,0 +1,535 @@
+{
+   "Seq170": [
+      {
+         "Shot": "Shot010",
+         "first_frame": 1001,
+         "last_frame": 1114
+      },
+      {
+         "Shot": "Shot030",
+         "first_frame": 1001,
+         "last_frame": 1090
+      },
+      {
+         "Shot": "Shot040",
+         "first_frame": 1001,
+         "last_frame": 1104
+      },
+      {
+         "Shot": "Shot050",
+         "first_frame": 1001,
+         "last_frame": 1087
+      },
+      {
+         "Shot": "Shot060",
+         "first_frame": 1001,
+         "last_frame": 1053
+      },
+      {
+         "Shot": "Shot070",
+         "first_frame": 1001,
+         "last_frame": 1081
+      },
+      {
+         "Shot": "Shot080",
+         "first_frame": 1001,
+         "last_frame": 1253
+      },
+      {
+         "Shot": "Shot090",
+         "first_frame": 1001,
+         "last_frame": 1160
+      },
+      {
+         "Shot": "Shot095",
+         "first_frame": 1001,
+         "last_frame": 1124
+      },
+      {
+         "Shot": "Shot100",
+         "first_frame": 1001,
+         "last_frame": 1061
+      },
+      {
+         "Shot": "Shot110",
+         "first_frame": 1001,
+         "last_frame": 1053
+      },
+      {
+         "Shot": "Shot120",
+         "first_frame": 1001,
+         "last_frame": 1048
+      },
+      {
+         "Shot": "Shot130",
+         "first_frame": 1001,
+         "last_frame": 1039
+      },
+      {
+         "Shot": "Shot140",
+         "first_frame": 1001,
+         "last_frame": 1103
+      },
+      {
+         "Shot": "Shot150",
+         "first_frame": 1001,
+         "last_frame": 1075
+      },
+      {
+         "Shot": "Shot160",
+         "first_frame": 1001,
+         "last_frame": 1062
+      },
+      {
+         "Shot": "Shot170",
+         "first_frame": 1001,
+         "last_frame": 1035
+      },
+      {
+         "Shot": "Shot180",
+         "first_frame": 1001,
+         "last_frame": 1070
+      },
+      {
+         "Shot": "Shot190",
+         "first_frame": 1001,
+         "last_frame": 1114
+      },
+      {
+         "Shot": "Shot200",
+         "first_frame": 1001,
+         "last_frame": 1088
+      },
+      {
+         "Shot": "Shot210",
+         "first_frame": 1001,
+         "last_frame": 1111
+      },
+      {
+         "Shot": "Shot220",
+         "first_frame": 1001,
+         "last_frame": 1354
+      },
+      {
+         "Shot": "Shot240",
+         "first_frame": 1001,
+         "last_frame": 1133
+      },
+      {
+         "Shot": "Shot250",
+         "first_frame": 1001,
+         "last_frame": 1160
+      },
+      {
+         "Shot": "Shot260",
+         "first_frame": 1001,
+         "last_frame": 1122
+      },
+      {
+         "Shot": "Shot270",
+         "first_frame": 1001,
+         "last_frame": 1164
+      },
+      {
+         "Shot": "Shot280",
+         "first_frame": 1001,
+         "last_frame": 1168
+      },
+      {
+         "Shot": "Shot290",
+         "first_frame": 1001,
+         "last_frame": 1050
+      },
+      {
+         "Shot": "Shot300",
+         "first_frame": 1001,
+         "last_frame": 1108
+      },
+      {
+         "Shot": "Shot310",
+         "first_frame": 1001,
+         "last_frame": 1011
+      },
+      {
+         "Shot": "Shot320",
+         "first_frame": 1001,
+         "last_frame": 1070
+      },
+      {
+         "Shot": "Shot340",
+         "first_frame": 1001,
+         "last_frame": 1068
+      },
+      {
+         "Shot": "Shot360",
+         "first_frame": 1001,
+         "last_frame": 1029
+      },
+      {
+         "Shot": "Shot370",
+         "first_frame": 1001,
+         "last_frame": 1032
+      },
+      {
+         "Shot": "Shot380",
+         "first_frame": 1001,
+         "last_frame": 1044
+      }
+   ],
+   "Seq175": [
+      {
+         "Shot": "Shot010",
+         "first_frame": 1001,
+         "last_frame": 1332
+      },
+      {
+         "Shot": "Shot030",
+         "first_frame": 1001,
+         "last_frame": 1012
+      },
+      {
+         "Shot": "Shot040",
+         "first_frame": 1001,
+         "last_frame": 1018
+      },
+      {
+         "Shot": "Shot050",
+         "first_frame": 1001,
+         "last_frame": 1052
+      },
+      {
+         "Shot": "Shot060",
+         "first_frame": 1001,
+         "last_frame": 1060
+      },
+      {
+         "Shot": "Shot080",
+         "first_frame": 1001,
+         "last_frame": 1026
+      },
+      {
+         "Shot": "Shot085",
+         "first_frame": 1001,
+         "last_frame": 1051
+      },
+      {
+         "Shot": "Shot090",
+         "first_frame": 1001,
+         "last_frame": 1184
+      },
+      {
+         "Shot": "Shot100",
+         "first_frame": 1001,
+         "last_frame": 1081
+      },
+      {
+         "Shot": "Shot110",
+         "first_frame": 1001,
+         "last_frame": 1053
+      },
+      {
+         "Shot": "Shot120",
+         "first_frame": 1001,
+         "last_frame": 1120
+      },
+      {
+         "Shot": "Shot130",
+         "first_frame": 1001,
+         "last_frame": 1064
+      },
+      {
+         "Shot": "Shot140",
+         "first_frame": 1001,
+         "last_frame": 1145
+      },
+      {
+         "Shot": "Shot150",
+         "first_frame": 1001,
+         "last_frame": 1137
+      },
+      {
+         "Shot": "Shot160",
+         "first_frame": 1001,
+         "last_frame": 1345
+      },
+      {
+         "Shot": "Shot170",
+         "first_frame": 1001,
+         "last_frame": 1276
+      },
+      {
+         "Shot": "Shot180",
+         "first_frame": 1001,
+         "last_frame": 1074
+      },
+      {
+         "Shot": "Shot190",
+         "first_frame": 1001,
+         "last_frame": 1311
+      },
+      {
+         "Shot": "Shot200",
+         "first_frame": 1001,
+         "last_frame": 1076
+      },
+      {
+         "Shot": "Shot205",
+         "first_frame": 1001,
+         "last_frame": 1075
+      },
+      {
+         "Shot": "Shot210",
+         "first_frame": 1001,
+         "last_frame": 1111
+      },
+      {
+         "Shot": "Shot220",
+         "first_frame": 1001,
+         "last_frame": 1045
+      },
+      {
+         "Shot": "Shot230",
+         "first_frame": 1001,
+         "last_frame": 1042
+      }
+   ],
+   "Seq180": [
+      {
+         "Shot": "Shot040",
+         "first_frame": 1001,
+         "last_frame": 1042
+      },
+      {
+         "Shot": "Shot050",
+         "first_frame": 1001,
+         "last_frame": 1073
+      },
+      {
+         "Shot": "Shot060",
+         "first_frame": 1001,
+         "last_frame": 1017
+      },
+      {
+         "Shot": "Shot070",
+         "first_frame": 1001,
+         "last_frame": 1040
+      },
+      {
+         "Shot": "Shot080",
+         "first_frame": 1001,
+         "last_frame": 1018
+      },
+      {
+         "Shot": "Shot090",
+         "first_frame": 1001,
+         "last_frame": 1066
+      },
+      {
+         "Shot": "Shot095",
+         "first_frame": 1001,
+         "last_frame": 1092
+      },
+      {
+         "Shot": "Shot100",
+         "first_frame": 1001,
+         "last_frame": 1154
+      },
+      {
+         "Shot": "Shot110",
+         "first_frame": 1001,
+         "last_frame": 1169
+      },
+      {
+         "Shot": "Shot120",
+         "first_frame": 1001,
+         "last_frame": 1022
+      },
+      {
+         "Shot": "Shot130",
+         "first_frame": 1001,
+         "last_frame": 1223
+      },
+      {
+         "Shot": "Shot140",
+         "first_frame": 1001,
+         "last_frame": 1081
+      },
+      {
+         "Shot": "Shot150",
+         "first_frame": 1001,
+         "last_frame": 1469
+      },
+      {
+         "Shot": "Shot170",
+         "first_frame": 1001,
+         "last_frame": 1037
+      },
+      {
+         "Shot": "Shot180",
+         "first_frame": 1001,
+         "last_frame": 1068
+      },
+      {
+         "Shot": "Shot190",
+         "first_frame": 1001,
+         "last_frame": 1254
+      },
+      {
+         "Shot": "Shot200",
+         "first_frame": 1001,
+         "last_frame": 1051
+      },
+      {
+         "Shot": "Shot210",
+         "first_frame": 1001,
+         "last_frame": 1118
+      },
+      {
+         "Shot": "Shot220",
+         "first_frame": 1001,
+         "last_frame": 1098
+      },
+      {
+         "Shot": "Shot230",
+         "first_frame": 1001,
+         "last_frame": 1036
+      },
+      {
+         "Shot": "Shot240",
+         "first_frame": 1001,
+         "last_frame": 1024
+      },
+      {
+         "Shot": "Shot250",
+         "first_frame": 1001,
+         "last_frame": 1025
+      },
+      {
+         "Shot": "Shot260",
+         "first_frame": 1001,
+         "last_frame": 1150
+      },
+      {
+         "Shot": "Shot270",
+         "first_frame": 1001,
+         "last_frame": 1033
+      },
+      {
+         "Shot": "Shot280",
+         "first_frame": 1001,
+         "last_frame": 1165
+      },
+      {
+         "Shot": "Shot290",
+         "first_frame": 1001,
+         "last_frame": 1061
+      },
+      {
+         "Shot": "Shot300",
+         "first_frame": 1001,
+         "last_frame": 1012
+      },
+      {
+         "Shot": "Shot310",
+         "first_frame": 1001,
+         "last_frame": 1020
+      },
+      {
+         "Shot": "Shot320",
+         "first_frame": 1001,
+         "last_frame": 1032
+      },
+      {
+         "Shot": "Shot325",
+         "first_frame": 1001,
+         "last_frame": 1008
+      },
+      {
+         "Shot": "Shot330",
+         "first_frame": 1001,
+         "last_frame": 1076
+      },
+      {
+         "Shot": "Shot340",
+         "first_frame": 1001,
+         "last_frame": 1008
+      },
+      {
+         "Shot": "Shot350",
+         "first_frame": 1001,
+         "last_frame": 1107
+      },
+      {
+         "Shot": "Shot360",
+         "first_frame": 1001,
+         "last_frame": 1052
+      }
+   ],
+   "Seq190": [
+      {
+         "Shot": "Shot010",
+         "first_frame": 1001,
+         "last_frame": 1224
+      },
+      {
+         "Shot": "Shot020",
+         "first_frame": 1001,
+         "last_frame": 1109
+      },
+      {
+         "Shot": "Shot030",
+         "first_frame": 1001,
+         "last_frame": 1233
+      },
+      {
+         "Shot": "Shot040",
+         "first_frame": 1001,
+         "last_frame": 1250
+      },
+      {
+         "Shot": "Shot050",
+         "first_frame": 1001,
+         "last_frame": 1031
+      },
+      {
+         "Shot": "Shot060",
+         "first_frame": 1001,
+         "last_frame": 1201
+      },
+      {
+         "Shot": "Shot070",
+         "first_frame": 1001,
+         "last_frame": 1166
+      },
+      {
+         "Shot": "Shot080",
+         "first_frame": 1001,
+         "last_frame": 1120
+      },
+      {
+         "Shot": "Shot090",
+         "first_frame": 1001,
+         "last_frame": 1181
+      },
+      {
+         "Shot": "Shot100",
+         "first_frame": 1001,
+         "last_frame": 1144
+      },
+      {
+         "Shot": "Shot110",
+         "first_frame": 1001,
+         "last_frame": 1124
+      },
+      {
+         "Shot": "Shot120",
+         "first_frame": 1001,
+         "last_frame": 1093
+      },
+      {
+         "Shot": "Shot130",
+         "first_frame": 1001,
+         "last_frame": 1366
+      }
+   ]
+}

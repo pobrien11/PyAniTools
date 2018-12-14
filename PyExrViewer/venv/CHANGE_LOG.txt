@@ -1,0 +1,13 @@
+=========
+CHANGELOG
+=========
+
+v1.0.0
+======
+
+* Initial Release
+
+v1.0.1
+======
+
+* Keyboard shortcuts for navigating layers

@@ -1,0 +1,16 @@
+{
+  "versions" : [
+        {
+      "version": "1.0.1",
+      "features": [
+        "Keyboard shortcuts for navigating layers."
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "features": [
+        "First Release."
+      ]
+    }
+  ]
+}
