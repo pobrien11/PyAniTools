@@ -1,0 +1,53 @@
+=========
+CHANGELOG
+=========
+
+v1.0.2
+======
+
+* Fixed logging not turning off when you toggle Show Log in the Gui
+
+* Disable frame range input when it is N/A for multiple sequence selection
+
+* Fixed bug where selecting no files showed error in the console
+
+* Fixed frame ranges breaking when prefixed by _, now suppport any character as a frame prefix
+
+* Fixed custom user frame ranges, previously not working. Now a user can provide any frame range:
+
+	If frame range is 1001-1100, the following are all valid
+		1005-1050,
+		1001-1050
+		1005-1100
+	Additionally will accept ranges outside the sequence frame range, for example if the range is 1100-1200:
+		1001-1200 is acceptable, backfills 1001-1099 with frame 1100
+		Typical usage would be you run frames 1001-1050, but frame 1001 and 1002 failed. The tool can 'patch'
+		those missing frames with 1003.the same is true for frames after the sequence end.
+
+v1.1.1
+======
+
+* Added command line interface
+
+* Refactored AniFrame to have constructor to build from an int
+
+* Fixed bug where user start was ignored by ffmpeg command
+
+* Fixed bug where user frame start after the seq start broke
+
+* Optimized code, if sequence exists (no missing frames) and aren't doing steps or customf rame range, skips
+  copy to temp dir
+
+
+v1.1.2
+======
+
+* Fixed combine sequence code, broke, due to change in pyani.media.image.seq.AniImageSeq class is_member function, and
+  updated the combine code to use pyani.media.image.core.AniFrame
+
+* Combine movie name now uses the uncombined parent direcotry for output
+
+v1.2.1
+======
+
+* Created app update system, notifies when a new version is available and user can run a app to update to the latest

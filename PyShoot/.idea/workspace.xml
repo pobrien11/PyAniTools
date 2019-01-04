@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6df5d47-aaac-40eb-8076-50fb18a9c601" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-993383201">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="9" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="6" />
+          <entry key="py" value="109" />
+          <entry key="pyi" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="6" />
+          <entry key="Python" value="107" />
+          <entry key="PythonStub" value="1" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="668" />
+          <entry key="PLAIN_TEXT" value="141" />
+          <entry key="Python" value="71073" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="141" />
+          <entry key="json" value="668" />
+          <entry key="py" value="71073" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="1940529026">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="12" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="2" />
+          <entry key="py" value="292" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="Python" value="292" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="95" />
+              <folding>
+                <element signature="e#1303#1313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>is_frame_range_consecutive</find>
+      <find>get_frame_padding</find>
+      <find>get(</find>
+      <find>model</find>
+      <find>data</find>
+      <find>meta_da</find>
+      <find>return</find>
+      <find>clear_images</find>
+      <find>reset_selec</find>
+      <find>cmd</find>
+      <find>debug_data</find>
+      <find>shutil</find>
+      <find>pyani.core.image.AniFrame</find>
+      <find>is_sibling</find>
+      <find>is_sibli</find>
+      <find>print</find>
+      <find>image format</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>AniImage</replace>
+      <replace>AniFrame</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/venv/data_file.json" />
+        <option value="$PROJECT_DIR$/venv/FileDialog.bk.py" />
+        <option value="$PROJECT_DIR$/venv/FileDialog.py" />
+        <option value="C:/Python27/Lib/site-packages/ffmpeg/_run.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$PROJECT_DIR$/venv/pyShoot.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/ani_util.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/animage.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/aniutil.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/animg.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/animgseq.py" />
+        <option value="$PROJECT_DIR$/venv/pyShootUI.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/image_seq.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/image.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/shoot/gui.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/shoot/core.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/shoot/cli.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/movie/core.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/media/image/seq.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/media/movie/create/core.py" />
+        <option value="$PROJECT_DIR$/venv/test_pyshoot.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/pyshoot.json" />
+        <option value="$PROJECT_DIR$/venv/pyani/media/movie/create/cli.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/media/image/core.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/util.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/appsetup.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/appinstall.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/appmanager.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/appmanagerupdate.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/toolsinstall.py" />
+        <option value="$PROJECT_DIR$/venv/appupdater.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/core/ui.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/media/movie/create/gui.py" />
+        <option value="$PROJECT_DIR$/venv/pyani/nuke/init.py" />
+        <option value="Z:/LongGong/PyAniTools/app_data/NukeMngr/app_data.json" />
+        <option value="$PROJECT_DIR$/venv/pyani/nuke/temp.py" />
+        <option value="$USER_HOME$/.nuke/init.py" />
+        <option value="C:/PyAniTools/app_data/PyShoot/app_data.json" />
+        <option value="$PROJECT_DIR$/venv/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2552" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PyShoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyShoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyShoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyShoot" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrick\Desktop" />
+      <recent name="C:\Users\Patrick\Desktop\pyseq.py" />
+      <recent name="C:\Users\Patrick\PycharmProjects\PyShoot\venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrick\PycharmProjects\PyShoot\venv\pyani\media\movie\create" />
+      <recent name="C:\Users\Patrick\PycharmProjects\PyShoot\venv\pyani\media\image" />
+      <recent name="C:\Users\Patrick\PycharmProjects\PyShoot\venv\pyani\media" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="appmanagerupdate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyShoot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/pyani/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/pyani/core/appmanagerupdate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="appupdater" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyShoot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/appupdater.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyShoot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyShoot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/pyani/nuke" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/pyani/nuke/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="toolsinstall" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyShoot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/pyani/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/pyani/core/toolsinstall.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.appupdater" />
+      <item itemvalue="Python.toolsinstall" />
+      <item itemvalue="Python.appmanagerupdate" />
+      <item itemvalue="Python.temp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.temp" />
+        <item itemvalue="Python.appmanagerupdate" />
+        <item itemvalue="Python.toolsinstall" />
+        <item itemvalue="Python.appupdater" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6df5d47-aaac-40eb-8076-50fb18a9c601" name="Default Changelist" comment="" />
+      <created>1541022261389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541022261389</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17864583" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3512476" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22932331" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39827254" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/cgteamwork/bin/lib/inside/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://C:/cgteamwork/bin/base/cgtw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="531" column="24" selection-start-line="531" selection-start-column="20" selection-end-line="531" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Run.py" />
+    <entry file="file://$PROJECT_DIR$/venv/data_file.json" />
+    <entry file="file://$PROJECT_DIR$/dist/data_file.json" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-138064109/PyQt4/Qt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/FileDialog.bk.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/ffmpeg/nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4226" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/ffmpeg/_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="177" column="7" lean-forward="true" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/ffmpeg/_view.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/ffmpeg/_utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/ffmpeg/_filters.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/ffmpeg/_ffmpeg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lss.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="1190" column="52" selection-start-line="1190" selection-start-column="52" selection-end-line="1190" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2941">
+          <caret line="179" column="20" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/pyseq.py/pyseq.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyShootCLI.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="418" selection-start-line="418" selection-end-line="418" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/FileDialog.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyShootUI.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyShoot.py" />
+    <entry file="file://C:/Python27/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="339" selection-start-line="339" selection-end-line="339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../old/pyShootCLI.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/image/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/movie/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/movie/create/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-138064109/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="752" column="8" selection-start-line="752" selection-start-column="8" selection-end-line="752" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/__builtin__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pyani/core/pyshoot.json" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/movie/create/core.py" />
+    <entry file="file://Z:/LongGong/tools/media/PyShoot/pyshoot.json" />
+    <entry file="file://C:/Python27/Lib/site-packages/PIL/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/image/seq.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/core/toolsinstall.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/core/appmanagerupdate.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/movie/create/gui.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/core/ui.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/movie/create/cli.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/nuke/init.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/core/appmanager.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/media/image/core.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pyani/core/util.py" />
+    <entry file="file://Z:/LongGong/PyAniTools/app_data/NukeMngr/app_data.json" />
+    <entry file="file://$USER_HOME$/.nuke/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pyani/nuke/temp.py" />
+    <entry file="file://$PROJECT_DIR$/venv/appupdater.py" />
+    <entry file="file://C:/PyAniTools/app_data/PyShoot/app_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/test_pyshoot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="95" />
+          <folding>
+            <element signature="e#1303#1313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

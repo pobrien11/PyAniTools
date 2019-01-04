@@ -1,0 +1,13 @@
+=========
+CHANGELOG
+=========
+
+v1.0.0
+======
+
+* Initial Release command line updater
+
+v1.2.0
+======
+
+* Pyqt Gui Interface

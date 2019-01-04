@@ -11,8 +11,8 @@ Dependencies
      Making Executable - Pyinstaller
      ---------
 
-     cd C:\Users\Patrick\PycharmProjects\PyNukeMngr\venv\
-     pyinstaller --onefile --noconsole --name PyNukeMngr main.py
+     cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyNukeMngr\venv\
+     pyinstaller --onefile --noconsole --icon Resources\pynukemngr_icon.ico --name PyNukeMngr main.py
 
 '''
 
@@ -20,7 +20,6 @@ import sys
 import qdarkstyle
 import os
 from pyani.nuke.mngr import AniNukeMngrGui
-import colorama
 
 # set the environment variable to use a specific wrapper
 # it can be set to pyqt, pyqt5, pyside or pyside2 (not implemented yet)
@@ -33,10 +32,6 @@ from qtpy import QtWidgets
 
 
 def main():
-
-
-    # init the colored output to terminal
-    colorama.init()
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
