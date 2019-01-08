@@ -476,7 +476,7 @@ class CheckboxTreeWidget(QtWidgets.QTreeWidget):
         iterator = QtWidgets.QTreeWidgetItemIterator(self, QtWidgets.QTreeWidgetItemIterator.Checked)
         while iterator.value():
             item = iterator.value()
-            checked.append(item.text(0))
+            checked.append(str(item.text(0)))
             iterator += 1
         return checked
 

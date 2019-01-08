@@ -319,7 +319,7 @@ class AniNukeMngrGui(pyani.core.ui.AniQMainWindow):
         """rebuilds both version trees
         """
         # update ani vars with the selected sequence
-        self.nuke_mngr.ani_vars.update(self.seq_select_menu.currentText())
+        self.nuke_mngr.ani_vars.update(str(self.seq_select_menu.currentText()))
         self.populate_seq_vers_tree()
         self.populate_shot_vers_tree()
 
