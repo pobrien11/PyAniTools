@@ -15,8 +15,6 @@ Making Executable - Pyinstaller
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyAppManager\venv\
      pyinstaller --onefile --noconsole --icon=Resources\pyappmngr_icon.ico --name PyAppMngr main.py
 
-     update app_data.json and changelog
-
 '''
 
 import sys

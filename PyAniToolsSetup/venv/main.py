@@ -20,7 +20,9 @@ Making Executable - Pyinstaller
 import sys
 import qdarkstyle
 import os
+import logging
 import pyani.core.toolsinstall as setup
+import pyani.core.error_logging
 
 
 # set the environment variable to use a specific wrapper
@@ -33,10 +35,13 @@ from qtpy import QtWidgets
 
 
 def main():
+    app_name = "PyAniToolsSetup"
+    error_level = logging.DEBUG
+    log_error = pyani.core.error_logging.setup_error_logging(app_name, error_level)
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = setup.AniToolsSetup()
+    window = setup.AniToolsSetup(log_error)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())

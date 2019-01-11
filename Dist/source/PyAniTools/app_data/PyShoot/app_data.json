@@ -1,9 +1,18 @@
 {
   "versions" : [
     {
+      "version" : "1.2.5",
+      "features": [
+        "Multi-threaded copy", 
+	"Bug fixes", 
+	"UI simplification", 
+	"Error logging"
+      ]
+    },
+    {
       "version" : "1.2.1",
       "features": [
-        "Latest version notification"
+        "Version notification"
       ]
     },
     {

@@ -21,7 +21,7 @@ class AniAppMngr(object):
     def __init__(self, app_name):
         # these are the same for all apps
         self.__app_data_path = "C:\\PyAniTools\\app_data\\"
-        self.__updater_app = "C:\\PyAniTools\\installed\\PyAppMngr.exe"
+        self.__updater_app = "C:\\PyAniTools\\installed\\PyAppMngr\\PyAppMngr.exe"
         # per app variables
         self.__app_name = app_name
         self.__app_install_path = "C:\\PyAniTools\\installed\\{0}".format(app_name)

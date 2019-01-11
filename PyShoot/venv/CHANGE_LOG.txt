@@ -51,3 +51,18 @@ v1.2.1
 ======
 
 * Created app update system, notifies when a new version is available and user can run a app to update to the latest
+
+v1.2.5
+======
+
+* Added multi-threaded copy 
+
+* Removed log and validation options
+
+* Clarified output button name
+
+* Added error logging
+
+* Fixed bug with shooting movie after already creating one
+
+* Fixed file dialog corrupting path

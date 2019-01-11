@@ -33,8 +33,9 @@ Making Executable - Pyinstaller
 import sys
 import qdarkstyle
 import os
+import logging
 import pyani.media.movie.create.ui
-
+import pyani.core.error_logging
 
 # set the environment variable to use a specific wrapper
 # it can be set to pyqt, pyqt5, pyside or pyside2 (not implemented yet)
@@ -48,7 +49,10 @@ from qtpy import QtWidgets
 
 def main():
 
-    # SETUP ==============================================
+    app_name = "PyShoot"
+    error_level = logging.DEBUG
+    log_error = pyani.core.error_logging.setup_error_logging(app_name, error_level)
+
     # path to ffmpeg executable, bundled with PyShoot
     movie_generation = "C:\\PyAniTools\\installed\\ffmpeg\\bin\\ffmpeg"
     # path to playback tool, using rv
@@ -67,7 +71,7 @@ def main():
 
         # create the application and the main window
         app = QtWidgets.QApplication(sys.argv)
-        window = pyani.media.movie.create.ui.AniShootGui(movie_generation, movie_playback, strict_pad)
+        window = pyani.media.movie.create.ui.AniShootGui(movie_generation, movie_playback, strict_pad, log_error)
 
         # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
         app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())
