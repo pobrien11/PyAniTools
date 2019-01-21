@@ -16,15 +16,15 @@ Making Executable - Pyinstaller
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyExrViewer\venv\
      pyinstaller --onefile --noconsole --icon=Resources\pyexrviewer_icon.ico --name PyExrViewer main.py
 
-     Update app_data.json, app_pref.json versions and change log
-
 '''
 
 import sys
 import qdarkstyle
 import os
 import multiprocessing
+import logging
 from pyani.media.image.exr import AniExrViewerGui
+import pyani.core.error_logging
 
 # set the environment variable to use a specific wrapper
 # it can be set to pyqt, pyqt5, pyside or pyside2 (not implemented yet)
@@ -36,9 +36,15 @@ from qtpy import QtWidgets
 
 
 def main():
+    # logging setup
+    app_name = "PyExrViewer"
+    error_level = logging.DEBUG
+    error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
+    error_logging.setup_logging()
+
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = AniExrViewerGui()
+    window = AniExrViewerGui(error_logging)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())

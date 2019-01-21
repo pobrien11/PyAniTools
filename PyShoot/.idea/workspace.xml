@@ -66,38 +66,39 @@
     <session id="1940529026">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="16" />
+          <entry key="project.closed" value="31" />
+          <entry key="project.open.time.0" value="29" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
           <entry key="json" value="2" />
-          <entry key="py" value="1066" />
+          <entry key="py" value="1134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="1066" />
+          <entry key="Python" value="1134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gizmo" value="1" />
           <entry key="json" value="1" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -107,11 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="e#1303#1313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="7">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -144,6 +142,7 @@
       <find>is_sibli</find>
       <find>print</find>
       <find>image format</find>
+      <find>websocket,</find>
     </findStrings>
     <replaceStrings>
       <replace>AniImage</replace>
@@ -235,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PyAniLib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PyAniToolsSetup" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -402,12 +401,12 @@
     <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17864583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17864583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3505639" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22932331" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22862633" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39827254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,7 +424,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/data_file.json" />
     <entry file="file://$PROJECT_DIR$/dist/data_file.json" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-138064109/PyQt4/Qt.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -535,13 +533,7 @@
     <entry file="file://Z:/LongGong/PyAniTools/app_data/NukeMngr/app_data.json" />
     <entry file="file://$PROJECT_DIR$/venv/pyani/nuke/temp.py" />
     <entry file="file://$PROJECT_DIR$/venv/appupdater.py" />
-    <entry file="file://C:/PyAniTools/app_data/PyShoot/app_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/PyAniTools/app_data/PyShoot/app_data.json" />
     <entry file="file://$PROJECT_DIR$/venv/test_pyshoot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
@@ -570,20 +562,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.nuke/pyanitools/pyani/nuke/session.py">
+    <entry file="file://$USER_HOME$/.nuke/pyanitools/pyani/nuke/session.py" />
+    <entry file="file://C:/cgteamwork/bin/base/cgtw2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+        <state relative-caret-position="408">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#1303#1313#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="7">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

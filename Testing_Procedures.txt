@@ -1,0 +1,70 @@
+WinTaskScheduler:
+
+tests that creates task, that it can be enabled and disabled.
+
+    from pyani.core.toolsinstall import WinTaskScheduler
+    t = WinTaskScheduler("test", "C:\\PyAniTools\\installed\\PyAniToolsUpdate.exe")
+    t.setup_task(schedule_type="minute", start_time="13:02")
+    scheduled, error = t.is_task_scheduled()
+    print "Task scheduled: " + str(scheduled) + ", error: " + str(error)
+    print "Task enabled: " + str(t.is_task_enabled())
+    t.set_task_enabled(False)
+    print "Task should be disabled, is enabled= " + str(t.is_task_enabled())
+    t.set_task_enabled(True)
+    print "Task should be enabled, is enabled= " +  str(t.is_task_enabled())
+    sys.exit()
+
+
+
+PyAniToolsSetup App
+
+Warning, if you have windows file explorer open, and it showing any of the these folders, it won't delete properly. A windows bug it seems. 
+
+1. Download to C:Downloads, and set the member var self.setup_dir = "C:\\Users\\Patrick\\Downloads" in pyani.core.toolsinstall.py AniToolsSetup class _init_
+
+2. Run a clean install - no shortcuts on desktop, no C:\PyAniTools, .nuke unmodified and no custom nuke folder
+
+3. Run again, should only update app data, app mngr and nuke custom folder
+
+4. Run again, but this time reset .nuke, should update .nuke with plugin path, app data, app mngr and nuke custom folder
+
+5. Check install date correct
+
+6. Check that task scheduled
+
+
+PyAniToolsUpdate App
+
+1. Check can connect
+
+2. Check Sequences.json in app data shared gets updated
+
+3. Check if only downloading zip when its newer than on local/client machine
+
+4. Check installs updates correctly - see if install update json has correct date, temp dir should also have a PyAniTools folder with files
+
+
+PyNukeMngr
+
+1. Check if a sequence that is setup grays out sequence setup. (check variations if only plugins copied or only templates)
+
+2. Check handles errors when can't find sequences json in shared app data 
+
+3. Shots without plugin copies display no plugins info msg
+
+4. Missing shot on disk displays msg
+
+5. copy script to shot via sequence setup and shot update works.
+
+6. copy plugins to sequence and plugins to shot works
+
+7. remove plugins from shots works
+
+
+In Nuke
+
+1. Plugins comign from the right place
+
+2. Shooting movie works
+
+3. Menu works

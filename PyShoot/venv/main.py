@@ -42,16 +42,17 @@ import pyani.core.error_logging
 # you do not need to use QtPy to set this variable
 os.environ['QT_API'] = 'pyqt'
 
+
 # import from QtPy instead of doing it directly
 # note that QtPy always uses PyQt5 API
 from qtpy import QtWidgets
 
 
 def main():
-
     app_name = "PyShoot"
     error_level = logging.DEBUG
-    log_error = pyani.core.error_logging.setup_error_logging(app_name, error_level)
+    error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
+    error_logging.setup_logging()
 
     # path to ffmpeg executable, bundled with PyShoot
     movie_generation = "C:\\PyAniTools\\installed\\ffmpeg\\bin\\ffmpeg"
@@ -62,7 +63,6 @@ def main():
     strict_pad = True
     # =====================================================
 
-
     # make command line interface object (pyani.media.movie.create.ui)
     cli = pyani.media.movie.create.ui.AniShootCLI(movie_generation, movie_playback, strict_pad)
 
@@ -71,7 +71,7 @@ def main():
 
         # create the application and the main window
         app = QtWidgets.QApplication(sys.argv)
-        window = pyani.media.movie.create.ui.AniShootGui(movie_generation, movie_playback, strict_pad, log_error)
+        window = pyani.media.movie.create.ui.AniShootGui(movie_generation, movie_playback, strict_pad, error_logging)
 
         # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
         app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())
@@ -81,6 +81,7 @@ def main():
         app.exec_()
     else:
         log = cli.run()
+        print log
 
 
 if __name__ == '__main__':

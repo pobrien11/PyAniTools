@@ -4,3 +4,10 @@
 4. Make the new app exe and move to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\installed\{app name}\{app name}.exe
 5. Update apps package in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\packages\
 6. Update distribution package in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist
+7. Update last_update.json in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist
+8. Update anything in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\install_scripts
+	cgt - C:\Users\Patrick\PycharmProjects\PyAniTools\PyAniToolsAppBridge\
+	pyani - C:\Users\Patrick\PycharmProjects\PyAniLib\pyani
+	menu.py
+	init.py
+	scandir

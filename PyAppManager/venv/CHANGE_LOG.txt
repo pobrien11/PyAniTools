@@ -11,3 +11,10 @@ v1.2.0
 ======
 
 * Pyqt Gui Interface
+
+v1.2.5
+======
+
+* Help link added
+
+* Better Error Logging

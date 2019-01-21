@@ -52,7 +52,7 @@ v1.2.1
 
 * Created app update system, notifies when a new version is available and user can run a app to update to the latest
 
-v1.2.5
+v1.3.1
 ======
 
 * Added multi-threaded copy 
@@ -62,6 +62,8 @@ v1.2.5
 * Clarified output button name
 
 * Added error logging
+
+* Hyperlink to Confluence Documentation
 
 * Fixed bug with shooting movie after already creating one
 

@@ -10,10 +10,10 @@ Dependencies
         psutil : pip install psutil, 5.4.8
     pyani - custom library
 
-Making Executable - Pyinstaller
+Making Executable - Pyinstaller, console needed due to external libs being called
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyAniToolsSetup\venv\
-     pyinstaller --onefile --noconsole --icon=Resources\setup.ico --name PyAniToolsSetup main.py
+     pyinstaller --onefile --console --icon=Resources\setup.ico --name PyAniToolsSetup main.py
 
 '''
 
@@ -37,17 +37,19 @@ from qtpy import QtWidgets
 def main():
     app_name = "PyAniToolsSetup"
     error_level = logging.DEBUG
-    log_error = pyani.core.error_logging.setup_error_logging(app_name, error_level)
+    error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
+    error_logging.setup_logging()
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = setup.AniToolsSetup(log_error)
+    window = setup.AniToolsSetupGui("setup", error_logging)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())
 
     # run
     window.show()
+    window.run()
     app.exec_()
 
 

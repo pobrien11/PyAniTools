@@ -11,3 +11,11 @@ v1.0.1
 ======
 
 * Keyboard shortcuts for navigating layers
+
+v1.1.0
+======
+
+* Added Error Logging
+
+* Hyperlink to Confluence Documentation
+

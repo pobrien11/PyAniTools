@@ -1,5 +1,6 @@
 [
    "PyShoot",
    "PyNukeMngr",
-   "PyExrViewer"
+   "PyExrViewer",
+   "PySession"
 ]

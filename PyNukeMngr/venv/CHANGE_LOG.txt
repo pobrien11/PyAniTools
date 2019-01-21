@@ -7,3 +7,11 @@ v1.0.0
 
 * Initial Release
 
+v1.1.0
+======
+
+* Added Error Logging
+
+* Added Hyperlink to Confluence Documentation
+
+* Disable Sequence Setup if Sequence Already Setup

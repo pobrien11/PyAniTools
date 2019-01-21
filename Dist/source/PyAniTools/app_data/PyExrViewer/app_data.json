@@ -1,6 +1,13 @@
 {
   "versions" : [
-        {
+    {
+      "version": "1.1.0",
+      "features": [
+      	"Added Error Logging",
+        "Hyperlink to Confluence Documentation"
+      ]
+    },
+    {
       "version": "1.0.1",
       "features": [
         "Keyboard shortcuts for navigating layers."

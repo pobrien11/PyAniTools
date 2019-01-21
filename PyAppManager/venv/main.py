@@ -13,14 +13,16 @@ Dependencies
 Making Executable - Pyinstaller
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyAppManager\venv\
-     pyinstaller --onefile --noconsole --icon=Resources\pyappmngr_icon.ico --name PyAppMngr main.py
+     pyinstaller --onefile --noconsole --icon=C:\PyAniTools\installed\icons\pyappmngr_icon.ico --name PyAppMngr main.py
 
 '''
 
 import sys
 import qdarkstyle
 import os
+import logging
 from pyani.core.appmanager import AniAppMngrGui
+import pyani.core.error_logging
 
 # set the environment variable to use a specific wrapper
 # it can be set to pyqt, pyqt5, pyside or pyside2 (not implemented yet)
@@ -32,10 +34,14 @@ from qtpy import QtWidgets
 
 
 def main():
+    app_name = "PyAppMngr"
+    error_level = logging.DEBUG
+    error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
+    error_logging.setup_logging()
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = AniAppMngrGui()
+    window = AniAppMngrGui(error_logging)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())
