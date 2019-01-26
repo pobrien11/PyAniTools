@@ -6,3 +6,8 @@ v1.0.0
 ======
 
 * Initial Release
+
+v1.1.0
+======
+
+* Added ui element to display current session

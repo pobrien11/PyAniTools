@@ -372,7 +372,15 @@ class AniAppMngrGui(pyani.core.ui.AniQMainWindow):
             self.msg_win.show_error_msg("Critical Error", error)
         else:
             for name in self.app_names:
-                self.app_mngrs.append(AniAppMngr(name))
+                app_mngr = AniAppMngr(name)
+                if app_mngr.log:
+                    self.msg_win.show_warning_msg(
+                        "Warning",
+                        "Could not correctly load data for {0}. This application will not be available to update"
+                        "until the error is resolved. Error is {1}".format(name, ", ".join(app_mngr.log))
+                    )
+                else:
+                    self.app_mngrs.append(AniAppMngr(name))
 
         # main ui elements - styling set in the create ui functions
         self.btn_update = QtWidgets.QPushButton("Update App")
