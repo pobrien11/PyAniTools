@@ -1,6 +1,14 @@
 {
   "versions" : [
     {
+      "version": "2.0.0",
+      "features": [
+      	"added zoom in/out",
+        "added display meta data",
+        "added play exr sequence"
+      ]
+    },
+    {
       "version": "1.1.0",
       "features": [
       	"Added Error Logging",

@@ -43,6 +43,24 @@ PyAniToolsUpdate App
 
 4. Check installs updates correctly - see if install update json has correct date, temp dir should also have a PyAniTools folder with files
 
+5. See that installs missing apps with their shortcut
+
+6. See that iu assistant gets updated
+
+
+PyAppMngr
+
+	Re-Install
+
+		1. Same as PyAniToolsSetup
+
+	Update
+
+		1. Should force updates - always download zip
+
+		2. Should update the updater
+
+		2. rest the same as PyAniToolsUpdate
 
 PyNukeMngr
 

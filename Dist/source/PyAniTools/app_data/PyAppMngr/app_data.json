@@ -1,6 +1,13 @@
 {
   "versions" : [
     {
+      "version" : "2.0.0",
+      "features": [
+        "Added Manual Update",
+	"Added Re-installation"
+      ]
+    },
+    {
       "version" : "1.2.5",
       "features": [
         "Added Error Logging",

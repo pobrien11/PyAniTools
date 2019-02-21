@@ -68,3 +68,10 @@ v1.3.1
 * Fixed bug with shooting movie after already creating one
 
 * Fixed file dialog corrupting path
+
+v1.4.0
+======
+
+* Added multi-threading to filling of missing frames
+
+* Added drag and drop support

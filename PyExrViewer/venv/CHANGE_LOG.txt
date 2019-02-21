@@ -19,3 +19,13 @@ v1.1.0
 
 * Hyperlink to Confluence Documentation
 
+v2.0.0
+=====
+
+* added zoom in/out
+
+* added display meta data
+
+* added play exr sequence with support for holding frames
+
+

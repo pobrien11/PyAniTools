@@ -42,6 +42,11 @@ def main():
     error_level = logging.DEBUG
     error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
     error_logging.setup_logging()
+    
+    force_update = False
+    for arg in sys.argv:
+        if "force_update" in arg:
+            force_update = True
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
@@ -52,7 +57,7 @@ def main():
 
     # run
     window.show()
-    window.run()
+    window.run(force_update=force_update)
     app.exec_()
 
 

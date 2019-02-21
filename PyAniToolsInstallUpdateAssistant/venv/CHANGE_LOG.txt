@@ -1,0 +1,8 @@
+=========
+CHANGELOG
+=========
+
+v1.0.0
+======
+
+* Initial Release. Purpose is to let apps 'self-update'. Acts as a middle man between an app calling this code and an app this code launches

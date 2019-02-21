@@ -1,6 +1,6 @@
 {
  "core": {
-  "shot": "Shot280", 
-  "seq": "Seq180"
+  "shot": "non-prod", 
+  "seq": "non-prod"
  }
 }

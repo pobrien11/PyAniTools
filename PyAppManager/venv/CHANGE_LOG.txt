@@ -18,3 +18,10 @@ v1.2.5
 * Help link added
 
 * Better Error Logging
+
+v2.0.0
+======
+
+* Added manual updating - updates everything the auto-update updates
+
+* Added re-installation - same as removing the tools and running PyAniToolsSetup.exe

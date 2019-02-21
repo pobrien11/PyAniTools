@@ -94,6 +94,47 @@ class AniToolsPackager(QtWidgets.QDialog):
     def set_slots(self):
         pass
 
+    def create_dist(self):
+        # makes the zip file for distribution of the tools
+
+
+
+    def update_app_pref(self):
+        # for each app, update version key with latest
+
+    def update_app_date(self):
+        # for each app, get version key data, which contains a list, of dicts. at at the front of the list a dict with
+        # keys version set to latest and key features set to a list of release notes
+
+    def package_app(self):
+        # for each app, make a zip file of the exe and app_pref.json, and put in packages folder
+
+    def update_release_notes(self):
+        # for each app, update Changelog in the project's venv folder
+
+    def make_exe(self):
+        # for each app checked, make an exe calling pyinstaller, then move from dist folder to the app installed folder
+
+    def copy_pyani(self):
+        # copy pyani lib for distribution, including scandir
+
+    def copy_cgt(self):
+        # copy cgt lib for distribution
+
+    def copy_menupy(self):
+        # copy menu.py for distribution
+
+    def copy_initpy(self):
+        # copy init.py for distribution
+
+    def update_dist_tikme(self):
+        # update last_update.json
+
+    def make_tools_package(self):
+        # make PyAniToolsPackage.zip
+
+
+
 
 def main():
 

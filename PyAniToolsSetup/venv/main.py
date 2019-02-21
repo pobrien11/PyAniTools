@@ -42,7 +42,12 @@ def main():
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = setup.AniToolsSetupGui("setup", error_logging)
+    # check if this app was launched with close on success flag set to True, if so set to its value to True
+    close_on_success = False
+    for arg in sys.argv:
+        if "close_on_success=True" in arg:
+            close_on_success = True
+    window = setup.AniToolsSetupGui("setup", error_logging, close_on_success=close_on_success)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())

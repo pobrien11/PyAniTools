@@ -1,0 +1,13 @@
+=========
+CHANGELOG
+=========
+
+v1.0.0
+======
+
+* Initial Release 
+
+v1.2.0
+======
+
+* Added core code to support re-installation and manual updates

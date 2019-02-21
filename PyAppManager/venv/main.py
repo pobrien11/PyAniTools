@@ -43,7 +43,6 @@ def main():
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
     window = AniAppMngrGui(error_logging)
-
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())
 

@@ -11,3 +11,8 @@ v1.2.0
 ======
 
 * Pyqt Gui Interface
+
+v1.3.0
+======
+
+* Added code to support re-installation and manual updates

@@ -1,6 +1,13 @@
 {
   "versions" : [
     {
+      "version" : "1.1.2",
+      "features": [
+          "Sequences sort in order, as do shots",
+          "Fixed bug during seq setup that installed when seq already installed"
+      ]
+    },
+    {
       "version" : "1.1.1",
       "features": [
           "Fixed plugin copy, errored if folder wasn't there"

@@ -14,7 +14,7 @@ Dependencies
 Making Executable - Pyinstaller
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyExrViewer\venv\
-     pyinstaller --onefile --noconsole --icon=Resources\pyexrviewer_icon.ico --name PyExrViewer main.py
+     pyinstaller --onefile --console --icon=Resources\pyexrviewer_icon.ico --name PyExrViewer main.py
 
 '''
 
@@ -23,7 +23,7 @@ import qdarkstyle
 import os
 import multiprocessing
 import logging
-from pyani.media.image.exr import AniExrViewerGui
+from pyani.media.image.viewer import AniExrViewerGui
 import pyani.core.error_logging
 
 # set the environment variable to use a specific wrapper
@@ -36,6 +36,7 @@ from qtpy import QtWidgets
 
 
 def main():
+
     # logging setup
     app_name = "PyExrViewer"
     error_level = logging.DEBUG

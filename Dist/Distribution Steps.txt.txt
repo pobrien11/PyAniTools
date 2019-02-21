@@ -2,12 +2,16 @@
 2. Update App Data in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\app_data\{app name}\app_data.json to add latest version and desc from changelog
 3. Update app pref in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\installed\{app name}\app_pref.json to latest version
 4. Make the new app exe and move to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\installed\{app name}\{app name}.exe
-5. Update apps package in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\packages\
-6. Update distribution package in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist
-7. Update last_update.json in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist
-8. Update anything in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\install_scripts
+5. Copy Core App Management exes:
+	1. PyAniToolsSetup to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source
+	2. PyAniToolsUpdate to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\installed
+	3. PyAniToolsIUAssist to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\installed
+6. Update apps package in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\packages\
+7. Update anything in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\install_scripts
 	cgt - C:\Users\Patrick\PycharmProjects\PyAniTools\PyAniToolsAppBridge\
 	pyani - C:\Users\Patrick\PycharmProjects\PyAniLib\pyani
 	menu.py
 	init.py
 	scandir
+8. Update distribution package in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist
+9. Update last_update.json in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist

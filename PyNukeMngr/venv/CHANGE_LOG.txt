@@ -22,3 +22,10 @@ v1.1.1
 ======
 
 * Fixed shot plugin copy, errored if folder wasn't there
+
+v1.1.2
+======
+
+* Sequences sort in order, as do shots
+
+* Fixed bug where the mngr was installing even when parts of sequence setup were greyed out
