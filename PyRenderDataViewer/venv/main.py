@@ -7,13 +7,11 @@ Dependencies
         PyQt4 : need the whl file, get here https://www.lfd.uci.edu/~gohlke/pythonlibs/, then pip install whl_file
         4.11.4
         QDarkStyle : pip install qdarkstyle, https://github.com/ColinDuquesnoy/QDarkStyleSheet, 2.6.4
-        PIL : pip install PIL, 2.2.1
-        OpenEXR : need the whl, file, https://www.lfd.uci.edu/~gohlke/pythonlibs/, then pip install whl_file, 1.3.2
     pyani custom library
 
 Making Executable - Pyinstaller
 
-     cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyExrViewer\venv\
+     cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyRenderView\venv\
      pyinstaller --onefile --console --icon=images\pyexrviewer_icon.ico --name PyExrViewer main.py
 
 '''
@@ -23,7 +21,7 @@ import qdarkstyle
 import os
 import multiprocessing
 import logging
-from pyani.media.image.viewer import AniExrViewerGui
+from pyani.render.log.viewer import AniRenderDataViewer
 import pyani.core.error_logging
 
 # set the environment variable to use a specific wrapper
@@ -38,14 +36,14 @@ from qtpy import QtWidgets
 def main():
 
     # logging setup
-    app_name = "PyExrViewer"
+    app_name = "PyRenderDataViewer"
     error_level = logging.DEBUG
     error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
     error_logging.setup_logging()
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = AniExrViewerGui(error_logging)
+    window = AniRenderDataViewer(error_logging)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())
@@ -56,7 +54,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # needed by py installer to make a stand alone executable on windows
-    multiprocessing.freeze_support()
-
     main()

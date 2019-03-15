@@ -1,6 +1,12 @@
 {
   "versions" : [
     {
+      "version" : "1.1.3",
+      "features": [
+          "Fixed seq json error bug when a new plugin or template doesn't have an entry"
+      ]
+    },
+    {
       "version" : "1.1.2",
       "features": [
           "Sequences sort in order, as do shots",
