@@ -1,15 +1,67 @@
 import sys
+import os
 import argparse
 
-sys.path.append(r"c:\cgteamwork\bin\base")
-sys.path.append('C:/cgteamwork/bin/cgtw')
+sys.path.append('c:/cgteamwork/bin/base')
+sys.path.append('c:/cgteamwork/bin/cgtw/ct')
 import cgtw2
-import ct
+from ct_http import ct_http
 
 import cgt_core
 
 
-def download_cgt(filters, filebox, file_name, database=None, model="eps",
+def get_file_with_walk_folder(cgt_connection, database, dir_path):
+    """
+    Walks a directory path in CGT (online/cloud area) to find all files. Uses recursion
+    :param cgt_connection: the connection to cgt
+    :param database: the database as a string
+    :param dir_path: the path as a string
+    :return: the file list, or false if can't get files
+    """
+    # check for valid database and path
+    if not isinstance(database, (str, unicode)) or not isinstance(dir_path, (str, unicode)) \
+            or database.strip() == '' or dir_path.strip() == '':
+        return False
+
+    # add end slash
+    if dir_path[-1] != '/':
+        dir_path = dir_path + '/'
+
+    file_list = []
+    try:
+        # get file list from cgt as list of dicts
+        files_in_path = cgt_connection.send_web("c_media_file", "search_folder", {"db": database, "dir": dir_path})
+        files_in_path = [file_path for file_path in files_in_path if file_path['name'].strip() != ""]
+        for file_path in files_in_path:
+            if file_path['is_file'].lower() == 'y':
+                file_list.append(dir_path + file_path['name'])
+            else:
+                file_list += get_file_with_walk_folder(database, dir_path + file_path['name'])
+        return file_list
+    except Exception, e:
+        print e.message
+        return False
+
+
+def callback(a, b, c):
+    """
+    From CGT dev
+    :param a: amount downloaded?
+    :param b: not sure
+    :param c: the total file size?
+    :return:
+    """
+    try:
+        print "-->callback:",a,b,c
+        if c == 0:
+            print "-->progress: 100%"
+        else:
+            print "-->progress: %0.2f %%"%(float(a*100.00)/c)
+    except Exception,e:
+        print "error:", e.message
+
+
+def download_cgt(cgt_path, download_path, database=None, model="eps",
                  ip_addr=None, username=None, password=None):
     """
     Access CGT and download a file, if no login info is given, then CG Teamworks app must be open and logged in,
@@ -32,33 +84,49 @@ def download_cgt(filters, filebox, file_name, database=None, model="eps",
     try:
         t_token = t_tw.login.token()
         t_ip =  t_tw.login.http_server_ip()
-        t_id_list = t_tw.task.get_id(t_db, model, filters)
-        t_filebox_dict =  t_tw.task.get_sign_filebox(t_db, model, t_id_list[0], filebox)
-        t_filebox_path = t_filebox_dict['path']
-        t_upload_path = t_filebox_dict["path"].replace(t_filebox_dict['server'], '')
+        t_http = ct_http(t_ip, t_token)
 
-        # online file path
-        t_online_file_path = t_tw.send_web('c_media_file', 'get_online_file_path',
-                                           {'db': t_db, 'path': t_upload_path + '/' + file_name})
-
-        # download
-        msg = ct.http(t_ip, t_token).download(t_online_file_path, t_filebox_path + '/' + file_name)
-        if msg == True:
-            return None
+        file_list = get_file_with_walk_folder(t_tw, t_db, cgt_path)
+        if isinstance(file_list, list) and file_list:
+            download_paths = [file_path.replace(cgt_path, download_path) for file_path in file_list]
+            msg = t_tw.media_file.download_path(t_db, file_list, download_paths)
+            if msg == True:
+                return None
+            else:
+                return msg
         else:
-            return msg
+            path_parts = cgt_path.split("/")
+            filename = path_parts[-1]
+            path_to_filename = '/'.join(path_parts[:-1])
+            download_path = os.path.normpath(cgt_path.replace(path_to_filename, download_path))
+            # pass cgt path and download path as list because t_tw.media_file.download_path expects lists
+            msg = t_tw.media_file.download_path(t_db, [cgt_path], [download_path])
+            if msg == True:
+                return None
+            else:
+                return msg
     except Exception as e:
-        error = "Error downloading {0} from CGT, error reported is {1}".format(file_name, e)
+        error = "Error downloading {0} from CGT, error reported is {1}".format(cgt_path, e)
         return error
 
 def main():
-    filters = [["eps.eps_name", "=", "Seq050"], ["task.task_name", "=", "Lighting"]]
-    filebox = sys.argv[1]
-    file_name = sys.argv[2]
+
+    cgt_path = sys.argv[1]
+    download_path = sys.argv[2]
     ip_addr = sys.argv[3]
     username = sys.argv[4]
     password = sys.argv[5]
-    error = download_cgt(filters, filebox, file_name, ip_addr=ip_addr, username=username, password=password)
+
+    '''
+    To Test:
+    cgt_path = "/LongGong/tools/last_update.json"
+    download_path = "c:\\users\\patrick\\appdata\local\\temp\\CGT"
+    ip_addr = "172.18.100.246"
+    username = "Patrick"
+    password = "longgong19"
+    '''
+
+    error = download_cgt(cgt_path, download_path, ip_addr=ip_addr, username=username, password=password)
     if error:
         print error
     else:

@@ -11,8 +11,8 @@ Dependencies
 
 Making Executable - Pyinstaller
 
-     cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyRenderView\venv\
-     pyinstaller --onefile --console --icon=images\pyexrviewer_icon.ico --name PyExrViewer main.py
+     cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyRenderDataViewer\venv\
+     pyinstaller --onefile --console --icon=images\pyrenderdataviewer.png --name PyRenderDataViewer main.py
 
 '''
 
