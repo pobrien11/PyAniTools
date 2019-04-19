@@ -46,8 +46,8 @@
     <session id="959927881">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
-          <entry key="project.open.time.0" value="20" />
+          <entry key="project.closed" value="32" />
+          <entry key="project.open.time.0" value="22" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -57,7 +57,7 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="31" lean-forward="true" selection-end-line="62" />
+            <state relative-caret-position="211">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -141,11 +141,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="88" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2571" />
+    <option name="y" value="9" />
     <option name="width" value="1936" />
-    <option name="height" value="1175" />
+    <option name="height" value="1135" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -313,7 +313,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="88" width="1936" height="1175" extended-state="0" />
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24322917" />
@@ -321,7 +321,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32949087" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49739584" weight="0.35096154" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49739584" weight="0.3506244" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.39769453" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,20 +380,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Dist/PyAniTools/installed/PyExrViewer/app_pref.json" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="45" selection-end-line="47" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
     <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/media/image/viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -416,17 +404,11 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/test.1107.json" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_14.py" />
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="31" lean-forward="true" selection-end-line="62" />
+        <state relative-caret-position="211">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
         </state>
       </provider>
     </entry>

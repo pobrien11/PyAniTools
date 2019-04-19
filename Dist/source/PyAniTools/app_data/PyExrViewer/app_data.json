@@ -1,6 +1,12 @@
 {
   "versions" : [
     {
+      "version": "3.0.0",
+      "features": [
+      	"added tabs, each with its own exr viewer"
+      ]
+    },
+    {
       "version": "2.0.1",
       "features": [
       	"fixed missing images"

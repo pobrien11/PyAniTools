@@ -11,3 +11,8 @@ v1.2.0
 ======
 
 * Added core code to support re-installation and manual updates
+
+v2.0.0
+======
+
+* Added Maya Plugin updating support

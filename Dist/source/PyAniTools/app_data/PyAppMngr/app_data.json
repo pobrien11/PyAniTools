@@ -1,6 +1,12 @@
 {
   "versions" : [
     {
+      "version" : "3.0.0",
+      "features": [
+        "Maya Plugin management added"
+      ]
+    },
+    {
       "version" : "2.0.1",
       "features": [
         "Set current directory when launching apps to apps dir"

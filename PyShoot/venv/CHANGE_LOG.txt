@@ -75,3 +75,8 @@ v1.4.0
 * Added multi-threading to filling of missing frames
 
 * Added drag and drop support
+
+v1.4.1
+======
+
+* Fixed a resolution issue with H.264 codec and uneven dimensions by scaling any images with uneven dimensions via the vf flag to ffmpeg

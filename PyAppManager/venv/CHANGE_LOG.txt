@@ -25,3 +25,8 @@ v2.0.0
 * Added manual updating - updates everything the auto-update updates
 
 * Added re-installation - same as removing the tools and running PyAniToolsSetup.exe
+
+v3.0.0
+======
+
+* Added maya plugin management

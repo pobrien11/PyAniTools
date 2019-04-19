@@ -1,7 +1,6 @@
 import sys
 import os
 import argparse
-
 sys.path.append('c:/cgteamwork/bin/base')
 sys.path.append('c:/cgteamwork/bin/cgtw/ct')
 import cgtw2
@@ -36,7 +35,7 @@ def get_file_with_walk_folder(cgt_connection, database, dir_path):
             if file_path['is_file'].lower() == 'y':
                 file_list.append(dir_path + file_path['name'])
             else:
-                file_list += get_file_with_walk_folder(database, dir_path + file_path['name'])
+                file_list += get_file_with_walk_folder(cgt_connection, database, dir_path + file_path['name'])
         return file_list
     except Exception, e:
         print e.message
@@ -85,11 +84,11 @@ def download_cgt(cgt_path, download_path, database=None, model="eps",
         t_token = t_tw.login.token()
         t_ip =  t_tw.login.http_server_ip()
         t_http = ct_http(t_ip, t_token)
-
         file_list = get_file_with_walk_folder(t_tw, t_db, cgt_path)
+
         if isinstance(file_list, list) and file_list:
             download_paths = [file_path.replace(cgt_path, download_path) for file_path in file_list]
-            msg = t_tw.media_file.download_path(t_db, file_list, download_paths)
+            msg = t_tw.media_file.download_path(t_db, file_list, download_paths, callback)
             if msg == True:
                 return None
             else:
@@ -100,7 +99,7 @@ def download_cgt(cgt_path, download_path, database=None, model="eps",
             path_to_filename = '/'.join(path_parts[:-1])
             download_path = os.path.normpath(cgt_path.replace(path_to_filename, download_path))
             # pass cgt path and download path as list because t_tw.media_file.download_path expects lists
-            msg = t_tw.media_file.download_path(t_db, [cgt_path], [download_path])
+            msg = t_tw.media_file.download_path(t_db, [cgt_path], [download_path], callback)
             if msg == True:
                 return None
             else:
@@ -118,9 +117,9 @@ def main():
     password = sys.argv[5]
 
     '''
-    To Test:
-    cgt_path = "/LongGong/tools/last_update.json"
-    download_path = "c:\\users\\patrick\\appdata\local\\temp\\CGT"
+    # To Test:
+    cgt_path = "/LongGong/tools/eyeBallNode"
+    download_path = "C:\Users\Patrick\Documents\maya\plug-ins\\"
     ip_addr = "172.18.100.246"
     username = "Patrick"
     password = "longgong19"

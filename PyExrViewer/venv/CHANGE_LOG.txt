@@ -28,4 +28,12 @@ v2.0.0
 
 * added play exr sequence with support for holding frames
 
+v2.0.1
+=====
 
+* fixed missing images
+
+v3.0.0
+=====
+
+* added tabs, each with its own exr viewer

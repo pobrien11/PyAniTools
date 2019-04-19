@@ -12,19 +12,19 @@
     <session id="1691493122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="10" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="2" />
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
           <entry key="spec" value="1" />
         </counts>
       </usages-collector>
@@ -32,14 +32,14 @@
         <counts>
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="68" />
-          <entry key="py" value="3350" />
+          <entry key="py" value="3570" />
           <entry key="spec" value="9" />
         </counts>
       </usages-collector>
@@ -47,7 +47,7 @@
         <counts>
           <entry key="JSON" value="68" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="3169" />
+          <entry key="Python" value="3389" />
           <entry key="Scratch" value="181" />
         </counts>
       </usages-collector>
@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/cgt_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+            <state relative-caret-position="670">
+              <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -101,9 +101,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2557" />
-    <option name="y" value="131" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="353" />
+    <option name="y" value="90" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -164,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scratch_32">
+  <component name="RunManager" selected="Python.cgt_download">
     <configuration name="cgt_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyAniToolsAppBridge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,8 +257,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scratch_32" />
         <item itemvalue="Python.cgt_download" />
+        <item itemvalue="Python.scratch_32" />
         <item itemvalue="Python.scratch_15" />
         <item itemvalue="Python.cgt_show_info" />
       </list>
@@ -278,11 +278,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="353" y="90" width="1936" height="1176" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947916" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947916" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -333,13 +332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_15.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_15.py" />
     <entry file="file://$PROJECT_DIR$/venv/core.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -368,16 +361,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="38" column="22" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="e#1882#1891#0" expanded="true" />
-          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CGT/online_example.v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/cgt_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+        <state relative-caret-position="670">
+          <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

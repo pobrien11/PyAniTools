@@ -1,6 +1,20 @@
-[
-   "PyShoot",
-   "PyNukeMngr",
-   "PyExrViewer",
-   "PySession"
-]
+{
+   "pyanitools": [
+      "PyShoot",
+      "PyNukeMngr",
+      "PyExrViewer",
+      "PySession"
+   ],
+   "maya plugins": {
+      "Eye Plugin": {
+         "name": "eyeBallNode",
+         "location": "local",
+         "server path": "/LongGong/tools/eyeBallNode"
+      },
+      "Rig Pickers": {
+         "name": "rig_picker",
+         "location": "server",
+         "server path": "/LongGong/tools/maya/scripts/rig_picker"
+      }
+   }
+}

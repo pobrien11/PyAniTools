@@ -25,6 +25,9 @@ import logging
 from pyani.core.appmanager import AniAppMngrGui
 import pyani.core.error_logging
 
+import pyani.core.util
+import pyani.core.appvars
+
 # set the environment variable to use a specific wrapper
 # it can be set to pyqt, pyqt5, pyside or pyside2 (not implemented yet)
 # you do not need to use QtPy to set this variable

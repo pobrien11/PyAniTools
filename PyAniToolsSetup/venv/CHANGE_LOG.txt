@@ -16,3 +16,8 @@ v1.3.0
 ======
 
 * Added code to support re-installation and manual updates
+
+v2.0.0
+======
+
+* Added maya plugin download support

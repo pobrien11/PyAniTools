@@ -1,6 +1,12 @@
 {
   "versions" : [
     {
+      "version" : "1.4.1",
+      "features": [
+        "Fixed resolution bug that broke movie creation"
+      ]
+    },
+    {
       "version" : "1.4.0",
       "features": [
         "All copying now Multi-threaded",
