@@ -12,13 +12,13 @@
     <session id="1691493122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.0" value="13" />
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.0" value="22" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,7 +39,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="68" />
-          <entry key="py" value="3570" />
+          <entry key="py" value="4510" />
           <entry key="spec" value="9" />
         </counts>
       </usages-collector>
@@ -47,7 +47,7 @@
         <counts>
           <entry key="JSON" value="68" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="3389" />
+          <entry key="Python" value="4329" />
           <entry key="Scratch" value="181" />
         </counts>
       </usages-collector>
@@ -58,11 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/cgt_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="959">
+              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
             </state>
           </provider>
         </entry>
@@ -101,9 +98,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="353" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2552" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -278,7 +275,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="90" width="1936" height="1176" extended-state="0" />
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947916" />
@@ -289,7 +287,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32949087" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.40655106" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -371,11 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/cgt_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="959">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
         </state>
       </provider>
     </entry>

@@ -12,12 +12,12 @@
     <session id="1450254955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,9 +77,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="2427" />
-    <option name="y" value="97" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2491" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -89,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,6 +119,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +179,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2427" y="97" width="1936" height="1176" extended-state="1" />
+    <frame x="2491" y="0" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />

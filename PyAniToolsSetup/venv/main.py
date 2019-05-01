@@ -47,7 +47,8 @@ def main():
     for arg in sys.argv:
         if "close_on_success=True" in arg:
             close_on_success = True
-    window = setup.AniToolsSetupGui("setup", error_logging, close_on_success=close_on_success)
+    # setting testing=True skips downloading and installation - see pyani.core.toolsinstall.py
+    window = setup.AniToolsSetupGui("setup", error_logging, close_on_success=close_on_success, testing=False)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())

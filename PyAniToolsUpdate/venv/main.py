@@ -50,13 +50,14 @@ def main():
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = AniToolsSetupGui("update", error_logging)
+    window = AniToolsSetupGui("update", error_logging, testing=False)
 
     # setup stylesheet
     app.setStyleSheet(qdarkstyle.load_stylesheet_pyqt())
 
     # run
     window.show()
+    logging.info("force_update is {0}".format(force_update))
     window.run(force_update=force_update)
     app.exec_()
 
