@@ -53,5 +53,11 @@ def main():
     app.exec_()
 
 
+def test():
+    import pyani.render.log.data
+    rdata = pyani.render.log.data.AniRenderData()
+    rdata.read_stats()
+    sys.exit()
+
 if __name__ == '__main__':
     main()

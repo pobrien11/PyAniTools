@@ -1,6 +1,13 @@
 {
   "versions" : [
     {
+      "version" : "3.1.0",
+      "features": [
+        "Fixed layout issues with maya tools",
+        "Added functionality to change update time of tools"
+      ]
+    },
+    {
       "version" : "3.0.0",
       "features": [
         "Maya Plugin management added"

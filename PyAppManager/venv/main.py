@@ -14,8 +14,8 @@ Making Executable - Pyinstaller
 
      needs console since access external apps
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyAppManager\venv\
-     pyinstaller --onefile --console --icon=C:\PyAniTools\installed\icons\pyappmngr_icon.ico --name PyAppMngr main.py
 
+pyinstaller --onefile --console --icon=C:\PyAniTools\installed\icons\pyappmngr_icon.ico --name PyAppMngr main.py
 '''
 
 import sys

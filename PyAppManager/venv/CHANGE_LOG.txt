@@ -30,3 +30,10 @@ v3.0.0
 ======
 
 * Added maya plugin management
+
+v3.1.0
+======
+
+* Fixed layout issues with maya tools
+
+* Added functionality to change update time of tools
