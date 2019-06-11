@@ -1,0 +1,300 @@
+{
+    "1002": {
+        "frame time": {
+            "driver init/close": {
+                "microseconds": 98316
+            }, 
+            "node init": {
+                "sanity checks": {
+                    "microseconds": 0
+                }, 
+                ".ass parsing (procs)": {
+                    "microseconds": 0
+                }, 
+                "microseconds": 33620
+            }, 
+            "rendering": {
+                "subdivision": {
+                    "threads blocked": {
+                        "microseconds": 0
+                    }, 
+                    "microseconds": 0
+                }, 
+                "displacement": {
+                    "threads blocked": {
+                        "microseconds": 0
+                    }, 
+                    "microseconds": 0
+                }, 
+                "pixel rendering": {
+                    "microseconds": 6654130
+                }, 
+                "importance maps": {
+                    "microseconds": 0
+                }, 
+                "output driver": {
+                    "microseconds": 32282
+                }, 
+                "point cloud building": {
+                    "microseconds": 0
+                }, 
+                "microseconds": 6686450, 
+                "threads blocked": {
+                    "microseconds": 0
+                }, 
+                "accel. building": {
+                    "microseconds": 37
+                }, 
+                "mesh processing": {
+                    "microseconds": 1
+                }
+            }, 
+            "unaccounted": {
+                "microseconds": 204179
+            }, 
+            "microseconds": 7022565, 
+            "machine utilization": {
+                "percent": 88.64653778076172
+            }
+        }, 
+        "peak CPU memory used": {
+            "AOV samples": {
+                "bytes": 30145536
+            }, 
+            "output buffers": {
+                "bytes": 20979712
+            }, 
+            "mesh importance map": {
+                "bytes": 0
+            }, 
+            "texture cache": {
+                "bytes": 0
+            }, 
+            "memory pools": {
+                "bytes": 16826752
+            }, 
+            "quad importance map": {
+                "bytes": 0
+            }, 
+            "bytes": 486092800, 
+            "strings": {
+                "bytes": 12584960
+            }, 
+            "skydome importance map": {
+                "bytes": 0
+            }, 
+            "geometry": {
+                "bytes": 602, 
+                "curves": {
+                    "bytes": 0
+                }, 
+                "subdivs": {
+                    "bytes": 0
+                }, 
+                "points": {
+                    "bytes": 0
+                }, 
+                "polymesh": {
+                    "bytes": 602
+                }, 
+                "nurbs": {
+                    "bytes": 0
+                }
+            }, 
+            "instance overhead": {
+                "bytes": 0
+            }, 
+            "profiler": {
+                "bytes": 1332000
+            }, 
+            "externally allocated": {
+                "bytes": 0
+            }, 
+            "unaccounted": {
+                "bytes": -28372350
+            }, 
+            "plugins": {
+                "bytes": 2338816
+            }, 
+            "at startup": {
+                "bytes": 430227456
+            }, 
+            "pointcloud": {
+                "bytes": 0
+            }, 
+            "node overhead": {
+                "bytes": 4420
+            }, 
+            "accel. structs": {
+                "bytes": 224
+            }, 
+            "message passing": {
+                "bytes": 24672
+            }
+        }, 
+        "scene creation time": {
+            "machine utilization": {
+                "percent": 1.6209784746170044
+            }, 
+            ".ass parsing": {
+                "microseconds": 0
+            }, 
+            "plugin loading": {
+                "microseconds": 30968
+            }, 
+            "unaccounted": {
+                "microseconds": 49359
+            }, 
+            "microseconds": 80327
+        }
+    }, 
+    "1001": {
+        "frame time": {
+            "driver init/close": {
+                "microseconds": 4038612
+            }, 
+            "node init": {
+                "sanity checks": {
+                    "microseconds": 0
+                }, 
+                ".ass parsing (procs)": {
+                    "microseconds": 0
+                }, 
+                "microseconds": 31429
+            }, 
+            "rendering": {
+                "subdivision": {
+                    "threads blocked": {
+                        "microseconds": 0
+                    }, 
+                    "microseconds": 0
+                }, 
+                "displacement": {
+                    "threads blocked": {
+                        "microseconds": 0
+                    }, 
+                    "microseconds": 0
+                }, 
+                "pixel rendering": {
+                    "microseconds": 6780415
+                }, 
+                "importance maps": {
+                    "microseconds": 0
+                }, 
+                "output driver": {
+                    "microseconds": 32524
+                }, 
+                "point cloud building": {
+                    "microseconds": 0
+                }, 
+                "microseconds": 6813029, 
+                "threads blocked": {
+                    "microseconds": 0
+                }, 
+                "accel. building": {
+                    "microseconds": 88
+                }, 
+                "mesh processing": {
+                    "microseconds": 2
+                }
+            }, 
+            "unaccounted": {
+                "microseconds": 184433
+            }, 
+            "microseconds": 11067503, 
+            "machine utilization": {
+                "percent": 58.69520950317383
+            }
+        }, 
+        "peak CPU memory used": {
+            "AOV samples": {
+                "bytes": 30145536
+            }, 
+            "output buffers": {
+                "bytes": 20979712
+            }, 
+            "mesh importance map": {
+                "bytes": 0
+            }, 
+            "texture cache": {
+                "bytes": 0
+            }, 
+            "memory pools": {
+                "bytes": 16826752
+            }, 
+            "quad importance map": {
+                "bytes": 0
+            }, 
+            "bytes": 484417536, 
+            "strings": {
+                "bytes": 12584960
+            }, 
+            "skydome importance map": {
+                "bytes": 0
+            }, 
+            "geometry": {
+                "bytes": 602, 
+                "curves": {
+                    "bytes": 0
+                }, 
+                "subdivs": {
+                    "bytes": 0
+                }, 
+                "points": {
+                    "bytes": 0
+                }, 
+                "polymesh": {
+                    "bytes": 602
+                }, 
+                "nurbs": {
+                    "bytes": 0
+                }
+            }, 
+            "instance overhead": {
+                "bytes": 0
+            }, 
+            "profiler": {
+                "bytes": 736992
+            }, 
+            "externally allocated": {
+                "bytes": 0
+            }, 
+            "unaccounted": {
+                "bytes": -21551422
+            }, 
+            "plugins": {
+                "bytes": 2797568
+            }, 
+            "at startup": {
+                "bytes": 421867520
+            }, 
+            "pointcloud": {
+                "bytes": 0
+            }, 
+            "node overhead": {
+                "bytes": 4420
+            }, 
+            "accel. structs": {
+                "bytes": 224
+            }, 
+            "message passing": {
+                "bytes": 24672
+            }
+        }, 
+        "scene creation time": {
+            "machine utilization": {
+                "percent": 2.0736782550811768
+            }, 
+            ".ass parsing": {
+                "microseconds": 0
+            }, 
+            "plugin loading": {
+                "microseconds": 17761
+            }, 
+            "unaccounted": {
+                "microseconds": 45030
+            }, 
+            "microseconds": 62791
+        }
+    }
+}

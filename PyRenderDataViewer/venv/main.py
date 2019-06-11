@@ -12,7 +12,7 @@ Dependencies
 Making Executable - Pyinstaller
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyRenderDataViewer\venv\
-     pyinstaller --onefile --console --icon=images\pyrenderdataviewer.png --name PyRenderDataViewer main.py
+     pyinstaller --onefile --console --icon=images\pyrenderdataviewer.ico --name PyRenderDataViewer main.py
 
 '''
 

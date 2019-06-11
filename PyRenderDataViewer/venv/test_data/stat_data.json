@@ -57,44 +57,6 @@
                 "percent": 93.01298522949219
             }
         },
-        "ray counts": {
-            "total": {
-                "max hits": 2,
-                "avg hits": 0.0218499805778265,
-                "ray count": 85761773,
-                "percent": 100.0,
-                "per pixel": 54.60585403442383,
-                "per sample": 3.3242852687835693
-            },
-            "shadow": {
-                "max hits": 1,
-                "avg hits": 9.6725955245347e-07,
-                "ray count": 29981613,
-                "percent": 34.95917892456055,
-                "per pixel": 19.089759826660156,
-                "per sample": 1.1621428728103638
-            },
-            "camera": {
-                "max hits": 2,
-                "avg hits": 0.07263393700122833,
-                "ray count": 25798560,
-                "percent": 30.081653594970703,
-                "per pixel": 16.42634391784668,
-                "per sample": 1.0
-            },
-            "percent by ray depth": [
-                65.0408195269004,
-                34.95918047309959
-            ],
-            "diffuse_reflect": {
-                "max hits": 1,
-                "avg hits": 4.3359926849007024e-07,
-                "ray count": 29981600,
-                "percent": 34.959163665771484,
-                "per pixel": 19.089752197265625,
-                "per sample": 1.1621423959732056
-            }
-        },
         "peak CPU memory used": {
             "AOV samples": {
                 "bytes": 30145536
