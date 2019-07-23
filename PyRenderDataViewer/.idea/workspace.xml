@@ -13,8 +13,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#548#558#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,8 +87,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="352" />
-    <option name="y" value="79" />
+    <option name="x" value="2579" />
+    <option name="y" value="3" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -95,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,6 +114,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.download_lasttext(2)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="cgt_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyRenderDataViewer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,8 +262,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.download_lasttext(2)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.download_lasttext(2)" />
         <item itemvalue="Python.cgt_download" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.scratch_35" />
@@ -281,7 +284,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="352" y="79" width="1936" height="1176" extended-state="0" />
+    <frame x="2579" y="3" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25208333" />
@@ -492,8 +495,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#548#558#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

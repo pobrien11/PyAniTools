@@ -12,7 +12,7 @@ Dependencies
      ---------
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PySession\venv\
-     pyinstaller --onefile --noconsole --icon Resources\pysession.ico --name PySession main.py
+     pyinstaller --onefile --noconsole --icon=images\pysession.ico --name PySession main.py
 
 '''
 
@@ -20,7 +20,7 @@ import sys
 import qdarkstyle
 import os
 import logging
-import pyani.core.appsessiongui
+import pyani.core.sessiongui
 import pyani.core.error_logging
 
 # set the environment variable to use a specific wrapper
@@ -42,7 +42,7 @@ def main():
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    window = pyani.core.appsessiongui.AniSessionGui(error_logging)
+    window = pyani.core.sessiongui.AniSessionGui(error_logging)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())

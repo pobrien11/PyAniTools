@@ -80,3 +80,8 @@ v1.4.1
 ======
 
 * Fixed a resolution issue with H.264 codec and uneven dimensions by scaling any images with uneven dimensions via the vf flag to ffmpeg
+
+v1.4.2
+======
+
+* New version management added

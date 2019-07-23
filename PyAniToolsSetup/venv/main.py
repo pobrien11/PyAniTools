@@ -13,7 +13,7 @@ Dependencies
 Making Executable - Pyinstaller, console needed due to external libs being called
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyAniToolsSetup\venv\
-     pyinstaller --onefile --console --icon=Resources\setup.ico --name PyAniToolsSetup main.py
+     pyinstaller --onefile --console --icon=images\setup.ico --name setup main.py
 
 '''
 
@@ -21,7 +21,7 @@ import sys
 import qdarkstyle
 import os
 import logging
-import pyani.core.toolsinstall as setup
+import pyani.core.mngr.ui.setup as setup
 import pyani.core.error_logging
 
 
@@ -35,20 +35,27 @@ from qtpy import QtWidgets
 
 
 def main():
-    app_name = "PyAniToolsSetup"
+    app_name = "Setup"
     error_level = logging.DEBUG
     error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
     error_logging.setup_logging()
 
     # create the application and the main window
     app = QtWidgets.QApplication(sys.argv)
-    # check if this app was launched with close on success flag set to True, if so set to its value to True
-    close_on_success = False
-    for arg in sys.argv:
-        if "close_on_success=True" in arg:
-            close_on_success = True
-    # setting testing=True skips downloading and installation - see pyani.core.toolsinstall.py
-    window = setup.AniToolsSetupGui("setup", error_logging, close_on_success=close_on_success, testing=False)
+
+    steps = [
+        "Installing dependencies",
+        "Creating list of all sequences...This may take a moment",
+        "Creating local cgt asset cache",
+        "Creating local cgt tools cache",
+        "Downloading and setting up tools",
+        "Initializing update configuration",
+        "Creating application support launcher",
+        "Creating desktop shortcut for pyAniTools",
+        "Setting up Nuke plugin paths",
+        "Setting up daily updates"
+    ]
+    window = setup.AniSetupGui(error_logging, steps)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons
     app.setStyleSheet(qdarkstyle.load_stylesheet_from_environment())

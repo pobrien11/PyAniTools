@@ -1,0 +1,44 @@
+{
+  "pyAppRoamingLauncher": [
+    {
+      "version" : "1.0.0",
+      "notes": [
+        "First release. Part of the new setup and update system."
+      ],
+      "desc": "Support tool for setup and update tasks."
+    }
+  ],
+  "setup": [
+    {
+      "version" : "1.0.0",
+      "notes": [
+        "First release. Part of the new setup and update system."
+      ],
+      "desc": "Sets up tools and asset management system."
+    }
+  ],
+  "update":
+  [
+    {
+      "version": "1.0.0",
+      "notes": [
+        "First release. Part of the new setup and update system."
+      ],
+      "desc": "Updates assets : can be tools, rigs, and any other show assets."
+    }
+  ],
+  "tools_suite_icon": [
+    {
+      "version" : "1.0.0",
+      "notes": [],
+      "desc": "Icon file for pyanitools desktop shortcut."
+    }
+  ],
+  "help_doc_icons": [
+    {
+      "version" : "1.0.0",
+      "notes": [],
+      "desc": "Images for help link."
+    }
+  ]
+}

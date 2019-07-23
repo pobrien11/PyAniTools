@@ -27,7 +27,7 @@ Making Executable - Pyinstaller
      ---------
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyShoot\venv\
-     pyinstaller --onefile --noconsole --icon=Resources\pyshoot_icon.ico --name PyShoot main.py
+     pyinstaller --onefile --noconsole --icon=images\pyshoot_icon.ico --name PyShoot main.py
 '''
 
 import sys
@@ -49,7 +49,7 @@ from qtpy import QtWidgets
 
 
 def main():
-    app_name = "PyShoot"
+    app_name = "pyShoot"
     error_level = logging.DEBUG
     error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
     error_logging.setup_logging()

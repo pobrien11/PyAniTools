@@ -1,0 +1,27 @@
+1. Updated Changelog in app's venv
+
+2. Make the new app exe and move to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\apps\{app name}\{app name}.exe
+	(a) also copy images to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\apps\{app name}\images\
+	(b) copy and third party files too
+
+3. Update lib in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\lib
+	cgt - C:\Users\Patrick\PycharmProjects\PyAniTools\PyAniToolsAppBridge\
+	pyani - C:\Users\Patrick\PycharmProjects\PyAniLib\pyani
+	menu.py
+	init.py
+	scandir
+
+4. Copy Core App Management files to C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\core
+	1. PyAniToolsSetup
+	2. PyAniToolsUpdate 
+	3. PyAppLauncher 
+	4. If help icons or tool suite shortcut icon changes update here
+
+5. Update shortcuts if changed in C:\Users\Patrick\PycharmProjects\PyAniTools\Dist\source\PyAniTools\shortcuts
+	(a) don't forget pyAssetMngr is special and launches in temp dir using PyAppRoamingLauncher
+
+6. Update the PyAniTools_install_2.0.0.zip folder with latest app_bridge and setup.exe, then make a zip of it to upload to CGT.
+
+7. Update CGT with any changes to apps/, core/, lib/ or shortcuts
+
+

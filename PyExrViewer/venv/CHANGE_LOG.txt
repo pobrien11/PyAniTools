@@ -37,3 +37,8 @@ v3.0.0
 =====
 
 * added tabs, each with its own exr viewer
+
+v3.0.1
+=====
+
+* New version management added

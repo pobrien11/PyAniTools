@@ -1,0 +1,46 @@
+=========
+CHANGELOG
+=========
+
+v1.0.0
+======
+
+* Initial Release command line updater
+
+v1.2.0
+======
+
+* Pyqt Gui Interface
+
+v1.2.5
+======
+
+* Help link added
+
+* Better Error Logging
+
+v2.0.0
+======
+
+* Added manual updating - updates everything the auto-update updates
+
+* Added re-installation - same as removing the tools and running PyAniToolsSetup.exe
+
+v3.0.0
+======
+
+* Added maya plugin management
+
+v3.1.0
+======
+
+* Fixed layout issues with maya tools
+
+* Added functionality to change update time of tools
+
+=====================================================================> Renamed to PyAssetMngr, re-versioning to 1.0.0
+
+v1.0.0
+======
+
+* Refactored completely to be asset based and new gui

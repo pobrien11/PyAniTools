@@ -16,3 +16,8 @@ v2.0.0
 ======
 
 * Added Maya Plugin updating support
+
+v3.0.0
+======
+
+* Refactored completely to be asset based

@@ -8,53 +8,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1314661164">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="42" />
-          <entry key="project.open.time.0" value="40" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="43" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gizmo" value="2" />
-          <entry key="json" value="3" />
-          <entry key="py" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="json" value="2" />
-          <entry key="py" value="1503" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="2" />
-          <entry key="Python" value="1503" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="94" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -71,6 +31,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>gain</find>
+      <find>24</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,13 +43,18 @@
         <option value="$PROJECT_DIR$/../Dist/PyAniTools/installed/PyAppMngr/app_pref.json" />
         <option value="Z:/LongGong/lib/comp/plugins/AOV_LayerMerge.gizmo" />
         <option value="$USER_HOME$/.nuke/init.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_41.py" />
+        <option value="C:/PyAniTools/lib/app_bridge/cgt_download.py" />
+        <option value="C:/PyAniTools/lib/app_bridge/cgt_core.py" />
+        <option value="$USER_HOME$/.PyAniTools/cgt_tools_cache.json" />
         <option value="$PROJECT_DIR$/venv/main.py" />
+        <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/apps/cgt_metadata.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2455" />
-    <option name="y" value="48" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2552" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -122,7 +88,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PyAniToolsAppLauncher" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -142,7 +110,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="cgt_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyAniToolsSetup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:/PyAniTools/lib/app_bridge" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/PyAniTools/lib/app_bridge/cgt_download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyAniToolsSetup" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,9 +153,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch_41" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyAniToolsSetup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_41.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.cgt_download" />
+        <item itemvalue="Python.scratch_41" />
       </list>
     </recent_temporary>
   </component>
@@ -184,16 +196,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2455" y="48" width="1936" height="1176" extended-state="0" />
-    <editor active="true" />
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994361" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32629558" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39923224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -206,20 +217,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Dist/PyAniTools/app_data/PyAppMngr/app_data.json" />
     <entry file="file://$PROJECT_DIR$/../Dist/PyAniTools/installed/PyAppMngr/app_pref.json" />
     <entry file="file://E:/main.py" />
-    <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/toolsinstall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="212" column="32" lean-forward="true" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/toolsinstall.py" />
     <entry file="file://Z:/LongGong/lib/comp/plugins/AOV_CC.gizmo">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -238,10 +240,43 @@
     <entry file="file://$USER_HOME$/.nuke/init.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_41.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/update_config.json" />
+    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/cgt_tools_cache.json" />
+    <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/apps/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="169" column="75" selection-start-line="169" selection-start-column="75" selection-end-line="169" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="94" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="81" />
         </state>
       </provider>
     </entry>
