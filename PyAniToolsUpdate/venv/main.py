@@ -35,7 +35,7 @@ from qtpy import QtWidgets
 
 
 def main():
-    app_name = "Setup"
+    app_name = "Update"
     error_level = logging.DEBUG
     error_logging = pyani.core.error_logging.ErrorLogging(app_name, error_level)
     error_logging.setup_logging()

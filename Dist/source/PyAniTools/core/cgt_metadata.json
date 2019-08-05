@@ -17,8 +17,7 @@
       "desc": "Sets up tools and asset management system."
     }
   ],
-  "update":
-  [
+  "update": [
     {
       "version": "1.0.0",
       "notes": [
@@ -27,7 +26,7 @@
       "desc": "Updates assets : can be tools, rigs, and any other show assets."
     }
   ],
-  "tools_suite_icon": [
+  "tool_suite_icon": [
     {
       "version" : "1.0.0",
       "notes": [],

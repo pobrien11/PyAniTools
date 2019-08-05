@@ -12,7 +12,7 @@ Dependencies
      ---------
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyNukeMngr\venv\
-     pyinstaller --onefile --console --icon Resources\pynukemngr_icon.ico --name PyNukeMngr main.py
+     pyinstaller --onefile --console --icon images\pynukemngr_icon.ico --name PyNukeMngr main.py
 
 '''
 

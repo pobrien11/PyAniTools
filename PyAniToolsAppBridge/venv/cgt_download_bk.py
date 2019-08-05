@@ -25,11 +25,6 @@ class CGTDownload():
         :param username: optional username
         :param password:  optional password
         """
-        if username == "":
-            username = None
-        if password == "":
-            password = None
-        
         # cgt connection member variables
         connection, database, error = cgt_core.login_cgt(
             ip_addr=ip_addr, username=username, password=password, database=database
@@ -175,18 +170,25 @@ class CGTDownload():
 
             # loop through the cgt paths provided and get the files to download
             for index in range(0, len(cgt_paths)):
+                
 
-                # if this is a directory, get file listing
-                if not self.is_file(cgt_paths[index]):
-                    # get the list of files.
-                    file_list = self.get_file_list(cgt_paths[index], files_only=True)
-                    # check if there are files, if not folder is empty so don't download anything
-                    if file_list:
-                        file_list_to_dl.extend(file_list)
-                        download_loc_list.extend(
-                            [file_path.replace(cgt_paths[index], download_paths[index]).replace("/", "\\") for file_path in
-                             file_list]
-                        )
+                    
+
+                # TODO: the problem is the above tries to use file_list as a way to determine if a path is a file
+                # or directory. So need to check if file or directory using method of this class, then get file list for
+                # directory, that way file_list being empty means only that a directory is empty. can sue that to not
+                # download a folder then.
+
+                # get the list of files. Note if this is a single file, and empty list is returned
+                file_list = self.get_file_list(cgt_paths[index], files_only=True)
+
+                # check if this is a list of files or single file
+                if isinstance(file_list, list) and file_list:
+                    file_list_to_dl.extend(file_list)
+                    download_loc_list.extend(
+                        [file_path.replace(cgt_paths[index], download_paths[index]).replace("/", "\\") for file_path in
+                         file_list]
+                    )
                 # its a single file
                 else:
                     # file to download
@@ -197,7 +199,7 @@ class CGTDownload():
                     download_loc_list.extend(
                         [os.path.normpath(cgt_paths[index].replace(path_to_filename, download_paths[index]))]
                     )
-
+                
             # todo: deprecate
             show_file_info = False
             if show_file_info:
@@ -212,23 +214,20 @@ class CGTDownload():
                     ",".join(download_loc_list)  # lets us know what files are on CGT
                 )
 
-            # check if files to download
-            if file_list_to_dl:
-                # download the files from CGT
-                if use_callback:
-                    msg = self.connection.media_file.download_path(
-                        self.database, file_list_to_dl, download_loc_list, self.download_progress_callback
-                    )
-                else:
-                    msg = self.connection.media_file.download_path(self.database, file_list_to_dl, download_loc_list)
-                # set explicit == True because msg may be True, or have content. Just putting if msg, would return
-                # None when msg has content which is wrong
-                if msg == True:
-                    return None
-                else:
-                    return msg
+
+            # download the files from CGT
+            if use_callback:
+                msg = self.connection.media_file.download_path(
+                    self.database, file_list_to_dl, download_loc_list, self.download_progress_callback
+                )
             else:
+                msg = self.connection.media_file.download_path(self.database, file_list_to_dl, download_loc_list)
+            # set explicit == True because msg may be True, or have content. Just putting if msg, would return
+            # None when msg has content which is wrong
+            if msg == True:
                 return None
+            else:
+                return msg
 
         except Exception as e:
             error = "Error downloading from CGT, error reported is {0}".format(e)
@@ -237,7 +236,7 @@ class CGTDownload():
 
 def main():
 
-    debug = False
+    debug = True
 
     if debug:
         # To Test multi file d/l:
@@ -320,6 +319,7 @@ def main():
         else:
             print "False"
         return
+
 
     # don't walk and get only directories. The default mode if no file mode is passed is directory only
     if get_file_list_no_walk == "True" and (not file_mode or file_mode == "dirs"):
