@@ -19,11 +19,16 @@ def get_note(pipeline_component, asset_name, database=None, ip_addr=None, userna
     :param password:  optional password
     :return: error if occurred and the note as a html string (cgt stores with html)
     """
+    if username == "":
+        username = None
+    if password == "":
+        password = None
+
     connection, database, error = cgt_core.login_cgt(
         ip_addr=ip_addr, username=username, password=password, database=database
     )
     if error:
-        return error, None
+        return error, ""
     
     # get asset task id
     task_id_list = connection.task.get_id(
@@ -61,9 +66,9 @@ def get_note(pipeline_component, asset_name, database=None, ip_addr=None, userna
     note_link_index = note_unformatted.find("</a>")
     if not note_link_index == -1:
         note_link_index = note_link_index + len("</a>")
-        return None, note_unformatted[note_link_index:]
+        return "", note_unformatted[note_link_index:]
     else:
-        return None, note_unformatted
+        return "", note_unformatted
     
 def main():
 

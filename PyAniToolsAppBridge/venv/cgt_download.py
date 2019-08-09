@@ -29,17 +29,46 @@ class CGTDownload():
             username = None
         if password == "":
             password = None
-        
+
         # cgt connection member variables
         connection, database, error = cgt_core.login_cgt(
             ip_addr=ip_addr, username=username, password=password, database=database
         )
+
+        self.connection_error_msg = ""
+
         if error:
             self.connection = None
             self.database = None
+            # save the message
+            self.connection_error_msg = error
         else:
             self.connection = connection
             self.database = database
+
+    def valid_connection(self):
+        """
+        Check that a connection was made
+        :return: True if connected to cgt, false if not
+        """
+        if not self.connection and not self.database:
+            return False
+        else:
+            return True
+
+    def get_modified_date(self, cgt_path):
+        """
+        Gets a file's last modified time
+        :param cgt_path: a cgt server path
+        :return: empty string if can't get file info, otherwise modify date/time of file as string
+        """
+        # get file list from cgt as list of dicts
+        file_info = self._get_file_info_for_file(cgt_path)
+        if not file_info:
+            return ""
+
+        return file_info['modify_time']
+
 
     def is_file(self, cgt_path):
         """
@@ -47,22 +76,16 @@ class CGTDownload():
         :param cgt_path: a cgt server path
         :return True if exists, False if not
         """
-        # split path so can get parent folder listing
-        path_parts = cgt_path.split("/")
-        # parent folder
-        parent_dir = "/".join(path_parts[:-1])
-        # folder or file to check
-        name = path_parts[-1]
         # get file list from cgt as list of dicts
-        files_in_path = self.connection.send_web(
-            "c_media_file", "search_folder", {"db": self.database, "dir": parent_dir}
-        )
-        for file_name in files_in_path:
-            if file_name['name'] == name:
-                if file_name['is_file'].lower() == 'y':
-                    return True
-                else:
-                    return False
+        file_info = self._get_file_info_for_file(cgt_path)
+
+        if not file_info:
+            return False
+
+        if file_info['is_file'].lower() == 'y':
+            return True
+        else:
+            return False
 
     def file_path_exists(self, cgt_path):
         """
@@ -70,21 +93,13 @@ class CGTDownload():
         :param cgt_path: a cgt server path
         :return True if exists, False if not
         """
-        # split path so can get parent folder listing
-        path_parts = cgt_path.split("/")
-        # parent folder
-        parent_dir = "/".join(path_parts[:-1])
-        # folder or file to check
-        name = path_parts[-1]
         # get file list from cgt as list of dicts
-        files_in_path = self.connection.send_web(
-            "c_media_file", "search_folder", {"db": self.database, "dir": parent_dir}
-        )
-        for file_name in files_in_path:
-            if file_name['name'] == name:
-                return True
+        files_in_path = self._get_file_info_for_file(cgt_path)
 
-        return False
+        if not file_info:
+            return False
+        else:
+            return True
 
     def get_file_list(self, dir_path, walk=True, files_only=False, dirs_only=False):
         """
@@ -93,10 +108,8 @@ class CGTDownload():
         :param walk: use recursion to follow sub folders
         :param files_only: whether to only return files
         :param dirs_only: whether to only return directories
-        :return: the file paths list, or false if can't get file listing
+        :return: the file paths list, or string error message
         """
-        if not self.connection and not self.database:
-            return False
         # add end slash
         if dir_path[-1] != '/':
             dir_path = dir_path + '/'
@@ -129,7 +142,6 @@ class CGTDownload():
 
         except Exception, e:
             print e.message
-            return False
 
     @staticmethod
     def download_progress_callback(a, b, c):
@@ -184,7 +196,8 @@ class CGTDownload():
                     if file_list:
                         file_list_to_dl.extend(file_list)
                         download_loc_list.extend(
-                            [file_path.replace(cgt_paths[index], download_paths[index]).replace("/", "\\") for file_path in
+                            [file_path.replace(cgt_paths[index], download_paths[index]).replace("/", "\\") for file_path
+                             in
                              file_list]
                         )
                 # its a single file
@@ -234,28 +247,48 @@ class CGTDownload():
             error = "Error downloading from CGT, error reported is {0}".format(e)
             return error
 
+    def _get_file_info_for_file(self, cgt_path):
+        """
+        Gets the file dictionary from cgt containing information about the file
+        :param cgt_path: a cgt server path
+        :return a dict containing the files info or None if file doesn't exist
+        """
+        # split path so can get parent folder listing
+        path_parts = cgt_path.split("/")
+        # parent folder
+        parent_dir = "/".join(path_parts[:-1])
+        # folder or file to check
+        name = path_parts[-1]
+        # get file list from cgt as list of dicts
+        files_in_path = self.connection.send_web(
+            "c_media_file", "search_folder", {"db": self.database, "dir": parent_dir}
+        )
+        for file_info in files_in_path:
+            if file_info['name'] == name:
+                return file_info
+        return None
+
 
 def main():
-
-    debug = False
+    debug = True
 
     if debug:
         # To Test multi file d/l:
         cgt_path = []
         download_path = []
 
-        #cgt_path = "/LongGong/tools/maya/scripts/anim_startup/longgong_startup.mel,/LongGong/tools/maya/scripts/anim_startup/icons/animBot.BMP"
-        #download_path = "Z:\LongGong\\tools\maya\scripts\\anim_startup\\,Z:\LongGong\\tools\maya\scripts\\anim_startup\\icons\\"
+        # cgt_path = "/LongGong/tools/maya/scripts/anim_startup/longgong_startup.mel,/LongGong/tools/maya/scripts/anim_startup/icons/animBot.BMP"
+        # download_path = "Z:\LongGong\\tools\maya\scripts\\anim_startup\\,Z:\LongGong\\tools\maya\scripts\\anim_startup\\icons\\"
 
-        #cgt_path.append("/LongGong/tools/maya/scripts/rig_picker/")
-        #download_path.append("Z:\LongGong\\tools\maya\scripts\\rig_picker\\")
+        # cgt_path.append("/LongGong/tools/maya/scripts/rig_picker/")
+        # download_path.append("Z:\LongGong\\tools\maya\scripts\\rig_picker\\")
 
         # single file d/l
-        #cgt_path.append("/LongGong/tools/PyAniToolsPackage.zip")
-        #download_path.append("C:\Users\Patrick\Documents\maya\plug-ins\\")
+        # cgt_path.append("/LongGong/tools/PyAniToolsPackage.zip")
+        # download_path.append("C:\Users\Patrick\Documents\maya\plug-ins\\")
 
-        #cgt_path = "/LongGong/tools/maya/plugins/AOV_CC.gizmo"
-        cgt_path = u'/LongGong/tools/maya/plugins/cgt_metadata.json'
+        # cgt_path = "/LongGong/tools/maya/plugins/AOV_CC.gizmo"
+        cgt_path = u'/LongGong/tools/maya/plugins/lt_awesome.lt'
         download_path = u'c:\\users\\patrick\\appdata\\local\\temp\\pyanitools\\maya_plugins'
 
         ip_addr = "172.18.100.246"
@@ -265,6 +298,7 @@ def main():
         file_mode = None
         check_if_file = "False"
         file_path_exists = "False"
+        get_modified_date = "True"
     else:
         cgt_path = sys.argv[1]
         download_path = sys.argv[2]
@@ -293,15 +327,31 @@ def main():
             check_if_file = sys.argv[8]
         except IndexError:
             check_if_file = None
-            
+
         try:
             # indicates if we need to check if path exists
             file_path_exists = sys.argv[9]
         except IndexError:
             file_path_exists = None
 
+        try:
+            # indicates if we need to check if path exists
+            get_modified_date = sys.argv[10]
+        except IndexError:
+            get_modified_date = None
 
+    # make a cgt object
     cgt_dl = CGTDownload(ip_addr=ip_addr, username=username, password=password)
+    # make sure we connected
+    if not cgt_dl.valid_connection():
+        print cgt_dl.connection_error_msg
+        return
+
+    # if checking a file for modified date, we can exit after done, no need to get file listing
+    # or download files
+    if get_modified_date == "True":
+        print cgt_dl.get_modified_date(cgt_path)
+        return
 
     # if checking a path to see if its a file or directory, we can exit after done, no need to get file listing
     # or download files
@@ -323,23 +373,52 @@ def main():
 
     # don't walk and get only directories. The default mode if no file mode is passed is directory only
     if get_file_list_no_walk == "True" and (not file_mode or file_mode == "dirs"):
-        print ",".join(cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=False))
+        results = cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=False)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # don't walk and get only files
     elif get_file_list_no_walk == "True" and file_mode == "files":
-        test = cgt_dl.get_file_list(cgt_path, files_only=True, walk=False)
-        print ",".join(test)
+        results = cgt_dl.get_file_list(cgt_path, files_only=True, walk=False)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # don't walk, list both files and directories
     elif get_file_list_no_walk == "True" and file_mode == "files_and_dirs":
-        print ",".join(cgt_dl.get_file_list(cgt_path, walk=False))
+        results = cgt_dl.get_file_list(cgt_path, walk=False)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # walk recursively and get only files
     elif get_file_list_no_walk == "False" and file_mode == "files":
-        print ",".join(cgt_dl.get_file_list(cgt_path, files_only=True, walk=True))
+        results = cgt_dl.get_file_list(cgt_path, files_only=True, walk=True)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # walk recursively and get only directories
     elif get_file_list_no_walk == "False" and file_mode == "dirs":
-        print ",".join(cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=True))
+        results = cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=True)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # walk recursively and get both files and directories
     elif get_file_list_no_walk == "False" and file_mode == "files_and_dirs":
-        print ",".join(cgt_dl.get_file_list(cgt_path, walk=True))
+        results = cgt_dl.get_file_list(cgt_path, walk=True)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # not getting directory listing if walk not specified, so download
     else:
         # prepare multiple paths into a list - python lists are passed as file1,file2,... since you can't pass

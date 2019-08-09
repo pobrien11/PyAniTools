@@ -35,6 +35,11 @@ def update_sequence_shot_list(json_path, database=None, ip_addr=None, username=N
         ]
     :return: error if encountered, otherwise None
     """
+    if username == "":
+        username = None
+    if password == "":
+        password = None
+
     t_tw, t_db, error = cgt_core.login_cgt(ip_addr=ip_addr, username=username, password=password, database=database)
     if error:
         return error
@@ -136,7 +141,7 @@ def main():
     username = sys.argv[3]
     password = sys.argv[4]
     error = update_sequence_shot_list(json_path, ip_addr=ip_addr, username=username, password=password)
-    print error
+
     if error:
         print error
     else:

@@ -25,16 +25,36 @@ class CGTDownload():
         :param username: optional username
         :param password:  optional password
         """
+        if username == "":
+            username = None
+        if password == "":
+            password = None
+
         # cgt connection member variables
         connection, database, error = cgt_core.login_cgt(
             ip_addr=ip_addr, username=username, password=password, database=database
         )
+
+        self.connection_error_msg = ""
+
         if error:
             self.connection = None
             self.database = None
+            # save the message
+            self.connection_error_msg = error
         else:
             self.connection = connection
             self.database = database
+
+    def valid_connection(self):
+        """
+        Check that a connection was made
+        :return: True if connected to cgt, false if not
+        """
+        if not self.connection and not self.database:
+            return False
+        else:
+            return True
 
     def is_file(self, cgt_path):
         """
@@ -88,10 +108,8 @@ class CGTDownload():
         :param walk: use recursion to follow sub folders
         :param files_only: whether to only return files
         :param dirs_only: whether to only return directories
-        :return: the file paths list, or false if can't get file listing
+        :return: the file paths list, or string error message
         """
-        if not self.connection and not self.database:
-            return False
         # add end slash
         if dir_path[-1] != '/':
             dir_path = dir_path + '/'
@@ -124,7 +142,6 @@ class CGTDownload():
 
         except Exception, e:
             print e.message
-            return False
 
     @staticmethod
     def download_progress_callback(a, b, c):
@@ -179,7 +196,8 @@ class CGTDownload():
                     if file_list:
                         file_list_to_dl.extend(file_list)
                         download_loc_list.extend(
-                            [file_path.replace(cgt_paths[index], download_paths[index]).replace("/", "\\") for file_path in
+                            [file_path.replace(cgt_paths[index], download_paths[index]).replace("/", "\\") for file_path
+                             in
                              file_list]
                         )
                 # its a single file
@@ -231,7 +249,6 @@ class CGTDownload():
 
 
 def main():
-
     debug = False
 
     if debug:
@@ -239,23 +256,23 @@ def main():
         cgt_path = []
         download_path = []
 
-        #cgt_path = "/LongGong/tools/maya/scripts/anim_startup/longgong_startup.mel,/LongGong/tools/maya/scripts/anim_startup/icons/animBot.BMP"
-        #download_path = "Z:\LongGong\\tools\maya\scripts\\anim_startup\\,Z:\LongGong\\tools\maya\scripts\\anim_startup\\icons\\"
+        # cgt_path = "/LongGong/tools/maya/scripts/anim_startup/longgong_startup.mel,/LongGong/tools/maya/scripts/anim_startup/icons/animBot.BMP"
+        # download_path = "Z:\LongGong\\tools\maya\scripts\\anim_startup\\,Z:\LongGong\\tools\maya\scripts\\anim_startup\\icons\\"
 
-        #cgt_path.append("/LongGong/tools/maya/scripts/rig_picker/")
-        #download_path.append("Z:\LongGong\\tools\maya\scripts\\rig_picker\\")
+        # cgt_path.append("/LongGong/tools/maya/scripts/rig_picker/")
+        # download_path.append("Z:\LongGong\\tools\maya\scripts\\rig_picker\\")
 
         # single file d/l
-        #cgt_path.append("/LongGong/tools/PyAniToolsPackage.zip")
-        #download_path.append("C:\Users\Patrick\Documents\maya\plug-ins\\")
+        # cgt_path.append("/LongGong/tools/PyAniToolsPackage.zip")
+        # download_path.append("C:\Users\Patrick\Documents\maya\plug-ins\\")
 
-        #cgt_path = "/LongGong/tools/maya/plugins/AOV_CC.gizmo"
+        # cgt_path = "/LongGong/tools/maya/plugins/AOV_CC.gizmo"
         cgt_path = u'/LongGong/tools/maya/plugins/cgt_metadata.json'
         download_path = u'c:\\users\\patrick\\appdata\\local\\temp\\pyanitools\\maya_plugins'
 
         ip_addr = "172.18.100.246"
-        username = "Patrick"
-        password = "longgong19"
+        username = ""
+        password = ""
         get_file_list_no_walk = None
         file_mode = None
         check_if_file = "False"
@@ -288,15 +305,19 @@ def main():
             check_if_file = sys.argv[8]
         except IndexError:
             check_if_file = None
-            
+
         try:
             # indicates if we need to check if path exists
             file_path_exists = sys.argv[9]
         except IndexError:
             file_path_exists = None
 
-
+    # make a cgt object
     cgt_dl = CGTDownload(ip_addr=ip_addr, username=username, password=password)
+    # make sure we connected
+    if not cgt_dl.valid_connection():
+        print cgt_dl.connection_error_msg
+        return
 
     # if checking a path to see if its a file or directory, we can exit after done, no need to get file listing
     # or download files
@@ -316,26 +337,54 @@ def main():
             print "False"
         return
 
-
     # don't walk and get only directories. The default mode if no file mode is passed is directory only
     if get_file_list_no_walk == "True" and (not file_mode or file_mode == "dirs"):
-        print ",".join(cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=False))
+        results = cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=False)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # don't walk and get only files
     elif get_file_list_no_walk == "True" and file_mode == "files":
-        test = cgt_dl.get_file_list(cgt_path, files_only=True, walk=False)
-        print ",".join(test)
+        results = cgt_dl.get_file_list(cgt_path, files_only=True, walk=False)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # don't walk, list both files and directories
     elif get_file_list_no_walk == "True" and file_mode == "files_and_dirs":
-        print ",".join(cgt_dl.get_file_list(cgt_path, walk=False))
+        results = cgt_dl.get_file_list(cgt_path, walk=False)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # walk recursively and get only files
     elif get_file_list_no_walk == "False" and file_mode == "files":
-        print ",".join(cgt_dl.get_file_list(cgt_path, files_only=True, walk=True))
+        results = cgt_dl.get_file_list(cgt_path, files_only=True, walk=True)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # walk recursively and get only directories
     elif get_file_list_no_walk == "False" and file_mode == "dirs":
-        print ",".join(cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=True))
+        results = cgt_dl.get_file_list(cgt_path, dirs_only=True, walk=True)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # walk recursively and get both files and directories
     elif get_file_list_no_walk == "False" and file_mode == "files_and_dirs":
-        print ",".join(cgt_dl.get_file_list(cgt_path, walk=True))
+        results = cgt_dl.get_file_list(cgt_path, walk=True)
+        if isinstance(results, list):
+            print ",".join(results)
+        else:
+            # print error
+            print results
     # not getting directory listing if walk not specified, so download
     else:
         # prepare multiple paths into a list - python lists are passed as file1,file2,... since you can't pass

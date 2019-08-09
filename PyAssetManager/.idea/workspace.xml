@@ -81,8 +81,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="467" />
-    <option name="y" value="174" />
+    <option name="x" value="2498" />
+    <option name="y" value="5" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -92,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,6 +108,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +266,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="467" y="174" width="1936" height="1176" extended-state="0" />
+    <frame x="2498" y="5" width="1936" height="1176" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3328125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -288,8 +288,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/PyAniTools/PyExrViewer/app_pref.json" />
-    <entry file="file://Z:/LongGong/PyAniTools/app_data/PyExrViewer/app_data.json" />
     <entry file="file://C:/PyAniTools/PyShoot/app_pref.json" />
     <entry file="file://Z:/LongGong/PyAniTools/app_data/Shared/app_list.json" />
     <entry file="file://Z:/LongGong/PyAniTools/app_data/PyAppMngr/app_data.json" />
@@ -451,6 +449,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
