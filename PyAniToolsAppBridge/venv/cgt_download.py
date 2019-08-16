@@ -270,7 +270,7 @@ class CGTDownload():
 
 
 def main():
-    debug = True
+    debug = False
 
     if debug:
         # To Test multi file d/l:
@@ -292,13 +292,13 @@ def main():
         download_path = u'c:\\users\\patrick\\appdata\\local\\temp\\pyanitools\\maya_plugins'
 
         ip_addr = "172.18.100.246"
-        username = "Patrick"
-        password = "longgong19"
+        username = "publish"
+        password = "publish"
         get_file_list_no_walk = None
         file_mode = None
         check_if_file = "False"
         file_path_exists = "False"
-        get_modified_date = "True"
+        get_modified_date = "False"
     else:
         cgt_path = sys.argv[1]
         download_path = sys.argv[2]

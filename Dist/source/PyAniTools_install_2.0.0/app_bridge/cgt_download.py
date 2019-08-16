@@ -56,28 +56,36 @@ class CGTDownload():
         else:
             return True
 
+    def get_modified_date(self, cgt_path):
+        """
+        Gets a file's last modified time
+        :param cgt_path: a cgt server path
+        :return: empty string if can't get file info, otherwise modify date/time of file as string
+        """
+        # get file list from cgt as list of dicts
+        file_info = self._get_file_info_for_file(cgt_path)
+        if not file_info:
+            return ""
+
+        return file_info['modify_time']
+
+
     def is_file(self, cgt_path):
         """
         Checks if the path is a file or directory
         :param cgt_path: a cgt server path
         :return True if exists, False if not
         """
-        # split path so can get parent folder listing
-        path_parts = cgt_path.split("/")
-        # parent folder
-        parent_dir = "/".join(path_parts[:-1])
-        # folder or file to check
-        name = path_parts[-1]
         # get file list from cgt as list of dicts
-        files_in_path = self.connection.send_web(
-            "c_media_file", "search_folder", {"db": self.database, "dir": parent_dir}
-        )
-        for file_name in files_in_path:
-            if file_name['name'] == name:
-                if file_name['is_file'].lower() == 'y':
-                    return True
-                else:
-                    return False
+        file_info = self._get_file_info_for_file(cgt_path)
+
+        if not file_info:
+            return False
+
+        if file_info['is_file'].lower() == 'y':
+            return True
+        else:
+            return False
 
     def file_path_exists(self, cgt_path):
         """
@@ -85,21 +93,13 @@ class CGTDownload():
         :param cgt_path: a cgt server path
         :return True if exists, False if not
         """
-        # split path so can get parent folder listing
-        path_parts = cgt_path.split("/")
-        # parent folder
-        parent_dir = "/".join(path_parts[:-1])
-        # folder or file to check
-        name = path_parts[-1]
         # get file list from cgt as list of dicts
-        files_in_path = self.connection.send_web(
-            "c_media_file", "search_folder", {"db": self.database, "dir": parent_dir}
-        )
-        for file_name in files_in_path:
-            if file_name['name'] == name:
-                return True
+        files_in_path = self._get_file_info_for_file(cgt_path)
 
-        return False
+        if not file_info:
+            return False
+        else:
+            return True
 
     def get_file_list(self, dir_path, walk=True, files_only=False, dirs_only=False):
         """
@@ -247,6 +247,27 @@ class CGTDownload():
             error = "Error downloading from CGT, error reported is {0}".format(e)
             return error
 
+    def _get_file_info_for_file(self, cgt_path):
+        """
+        Gets the file dictionary from cgt containing information about the file
+        :param cgt_path: a cgt server path
+        :return a dict containing the files info or None if file doesn't exist
+        """
+        # split path so can get parent folder listing
+        path_parts = cgt_path.split("/")
+        # parent folder
+        parent_dir = "/".join(path_parts[:-1])
+        # folder or file to check
+        name = path_parts[-1]
+        # get file list from cgt as list of dicts
+        files_in_path = self.connection.send_web(
+            "c_media_file", "search_folder", {"db": self.database, "dir": parent_dir}
+        )
+        for file_info in files_in_path:
+            if file_info['name'] == name:
+                return file_info
+        return None
+
 
 def main():
     debug = False
@@ -267,16 +288,17 @@ def main():
         # download_path.append("C:\Users\Patrick\Documents\maya\plug-ins\\")
 
         # cgt_path = "/LongGong/tools/maya/plugins/AOV_CC.gizmo"
-        cgt_path = u'/LongGong/tools/maya/plugins/cgt_metadata.json'
+        cgt_path = u'/LongGong/tools/maya/plugins/lt_awesome.lt'
         download_path = u'c:\\users\\patrick\\appdata\\local\\temp\\pyanitools\\maya_plugins'
 
         ip_addr = "172.18.100.246"
-        username = ""
-        password = ""
+        username = "Patrick"
+        password = "longgong19"
         get_file_list_no_walk = None
         file_mode = None
         check_if_file = "False"
         file_path_exists = "False"
+        get_modified_date = "True"
     else:
         cgt_path = sys.argv[1]
         download_path = sys.argv[2]
@@ -312,11 +334,23 @@ def main():
         except IndexError:
             file_path_exists = None
 
+        try:
+            # indicates if we need to check if path exists
+            get_modified_date = sys.argv[10]
+        except IndexError:
+            get_modified_date = None
+
     # make a cgt object
     cgt_dl = CGTDownload(ip_addr=ip_addr, username=username, password=password)
     # make sure we connected
     if not cgt_dl.valid_connection():
         print cgt_dl.connection_error_msg
+        return
+
+    # if checking a file for modified date, we can exit after done, no need to get file listing
+    # or download files
+    if get_modified_date == "True":
+        print cgt_dl.get_modified_date(cgt_path)
         return
 
     # if checking a path to see if its a file or directory, we can exit after done, no need to get file listing
