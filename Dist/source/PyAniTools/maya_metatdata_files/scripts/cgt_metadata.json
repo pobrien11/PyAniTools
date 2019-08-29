@@ -1,6 +1,7 @@
 {
   "rig_picker": [
     {
+      "desc": "The rig_picker is a tool for animation to easily pick controls of a character or prop",
       "version": "1.8.0",
       "notes": [
         "rig_picker v20190614",
@@ -69,6 +70,7 @@
   "anim_startup":
   [
     {
+      "desc": "This sets the plugin path to the show shared location and rebuilds the animation shelf",
       "version": "1.0.4",
       "notes": [
         "added putOnAxis button"
@@ -96,9 +98,31 @@
   "render_logs":
   [
     {
-      "version": "1.2.0",
+      "desc": "A post render script that compiles and saves render log and stats data",
+      "version": "1.0.0",
       "notes": [
         "First release, moves stats and logs to show location, and builds render stat cache for stat viewer app"
+      ]
+    }
+  ],
+  "studiolibrary":
+  [
+    {
+      "desc": "Manages poses and animation in Maya",
+      "version": "1.0.0",
+      "notes": [
+        "First release. This is a set of free python scripts for managing poses and animation in Maya."
+      ]
+    }
+  ],
+  "misc_scripts":
+  [
+    {
+      "desc": "Utility scripts for Animation. Contains the Clear Node and File Texture manager scripts.",
+      "version": "1.0.0",
+      "notes": [
+        "Clear Node cleans up a scene making it faster by deleting unused nodes.",
+        "File texture manager provides a report of all textures in the scene and allows path changes."
       ]
     }
   ]

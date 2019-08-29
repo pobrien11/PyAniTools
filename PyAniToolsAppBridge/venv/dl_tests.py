@@ -10,9 +10,9 @@ import cgtw2
 from ct_http import ct_http
 
 # list of cgt file paths and download locations
-file_path_json = "C:\\Users\\Patrick\\Downloads\\dl_test\\dl_test_filepaths.json"
+file_path_json = "C:\\Users\\Patrick\\Downloads\\dl_test\\tools_dl_list.json"
 # processed cgt file paths
-file_path_processed_json = "C:\\Users\\Patrick\\Downloads\\dl_test\\dl_test_filepaths_processed.json"
+file_path_processed_json = "C:\\Users\\Patrick\\Downloads\\dl_test\\tools_dl_list_processed.json"
 
 
 """ 
@@ -114,6 +114,7 @@ class CGTDownload():
         self.thread_pool = QtCore.QThreadPool()
         self.thread_total = 0.0
         self.threads_done = 0.0
+        self.thread_pool.setMaxThreadCount(3)
 
 
         if username == "":
@@ -267,7 +268,6 @@ class CGTDownload():
         """
         Called when a thread that checks an audio's timestamp completes
         """
-        print "here"
         # a thread finished, increment our count
         self.threads_done += 1.0
         if self.threads_done > self.thread_total:
@@ -394,6 +394,7 @@ class CGTDownload():
                     # cgt method needs a list
                     file_to_dl = [file_list_to_dl[index]]
                     download_loc = [download_loc_list[index]]
+                    print file_to_dl, download_loc
 
                     print "downloading file {0} of {1}".format(index, len(file_list_to_dl))
 
@@ -414,11 +415,28 @@ class CGTDownload():
 
 def main():
 
-    test_num = 1
+    test_num = 3
 
     # load file paths
     with open(file_path_json, "r") as read_file:
         file_paths = json.load(read_file)
+
+    # make sure number cgt paths == number download paths
+    if not len(file_paths['cgt']) == len(file_paths['local']):
+        print "Validation Test: Number of download paths not equal to number of server paths...FAILED TEST"
+        return
+    else:
+        print "Validation Test: Number of download paths equal to number of server paths...PASSED TEST"
+
+    # confirm no duplicates
+    if not len(set(file_paths['cgt'])) == len(file_paths['cgt']):
+        print "Validation Test: Duplicate file names in tools list. The duplicate tools are: {0}./n....FAILED TEST".format(
+            set([filepath for filepath in file_paths['cgt'] if file_paths['cgt'].count(filepath) > 1])
+        )
+        return
+    else:
+        print "Validation Test: No duplicates...PASSED TEST"
+
     cgt_path = file_paths['cgt']
     local_path = file_paths['local']
 

@@ -69,12 +69,11 @@ class CGTDownload():
 
         return file_info['modify_time']
 
-
     def is_file(self, cgt_path):
         """
         Checks if the path is a file or directory
         :param cgt_path: a cgt server path
-        :return True if exists, False if not
+        :return True if its a file, False if not
         """
         # get file list from cgt as list of dicts
         file_info = self._get_file_info_for_file(cgt_path)
@@ -94,7 +93,7 @@ class CGTDownload():
         :return True if exists, False if not
         """
         # get file list from cgt as list of dicts
-        files_in_path = self._get_file_info_for_file(cgt_path)
+        file_info = self._get_file_info_for_file(cgt_path)
 
         if not file_info:
             return False
@@ -187,6 +186,9 @@ class CGTDownload():
 
             # loop through the cgt paths provided and get the files to download
             for index in range(0, len(cgt_paths)):
+                # check if path exists, if not no need to proceed
+                if not self.file_path_exists(cgt_paths[index]):
+                    return "Error downloading from CGT, the file path {0} doesn't exist".format(cgt_paths[index])
 
                 # if this is a directory, get file listing
                 if not self.is_file(cgt_paths[index]):

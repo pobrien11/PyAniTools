@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/dl_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="193" column="48" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="48" />
+            <state relative-caret-position="148">
+              <caret line="116" column="45" lean-forward="true" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -65,14 +65,16 @@
         <option value="$PROJECT_DIR$/venv/cgt_get_notes.py" />
         <option value="C:/PyAniTools/lib/app_bridge/cgt_download.py" />
         <option value="$PROJECT_DIR$/venv/cgt_download.py" />
+        <option value="$USER_HOME$/Downloads/dl_test/tools_dl_list.json" />
+        <option value="$USER_HOME$/.PyAniTools/sequences.json" />
         <option value="$PROJECT_DIR$/venv/dl_tests.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2560" />
-    <option name="width" value="1925" />
-    <option name="height" value="1167" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2567" />
+    <option name="width" value="1936" />
+    <option name="height" value="1168" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -245,11 +247,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.cgt_download (2)" />
       <item itemvalue="Python.cgt_download" />
       <item itemvalue="Python.cgt_get_notes" />
-      <item itemvalue="Python.download_lasttext(2)" />
-      <item itemvalue="Python.cgt_download (2)" />
       <item itemvalue="Python.dl_tests" />
+      <item itemvalue="Python.download_lasttext(2)" />
     </list>
     <recent_temporary>
       <list>
@@ -275,10 +277,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2560" y="0" width="1925" height="1167" extended-state="0" />
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25091672" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947916" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -286,7 +289,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32950193" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.23426911" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.23224568" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -422,21 +425,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyAniTools/cgt_tools_cache.json" />
-    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_get_notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1674">
-          <caret line="267" lean-forward="true" selection-end-line="402" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_get_notes.py" />
+    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_download.py" />
     <entry file="file://$PROJECT_DIR$/venv/cgt_get_notes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -464,17 +454,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/cgt_tools_cache.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tools_dl_list.json" />
+    <entry file="file://$USER_HOME$/Downloads/dl_test/tools_dl_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="788" column="12" selection-start-line="788" selection-start-column="12" selection-end-line="788" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/sequences.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="573" column="11" lean-forward="true" selection-start-line="573" selection-start-column="11" selection-end-line="573" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/cgt_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="260" column="29" lean-forward="true" selection-start-line="260" selection-start-column="29" selection-end-line="260" selection-end-column="29" />
+        <state relative-caret-position="17">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/cgteamwork/bin/base/twlib/_media_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/dl_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="193" column="48" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="48" />
+        <state relative-caret-position="148">
+          <caret line="116" column="45" lean-forward="true" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
