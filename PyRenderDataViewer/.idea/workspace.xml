@@ -119,7 +119,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PyAniToolsAppLauncher" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyFindUsagesOptions">
@@ -284,6 +284,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2553" y="2" width="1932" height="1165" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2526096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -468,26 +469,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/syf_Clear_Node_Tool.mel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11832">
-          <caret column="18" selection-start-column="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/FileTextureManager.mel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/README.md" />
+    <entry file="file://$USER_HOME$/Downloads/syf_Clear_Node_Tool.mel" />
+    <entry file="file://$USER_HOME$/Downloads/FileTextureManager.mel" />
     <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/maya_metatdata_files/scripts/cgt_metadata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">

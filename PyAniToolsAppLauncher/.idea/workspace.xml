@@ -13,11 +13,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="96" />
+            <state relative-caret-position="255">
+              <caret line="15" column="20" selection-start-line="14" selection-start-column="79" selection-end-line="15" selection-end-column="20" />
               <folding>
-                <marker date="1563298032500" expanded="true" signature="1872:1874" ph="..." />
-                <marker date="1563298032500" expanded="true" signature="1872:1875" ph="..." />
+                <marker date="1567527953877" expanded="true" signature="1872:1874" ph="..." />
+                <marker date="1567527953877" expanded="true" signature="1872:1875" ph="..." />
               </folding>
             </state>
           </provider>
@@ -43,19 +43,44 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2573" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="2554" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PyAniToolsAppLauncher" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Patrick\PycharmProjects\PyAniTools\PyAniToolsAppLauncher" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="PyAniToolsAppLauncher" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Patrick\PycharmProjects\PyAniTools\PyAniToolsAppLauncher" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="venv" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PyAniToolsAppLauncher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,15 +122,15 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyAniToolsAppLauncher" />
+      <module name="PyAniToolsInstallUpdateAssistant" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/main.py" />
@@ -181,10 +206,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2573" y="0" width="1936" height="1176" extended-state="0" />
+    <frame x="2554" y="0" width="1936" height="1176" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,11 +234,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="96" />
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="14" selection-start-column="79" selection-end-line="15" selection-end-column="20" />
           <folding>
-            <marker date="1563298032500" expanded="true" signature="1872:1874" ph="..." />
-            <marker date="1563298032500" expanded="true" signature="1872:1875" ph="..." />
+            <marker date="1567527953877" expanded="true" signature="1872:1874" ph="..." />
+            <marker date="1567527953877" expanded="true" signature="1872:1875" ph="..." />
           </folding>
         </state>
       </provider>
