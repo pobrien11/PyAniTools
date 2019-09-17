@@ -83,11 +83,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2552" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2435" />
+    <option name="y" value="31" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1157" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,7 +269,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="2435" y="31" width="1936" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3328125" />
@@ -312,13 +312,7 @@
     <entry file="file://C:/PyAniTools/installed/PyAppMngr/app_pref.json" />
     <entry file="file://C:/PyAniTools/app_data/PyShoot/app_data.json" />
     <entry file="file://$USER_HOME$/Desktop/python code .py" />
-    <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/depr/appmanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="278" column="17" lean-forward="true" selection-start-line="278" selection-start-column="17" selection-end-line="278" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/depr/appmanager.py" />
     <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/app_data/PyNukeMngr/app_data.json" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/tabs_example.py">

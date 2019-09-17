@@ -9,15 +9,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/dl_tests.py">
+        <entry file="file://$PROJECT_DIR$/venv/cgt_show_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="116" column="45" lean-forward="true" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -60,7 +57,6 @@
         <option value="$USER_HOME$/Desktop/CGT/download_lasttext(2).py" />
         <option value="$PROJECT_DIR$/venv/cgt_core.py" />
         <option value="$PROJECT_DIR$/venv/cgt_file_info.py" />
-        <option value="$PROJECT_DIR$/venv/cgt_show_info.py" />
         <option value="C:/PyAniTools/lib/app_bridge/cgt_get_notes.py" />
         <option value="$PROJECT_DIR$/venv/cgt_get_notes.py" />
         <option value="C:/PyAniTools/lib/app_bridge/cgt_download.py" />
@@ -68,13 +64,17 @@
         <option value="$USER_HOME$/Downloads/dl_test/tools_dl_list.json" />
         <option value="$USER_HOME$/.PyAniTools/sequences.json" />
         <option value="$PROJECT_DIR$/venv/dl_tests.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/example.py" />
+        <option value="$USER_HOME$/Desktop/CGT/example_seq_shot_filtering.py" />
+        <option value="$PROJECT_DIR$/venv/cgt_show_info.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2567" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="254" />
+    <option name="y" value="149" />
     <option name="width" value="1936" />
-    <option name="height" value="1168" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,7 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,28 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dl_tests">
-    <configuration name="cgt_download (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyAniToolsAppBridge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/PyAniTools/lib/app_bridge" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:/PyAniTools/lib/app_bridge/cgt_download.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.cgt_show_info">
     <configuration name="cgt_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyAniToolsAppBridge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cgt_get_notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cgt_show_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyAniToolsAppBridge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +174,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/cgt_get_notes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/cgt_show_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,7 +204,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="download_lasttext(2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyAniToolsAppBridge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Temp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Temp/example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example_seq_shot_filtering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyAniToolsAppBridge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +237,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/CGT/download_lasttext(2).py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/CGT/example_seq_shot_filtering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,19 +247,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cgt_download (2)" />
       <item itemvalue="Python.cgt_download" />
-      <item itemvalue="Python.cgt_get_notes" />
       <item itemvalue="Python.dl_tests" />
-      <item itemvalue="Python.download_lasttext(2)" />
+      <item itemvalue="Python.cgt_show_info" />
+      <item itemvalue="Python.example" />
+      <item itemvalue="Python.example_seq_shot_filtering" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cgt_show_info" />
+        <item itemvalue="Python.example_seq_shot_filtering" />
+        <item itemvalue="Python.example" />
         <item itemvalue="Python.dl_tests" />
         <item itemvalue="Python.cgt_download" />
-        <item itemvalue="Python.cgt_download (2)" />
-        <item itemvalue="Python.cgt_get_notes" />
-        <item itemvalue="Python.download_lasttext(2)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,11 +277,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="254" y="149" width="1936" height="1176" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947916" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947916" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -289,7 +288,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32950193" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.23224568" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3512476" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -437,23 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/cgt_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="36" column="32" lean-forward="true" selection-start-line="8" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/cgt_show_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyAniTools/cgt_tools_cache.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -476,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/cgt_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/cgteamwork/bin/base/twlib/_media_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -492,11 +467,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/dl_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="116" column="45" lean-forward="true" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+        <state relative-caret-position="1921">
+          <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/cgt_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="295" selection-start-line="295" selection-end-line="297" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/cgt_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/example.py" />
+    <entry file="file://$USER_HOME$/Desktop/CGT/example_seq_shot_filtering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="58" selection-start-line="58" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/cgt_show_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -21,3 +21,8 @@ v3.0.0
 ======
 
 * Refactored completely to be asset based
+
+v3.0.1
+======
+
+* sequence list removes non approved/published shots and sequences not starting with Seq or seq.

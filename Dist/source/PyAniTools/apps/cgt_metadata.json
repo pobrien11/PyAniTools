@@ -2,6 +2,14 @@
   "pyAssetMngr": [
     {
       "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
+      "version" : "1.0.1",
+      "notes": [
+        "Auto-close window after update or install option pressed.",
+        "Sequence list removes non approved/published shots and sequences not starting with Seq or seq."
+      ]
+    },
+    {
+      "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
       "version" : "1.0.0",
       "notes": [
         "First release. Part of the new setup and update system.",

@@ -44,3 +44,10 @@ v1.0.0
 ======
 
 * Refactored completely to be asset based and new gui
+
+v1.0.1
+======
+
+* Auto-close window after update or install option pressed
+
+* sequence list removes non approved/published shots and sequences not starting with Seq or seq.
