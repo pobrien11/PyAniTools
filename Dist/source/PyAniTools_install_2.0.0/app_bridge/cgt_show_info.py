@@ -46,7 +46,11 @@ def update_sequence_shot_list(json_path, database=None, ip_addr=None, username=N
 
     # Grab only sequences whose names start with seq
     seq_filter_list = [
-        ["eps.eps_name", "start", "seq"], "or", ["eps.eps_name", "start", "Seq"]
+        ["eps.eps_name", "start", "seq"],
+        "or",
+        ["eps.eps_name", "start", "Seq"],
+        "and",
+        ["eps.seq_status", "!=", "OOP"]
     ]
     # Grab only Previs Approved/Published shots - note get the identifier below from CGT under Shot section (not
     # shot(task). Click gear to bring up filters, then right click on the filter and select copy sign.
@@ -58,7 +62,7 @@ def update_sequence_shot_list(json_path, database=None, ip_addr=None, username=N
     # get sequences, shots, and frame ranges
     try:
         sequences = get_seq_list(t_tw, t_db, seq_filter_list)
-        for sequence in sequences:
+        for sequence in sorted(sequences):
             seq_shot_frames[sequence] = []
     except Exception as e:
         error = "Error getting sequence list from CG Teamworks. Error is {0}".format(e)

@@ -58,7 +58,6 @@
         <option value="$USER_HOME$/Desktop/python code .py" />
         <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/app_data/PyNukeMngr/app_data.json" />
         <option value="$USER_HOME$/Documents/maya/plug-ins/eyeBallNode/plugin_version.json" />
-        <option value="$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.json" />
         <option value="$USER_HOME$/.PyAniTools/asset_update_config.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_35.py" />
@@ -71,23 +70,26 @@
         <option value="$USER_HOME$/Desktop/cgt_metadata.json" />
         <option value="Z:/LongGong/tools/maya/scripts/cgt_metadata.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" />
-        <option value="$USER_HOME$/.PyAniTools/update_config.json" />
         <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/apps/cgt_metadata.json" />
         <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/core/cgt_metadata.json" />
         <option value="C:/PyAniTools/apps/cgt_metadata.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt" />
-        <option value="$USER_HOME$/.PyAniTools/cgt_tools_cache.json" />
         <option value="$USER_HOME$/.nuke/init.py" />
         <option value="$PROJECT_DIR$/venv/main.py" />
+        <option value="$USER_HOME$/.PyAniTools/update_config.json" />
+        <option value="$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json" />
+        <option value="Z:/LongGong/sequences/Seq040/Shot090/audio/approved/cgt_metadata.json" />
+        <option value="Z:/LongGong/sequences/Seq040/Shot030/audio/approved/cgt_metadata.json" />
+        <option value="$USER_HOME$/.PyAniTools/cgt_tools_cache.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2435" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2893" />
+    <option name="y" value="66" />
     <option name="width" value="1936" />
-    <option name="height" value="1157" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,7 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,6 +113,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,7 +271,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2435" y="31" width="1936" height="1157" extended-state="0" />
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3328125" />
@@ -277,7 +279,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3502879" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34357005" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,10 +294,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://Z:/LongGong/PyAniTools/app_data/Shared/app_list.json" />
-    <entry file="file://Z:/LongGong/PyAniTools/app_data/PyAppMngr/app_data.json" />
-    <entry file="file://Z:/LongGong/PyAniTools/dist/PyAniTools/PyShoot/app_pref.json" />
-    <entry file="file://$PROJECT_DIR$/../app_data/Shared/app_list.json" />
     <entry file="file://$PROJECT_DIR$/../Dist/PyAniTools/app_data/PyExrViewer/app_data.json" />
     <entry file="file://$PROJECT_DIR$/../Dist/PyAniTools/app_data/PyAppMngr/app_data.json" />
     <entry file="file://C:/PyAniTools/app_data/PyExrViewer/app_data.json" />
@@ -350,13 +348,6 @@
     <entry file="file://Z:/LongGong/tools/maya/plugins/cgt_metadata.json" />
     <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/mngrs.py" />
     <entry file="file://$USER_HOME$/Desktop/plugin_version.json" />
-    <entry file="file://$USER_HOME$/Desktop/cgt_metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="81" column="111" selection-start-line="81" selection-start-column="111" selection-end-line="81" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_39.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -376,7 +367,6 @@
     </entry>
     <entry file="file://Z:/LongGong/tools/maya/scripts/cgt_metadata.json" />
     <entry file="file://$USER_HOME$/.PyAniTools/asset_update_config.json" />
-    <entry file="file://$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
@@ -384,7 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyAniTools/update_config.json" />
     <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/lib/cgt_metadata.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -405,7 +394,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_47.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyAniTools/cgt_tools_cache.json" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -443,6 +431,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_show_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2589" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="993" column="19" lean-forward="true" selection-start-line="993" selection-start-column="19" selection-end-line="993" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/update_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/LongGong/sequences/Seq040/Shot030/audio/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/LongGong/sequences/Seq040/Shot090/audio/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/LongGong/sequences/Seq040/Shot120/audio/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/cgt_tools_cache.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="212" column="33" lean-forward="true" selection-start-line="212" selection-start-column="33" selection-end-line="212" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
         </state>
       </provider>
     </entry>
