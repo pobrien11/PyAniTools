@@ -1,0 +1,1382 @@
+{
+    "maya": {
+        "plugins": {
+            "2016.5": {
+                "files": [
+                    "/LongGong/tools/maya/plugins/2016.5/createCurveNode.mll", 
+                    "/LongGong/tools/maya/plugins/2016.5/createCurveNode.bundle", 
+                    "/LongGong/tools/maya/plugins/2016.5/sampleMultiplyNode.bundle", 
+                    "/LongGong/tools/maya/plugins/2016.5/sampleMultiplyNode.mll", 
+                    "/LongGong/tools/maya/plugins/2016.5/xformOnCurveLocator.bundle", 
+                    "/LongGong/tools/maya/plugins/2016.5/xformOnCurveLocator.mll", 
+                    "/LongGong/tools/maya/plugins/2016.5/cvwrap.mll", 
+                    "/LongGong/tools/maya/plugins/2016.5/eyeBallNode.mll", 
+                    "/LongGong/tools/maya/plugins/2016.5/cvwrap.bundle", 
+                    "/LongGong/tools/maya/plugins/2016.5/eyeBallNode.bundle", 
+                    "/LongGong/tools/maya/plugins/2016.5/relaxDeformer.mll", 
+                    "/LongGong/tools/maya/plugins/2016.5/relaxDeformer.bundle",
+		    "/LongGong/tools/maya/plugins/2016.5/new_tool.mll", 
+                    "/LongGong/tools/maya/plugins/2016.5/new_tool.bundle"
+                ], 
+                "local path": "Z:\\LongGong\\tools\\maya\\plugins", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "20190814 updated eyeBallNode with inMat and refMat attributes", 
+                            "also added cvwrap.bundle for mac"
+                        ], 
+                        "version": "1.5.0", 
+                        "desc": "Maya 2016.5 plugins: createCurveNode, eyeBallNode, relaxDeformer, sampleMultiplyNode, xformOnCurveLocator and cvwrap"
+                    }, 
+                    {
+                        "notes": [
+                            "20190806 updates to (createCurveNode, xformOnCurveLocator and sampleMultiplyNode)", 
+                            "also added first cvwrap (win only for now)"
+                        ], 
+                        "version": "1.4.0", 
+                        "desc": "Maya 2016.5 plugins: createCurveNode, eyeBallNode, relaxDeformer, sampleMultiplyNode, xformOnCurveLocator and cvwrap"
+                    }, 
+                    {
+                        "notes": [
+                            "20190725 updates to (createCurveNode, xformOnCurveLocator)", 
+                            "also moved plugins into maya version specific subfolder"
+                        ], 
+                        "version": "1.3.0", 
+                        "desc": "Maya 2016.5 plugins: createCurveNode, eyeBallNode, relaxDeformer, sampleMultiplyNode, and xFormOnCurveLocator "
+                    }, 
+                    {
+                        "notes": [
+                            "updates and new plugs (createCurveNode, relaxDeformer, xformLocator, xformOnCurveLocator)"
+                        ], 
+                        "version": "1.2.0"
+                    }, 
+                    {
+                        "notes": [
+                            "added new plugins createCurveNode and xformOnCurveLocator for turtle sleeves"
+                        ], 
+                        "version": "1.1.0"
+                    }, 
+                    {
+                        "notes": [
+                            "First Release: added eyeBallNode to new location"
+                        ], 
+                        "version": "1.0.0"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/maya/plugins"
+            }
+        }, 
+        "scripts": {
+	    "lt_awesome": {
+                "files": [
+                    "/LongGong/tools/maya/scripts/lt_awesome.lt"
+                ], 
+                "local path": "Z:\\LongGong\\tools\\maya\\scripts", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release, moves stats and logs to show location, and builds render stat cache for stat viewer app"
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "A post render script that compiles and saves render log and stats data"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/maya/scripts"
+	    },
+            "render_logs": {
+                "files": [
+                    "/LongGong/tools/maya/scripts/render_logs/post_render_process_logs.py",
+		    "/LongGong/tools/maya/scripts/render_logs/analyzer.py"
+                ], 
+                "local path": "Z:\\LongGong\\tools\\maya\\scripts", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release, moves stats and logs to show location, and builds render stat cache for stat viewer app"
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "A post render script that compiles and saves render log and stats data"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/maya/scripts"
+            }, 
+            "rig_picker": {
+                "files": [
+                    "/LongGong/tools/maya/scripts/rig_picker/rig_picker.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeahorseA_seaHorseD_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishB_shepherdB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangD_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCrabA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCrabB_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeaSlugA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charJellyfishA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishB_soldierB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeaSlugB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishB_stableB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangD_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charAlleyFishA_A_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCrabB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeaSlugC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charAlleyFishA_B_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishC_fishC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeaSlugD_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishC_fishC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangE_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charOldLady_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charAlleyFishA_D_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishC_soldierC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCrabC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charQian_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeaSlugE_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShepherdAFishA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charAlleyFishB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCuttleFish_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charPufferFish_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishC_soldierC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charQian_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charPufferFish_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShepherdAFishA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charAlleyFishC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishC_stableC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_fishA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangF_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charAlleyFishA_C_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_fishA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charQianUpsideDown.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charAnglerFish_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishC_stableC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShepherdFishB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangG_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGoldenClaw_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charBossPi_body.back", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_sellerA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeahorseA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeahorseA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_sellerA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charBossPi_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGoldenClaw_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShrimpB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charBossPi_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeahorseA_seaHorseA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_stableA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFootBoy_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeahorseA_seaHorseB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_stableA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFootBoy_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charClabA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShrimpB_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charSeahorseA_seaHorseC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCrabA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishB_fishB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_propJellyfishCostume_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_propJellyfishCostume_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShrimpA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShrimpA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangI_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangE_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangF_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangG_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charMadameGoldenClaw_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charMadameGoldenClaw_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishSoldierC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishSeller_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_shepherdA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_shepherdA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFishA_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCuttleFish_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangA_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangB_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangB_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charMarco_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangK_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGangJ_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charHermitCrab_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charGuard_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShrimpC_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charShrimpC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charCrabC_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFlasher_face.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/pages/rig_picker_charFlasher_body.mel", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charHei.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charQian.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charCrabB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeahorseA_seaHorseA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeahorseA_seaHorseD.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishB_fishB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charTurtleA_generic.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishA_stableA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishC_fishC.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charPufferFish.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charCrabC.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishA_sellerA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charCuttleFish.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeaSlugA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charTurtleA_pmTurtle.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFlounder.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishC_stableC.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishB_stableB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishB_soldierB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeahorseA_seaHorseC.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishC_soldierC.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishA_fishA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/propJellyfishCostume.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charJellyFishA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFootBoy.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charAnglerFish.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charBossPi.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeahorseA_seaHorseB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charMei.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFlasher.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charGangD.PNG", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charGangJ.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charGangK.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charGangI.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charAlleyFishB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charCrabA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charAlleyFishA_D.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charMadameGoldenClaw.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeaSlugC.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishSoldierB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charAlleyFishC.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charGoldenClaw.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeaSlugD.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charShrimpB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeaSlugB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charSeaSlugE.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charShepherdFishB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charStableFishB.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charShrimpA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charAlleyFishA_B.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charAlleyFishA_A.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charAlleyFishA_C.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charOldLady.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishA_shepherdA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishSeller.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishC_soldier.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishC_generic.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charFishA_ShepherdA.png", 
+                    "/LongGong/tools/maya/scripts/rig_picker/icons/charHermitCrab.png"
+                ], 
+                "local path": "Z:\\LongGong\\tools\\maya\\scripts", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "rig_picker v20190614", 
+                            "added charGangI body page and icon"
+                        ], 
+                        "version": "1.8.0", 
+                        "desc": "The rig_picker is a tool for animation to easily pick controls of a character or prop"
+                    }, 
+                    {
+                        "notes": [
+                            "rig_picker v20190614", 
+                            "added menu Tools export and import animation menuItems", 
+                            "added nose button to cuttleFish face page"
+                        ], 
+                        "version": "1.7.0"
+                    }, 
+                    {
+                        "notes": [
+                            "rig_picker v20190612", 
+                            "added ability to have ctrl tag attribute noNegateMirror for shellArmPits for example"
+                        ], 
+                        "version": "1.6.0"
+                    }, 
+                    {
+                        "notes": [
+                            "rig_picker v20190611", 
+                            "added shellArmPit buttons for the turtle"
+                        ], 
+                        "version": "1.5.0"
+                    }, 
+                    {
+                        "notes": [
+                            "rig_picker v20190606", 
+                            "added nlf-buttons to face page", 
+                            "fixed finger Meta, Root, Mid, Tip select buttons"
+                        ], 
+                        "version": "1.4.0"
+                    }, 
+                    {
+                        "notes": [
+                            "rig_picker v20190514", 
+                            "small fix for sleeve-buttons for turtle", 
+                            "renamed icons for turtleA variations"
+                        ], 
+                        "version": "1.3.0"
+                    }, 
+                    {
+                        "notes": [
+                            "rig_picker v20190506", 
+                            "put icons and pages into their own subfolders", 
+                            "removed fish pages so that they will share the default body and face page"
+                        ], 
+                        "version": "1.2.0"
+                    }, 
+                    {
+                        "notes": [
+                            "made rig_picker more procedural and added indicators for RMB-menu and which space a control is currently on"
+                        ], 
+                        "version": "1.1.0"
+                    }, 
+                    {
+                        "notes": [
+                            "First Release"
+                        ], 
+                        "version": "1.0.0"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/maya/scripts"
+            }, 
+            "misc_scripts": {
+                "files": [
+                    "/LongGong/tools/maya/scripts/misc_scripts/syf_Clear_Node_Tool.mel", 
+                    "/LongGong/tools/maya/scripts/misc_scripts/FileTextureManager.mel"
+                ], 
+                "local path": "Z:\\LongGong\\tools\\maya\\scripts", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "Clear Node cleans up a scene making it faster by deleting unused nodes.", 
+                            "File texture manager provides a report of all textures in the scene and allows path changes."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Utility scripts for Animation. Contains the Clear Node and File Texture manager scripts."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/maya/scripts"
+            }, 
+            "studiolibrary": {
+                "files": [
+                    "/LongGong/tools/maya/scripts/studiolibrary/main.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/migrate.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/main.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/config.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/config.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/README.md", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/icon.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/LICENSE.md", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/migrate.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/library.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/cmds.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/libraryitem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/cmds.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/libraryitem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/api/library.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/animation.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/transferbase.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/matchnames.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/node.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/utils.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/namespace.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/scriptjob.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/decorators.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tempdir.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/readme.md", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/selectionset.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/matchnames.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/decorators.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/animation.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/mirrortable.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/node.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/attribute.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/mirrortable.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/transferbase.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/playblast.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/pose.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/namespace.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/playblast.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/selectionset.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tempdir.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/attribute.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/scriptjob.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/utils.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/pose.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/thumbnailcapturedialog.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/thumbnailcapturedialog.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/framerangemenu.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/framerangemenu.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/modelpanelwidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/gui/modelpanelwidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/test_match.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/test_pose.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/test_base.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/run.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/test_mirrortable.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/test_anim.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/test_utils.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/test_attribute.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/animation.anim", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_mirror_tables.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_pose.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_pose.pose", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_anim.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_older_version.dict", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/anim.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/pose.json", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_non_unique_names.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_bake_connected.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_non_unique_names.pose", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/sphere.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_replace.anim/animation.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_replace.anim/animation (WIN-Q9T8UCBLDLU's conflicted copy 2015-08-30).ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_replace.anim/pose.json", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_poseplugin.pose/.studiolibrary/record.dict", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_insert.anim/animation (WIN-Q9T8UCBLDLU's conflicted copy 2015-08-30).ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_insert.anim/pose.json", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_insert.anim/animation.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_replace_completely.anim/animation (WIN-Q9T8UCBLDLU's conflicted copy 2015-08-30).ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_replace_completely.anim/animation.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_load_replace_completely.anim/pose.json", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_bake_connected.anim/pose.json", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_bake_connected.anim/animation.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_bake_connected.anim/animation (WIN-Q9T8UCBLDLU's conflicted copy 2015-08-30).ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_older_version.anim/animation.ma", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_older_version.anim/pose.dict", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/mutils/tests/data/test_older_version.anim/.studioLibrary/record.dict", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/example1.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (19).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (21).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (12).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (17).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (8).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (14).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (7).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (1).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (9).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (3).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (17).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (2).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (11).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (6).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (23).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images.jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (19).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (16).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (15).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (14).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (10).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (13).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (10).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (5).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (22).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (16).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (8).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (18).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (11).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/download (18).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (7).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (9).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (24).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/images (20).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/animated/food dance.gif", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/animated/fruit fit.gif", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/Pixar/images (13).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/Pixar/images (4).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/Pixar/download (15).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/Pixar/download (12).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download (6).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download (7).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download (4).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download (8).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download (2).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download.jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download (3).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/VFX/download (5).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images (6).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images (7).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images (2).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/download (20).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images.jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/download.jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images (4).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images (5).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images (3).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/images (1).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/minimalist/download (1).jpg", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_movie_filter_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_leak_remove_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_flare_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_nature_people_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_flash_auto_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_tag_faces_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_healing_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_filter_vintage_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibraryexamples/data/images/icons/ic_movie_creation_white_48dp.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/setsitem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/setsmenu.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/animitem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/setsitem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/mayalibrarywidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/mirroritem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/baseitem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/baseitem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/animitem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/poseitem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/mayalibrarywidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/mayadockwidgetmixin.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/readme.md", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/mirroritem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/setsmenu.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/poseitem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/mayadockwidgetmixin.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/PosePreviewWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/AnimPreviewWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/SetsCreateWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/AnimCreateWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/SetsPreviewWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/MirrorCreateWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/MirrorPreviewWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/ui/PoseCreateWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/animation.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/poseIcon.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/thumbnail.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/replace.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/mafileicon.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/mirrortable2.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/merge.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/mbfileicon.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/insert.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/thumbnail2.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/mirrortable.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/selectionSet.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/pose.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/mergeConnect.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/arrow.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/lock.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/replaceCompletely.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/replaceConnect.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/insertConnect.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studiolibrarymaya/resource/icons/selectionSet2.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/imagesequence.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/stylesheet.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/decorators.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/utils.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/pixmap.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/contextmenu.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/decorators.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/menu.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/icon.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/theme.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/utils.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/color.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/color.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/contextmenu.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/pixmap.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/menu.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/icon.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/theme.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/stylesheet.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/imagesequence.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/vendor/Qt.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/vendor/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/vendor/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/vendor/Qt.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/add_32pt.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/cache.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/folder_14pt.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/delete.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/check_box_checked_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/check_box_unchecked_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/image.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/add.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/folder_open.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/check_box_checked_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/branch_open_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/settings.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/folder.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/cog.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/radio_button_unchecked_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/critical.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/view_all.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/radio_button_checked_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/drop_arrow_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/warning.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/cross.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/info.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/branch_closed_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/question.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/tag.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/sortby.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/groupby.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/branch_closed_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/drop_arrow_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/radio_button_unchecked_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/error.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/branch_open_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/cancel.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/radio_button_checked_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/thumbnail.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/view_compact.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/view_settings.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/search.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/check_box_unchecked_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/refresh.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/broken_image.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/resource/icons/lock.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/hcolorbar.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/messagebox.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/hcolorbar.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/messagebox.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/toastwidget/toastwidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/toastwidget/toastwidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/toastwidget/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/toastwidget/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/statuswidget/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/statuswidget/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/statuswidget/statuswidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/statuswidget/statuswidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/folderswidget/folderswidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/folderswidget/folderitem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/folderswidget/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/folderswidget/folderswidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/folderswidget/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/folderswidget/folderitem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combineditemdelegate.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combineditemviewmixin.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedwidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedwidgetitem.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combineditemdelegate.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedwidgetitemgroup.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedlistview.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combineditemviewmixin.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedtreewidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedtreewidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedwidgetitemgroup.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedwidgetitem.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedlistview.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/combinedwidget/combinedwidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/searchwidget/searchwidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/searchwidget/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/searchwidget/searchfilter.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/searchwidget/searchfilter.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/searchwidget/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/searchwidget/searchwidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/menubarwidget/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/menubarwidget/menubarwidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/menubarwidget/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/widgets/menubarwidget/menubarwidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/actions/slideraction.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/actions/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/actions/separatoraction.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/actions/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/actions/slideraction.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/packages/studioqt/actions/separatoraction.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/previewwidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/previewwidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/librariesmenu.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/settingsdialog.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/librarywidget.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/settingsdialog.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/librariesmenu.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/librarywidget.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/ui/SettingsDialog.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/ui/PreviewWidget.ui", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/folder.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/folder_open.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/add.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_white_on_blue.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_white_256.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_white_on_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_black.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_black_on_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_blue_on_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/logo_transparent_256px.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_white.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/icon_white_and_blue.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/add_library.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/delete.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/gui/resource/icons/thumbnail.png", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/metafile.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/database.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/utils.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/utils.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/__init__.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/__init__.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/settings.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/analytics.pyc", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/analytics.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/metafile.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/settings.py", 
+                    "/LongGong/tools/maya/scripts/studiolibrary/core/database.pyc"
+                ], 
+                "local path": "Z:\\LongGong\\tools\\maya\\scripts", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release. This is a set of free python scripts for managing poses and animation in Maya."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Manages poses and animation in Maya"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/maya/scripts"
+            }, 
+            "anim_startup": {
+                "files": [
+                    "/LongGong/tools/maya/scripts/anim_startup/syf_Clear_Node_Tool_v070.mel", 
+                    "/LongGong/tools/maya/scripts/anim_startup/plugin_version.json", 
+                    "/LongGong/tools/maya/scripts/anim_startup/longgong_startup.mel", 
+                    "/LongGong/tools/maya/scripts/anim_startup/icons/animBot.BMP", 
+                    "/LongGong/tools/maya/scripts/anim_startup/icons/poseLibrary.BMP", 
+                    "/LongGong/tools/maya/scripts/anim_startup/icons/rig_picker.BMP", 
+                    "/LongGong/tools/maya/scripts/anim_startup/icons/cleanNodes.BMP", 
+                    "/LongGong/tools/maya/scripts/anim_startup/icons/putOnAxis.BMP"
+                ], 
+                "local path": "Z:\\LongGong\\tools\\maya\\scripts", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "added putOnAxis button"
+                        ], 
+                        "version": "1.0.4", 
+                        "desc": "This sets the plugin path to the show shared location and rebuilds the animation shelf"
+                    }, 
+                    {
+                        "notes": [
+                            "added syf_Clear_Node_Tool_v070 tool button"
+                        ], 
+                        "version": "1.0.3"
+                    }, 
+                    {
+                        "notes": [
+                            "new location under anim_startup and also move shelf icons"
+                        ], 
+                        "version": "1.0.2"
+                    }, 
+                    {
+                        "notes": [
+                            "First Release of the longgong_startup script and shelf"
+                        ], 
+                        "version": "1.0.1"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/maya/scripts"
+            }
+        }
+    }, 
+    "pyanitools": {
+        "shortcuts": {
+            "PyShoot": {
+                "files": [
+                    "/LongGong/tools/pyanitools/shortcuts/PyShoot.lnk"
+                ], 
+                "local path": "C:\\PyAniTools\\shortcuts", 
+                "is dir": false, 
+                "version info": null, 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/shortcuts"
+            }, 
+            "PyNukeMngr": {
+                "files": [
+                    "/LongGong/tools/pyanitools/shortcuts/PyNukeMngr.lnk"
+                ], 
+                "local path": "C:\\PyAniTools\\shortcuts", 
+                "is dir": false, 
+                "version info": null, 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/shortcuts"
+            }, 
+            "PySession": {
+                "files": [
+                    "/LongGong/tools/pyanitools/shortcuts/PySession.lnk"
+                ], 
+                "local path": "C:\\PyAniTools\\shortcuts", 
+                "is dir": false, 
+                "version info": null, 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/shortcuts"
+            }, 
+            "PyExrViewer": {
+                "files": [
+                    "/LongGong/tools/pyanitools/shortcuts/PyExrViewer.lnk"
+                ], 
+                "local path": "C:\\PyAniTools\\shortcuts", 
+                "is dir": false, 
+                "version info": null, 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/shortcuts"
+            }, 
+            "PyAniTools": {
+                "files": [
+                    "/LongGong/tools/pyanitools/shortcuts/PyAniTools.lnk"
+                ], 
+                "local path": "C:\\PyAniTools\\shortcuts", 
+                "is dir": false, 
+                "version info": null, 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/shortcuts"
+            }, 
+            "PyAssetMngr": {
+                "files": [
+                    "/LongGong/tools/pyanitools/shortcuts/PyAssetMngr.lnk"
+                ], 
+                "local path": "C:\\PyAniTools\\shortcuts", 
+                "is dir": false, 
+                "version info": null, 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/shortcuts"
+            }
+        }, 
+        "core": {
+            "pyAppRoamingLauncher": {
+                "files": [
+                    "/LongGong/tools/pyanitools/core/pyAppRoamingLauncher.exe"
+                ], 
+                "local path": "C:\\PyAniTools\\core", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release. Part of the new setup and update system."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Support tool for setup and update tasks."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/core"
+            }, 
+            "setup": {
+                "files": [
+                    "/LongGong/tools/pyanitools/core/setup.exe"
+                ], 
+                "local path": "C:\\PyAniTools\\core", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release. Part of the new setup and update system."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Sets up tools and asset management system."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/core"
+            }, 
+            "help_doc_icons": {
+                "files": [
+                    "/LongGong/tools/pyanitools/core/help_doc_icons/help_off.png", 
+                    "/LongGong/tools/pyanitools/core/help_doc_icons/help_on.png"
+                ], 
+                "local path": "C:\\PyAniTools\\core", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [], 
+                        "version": "1.0.0", 
+                        "desc": "Images for help link."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/core"
+            }, 
+            "tool_suite_icon": {
+                "files": [
+                    "/LongGong/tools/pyanitools/core/tool_suite_icon.ico"
+                ], 
+                "local path": "C:\\PyAniTools\\core", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [], 
+                        "version": "1.0.0", 
+                        "desc": "Icon file for pyanitools desktop shortcut."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/core"
+            }, 
+            "update": {
+                "files": [
+                    "/LongGong/tools/pyanitools/core/update.exe"
+                ], 
+                "local path": "C:\\PyAniTools\\core", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [
+                            "Sequence list filters out OOP shots and test sequences."
+                        ], 
+                        "version": "1.0.1", 
+                        "desc": "Updates assets : can be tools, rigs, and any other show assets."
+                    }, 
+                    {
+                        "notes": [
+                            "First release. Part of the new setup and update system."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Updates assets : can be tools, rigs, and any other show assets."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/core"
+            }
+        }, 
+        "apps": {
+            "pyExrViewer": {
+                "files": [
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/PyExrViewer.exe", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/new_image.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/stop_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/loop_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/pause_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/info_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/info_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/stop_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/pause_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/loop_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/play_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/loop_disabled.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/step_back_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/zoom_plus_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/pyexrviewer_icon.ico", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/pyexrviewer.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/step_fwd_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/layer_prev_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/layer_prev_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/layer_next_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/zoom_minus_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/step_back_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/zoom_minus_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/step_fwd_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/layer_next_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyExrViewer/images/zoom_plus_on.png"
+                ], 
+                "local path": "C:\\PyAniTools\\apps", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "New version management added"
+                        ], 
+                        "version": "3.0.1", 
+                        "desc": "A gui interface to view exrs and play exr sequences."
+                    }, 
+                    {
+                        "notes": [
+                            "added tabs, each with its own exr viewer"
+                        ], 
+                        "version": "3.0.0", 
+                        "desc": "A gui interface to view exrs and play exr sequences."
+                    }, 
+                    {
+                        "notes": [
+                            "fixed missing images"
+                        ], 
+                        "version": "2.0.1"
+                    }, 
+                    {
+                        "notes": [
+                            "added zoom in/out", 
+                            "added display meta data", 
+                            "added play exr sequence"
+                        ], 
+                        "version": "2.0.0"
+                    }, 
+                    {
+                        "notes": [
+                            "Added Error Logging", 
+                            "Hyperlink to Confluence Documentation"
+                        ], 
+                        "version": "1.1.0"
+                    }, 
+                    {
+                        "notes": [
+                            "Keyboard shortcuts for navigating layers."
+                        ], 
+                        "version": "1.0.1"
+                    }, 
+                    {
+                        "notes": [
+                            "First Release."
+                        ], 
+                        "version": "1.0.0"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/apps"
+            }, 
+            "pyAssetMngr": {
+                "files": [
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/PyAssetMngr.exe", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/wiki_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/wiki_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/auto_dl_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/sync_cache_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/auto_dl_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/release_notes_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/re_install_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/update_core_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/sync_cache_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/release_notes_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/pyassetmngr_icon.ico", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/update_core_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/re_install_off.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/tracking_on.png", 
+                    "/LongGong/tools/pyanitools/apps/pyAssetMngr/images/tracking_off.png"
+                ], 
+                "local path": "C:\\PyAniTools\\apps", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "Auto-close window after update or install option pressed.", 
+                            "Sequence list removes non approved/published shots and sequences not starting with Seq or seq."
+                        ], 
+                        "version": "1.0.1", 
+                        "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information."
+                    }, 
+                    {
+                        "notes": [
+                            "First release. Part of the new setup and update system.", 
+                            "Formerly called pyAppMngr"
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/apps"
+            }, 
+            "pyShoot": {
+                "files": [
+                    "/LongGong/tools/pyanitools/apps/pyShoot/PyShoot.exe", 
+                    "/LongGong/tools/pyanitools/apps/pyShoot/images/missing_frame.jpg", 
+                    "/LongGong/tools/pyanitools/apps/pyShoot/images/pyshoot_icon.ico", 
+                    "/LongGong/tools/pyanitools/apps/pyShoot/images/missing_frame.exr", 
+                    "/LongGong/tools/pyanitools/apps/pyShoot/images/pyshoot.png", 
+                    "/LongGong/tools/pyanitools/apps/pyShoot/images/missing_frame.png", 
+                    "/LongGong/tools/pyanitools/apps/pyShoot/ffmpeg/bin/ffmpeg.exe"
+                ], 
+                "local path": "C:\\PyAniTools\\apps", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "New version management added"
+                        ], 
+                        "version": "1.4.2", 
+                        "desc": "A gui interface create movies with common animation settings like steps and holding frames."
+                    }, 
+                    {
+                        "notes": [
+                            "Fixed resolution bug that broke movie creation"
+                        ], 
+                        "version": "1.4.1", 
+                        "desc": "A gui interface create movies with common animation settings like steps and holding frames."
+                    }, 
+                    {
+                        "notes": [
+                            "All copying now Multi-threaded", 
+                            "File drag and drop support"
+                        ], 
+                        "version": "1.4.0"
+                    }, 
+                    {
+                        "notes": [
+                            "Multi-threaded copy", 
+                            "Bug fixes", 
+                            "UI simplification", 
+                            "Link to Confluence Documentation", 
+                            "Error logging"
+                        ], 
+                        "version": "1.3.1"
+                    }, 
+                    {
+                        "notes": [
+                            "Version notification"
+                        ], 
+                        "version": "1.2.1"
+                    }, 
+                    {
+                        "notes": [
+                            "Bug fix for combining sequences"
+                        ], 
+                        "version": "1.1.2"
+                    }, 
+                    {
+                        "notes": [
+                            "Added Command Line Interface", 
+                            "Bug fix for user provided frame range", 
+                            "Code performance optimization"
+                        ], 
+                        "version": "1.1.1"
+                    }, 
+                    {
+                        "notes": [
+                            "Bug fixes: logging, gui, frames with _ (_101 instead of .101)"
+                        ], 
+                        "version": "1.0.2"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/apps"
+            }, 
+            "pyNukeMngr": {
+                "files": [
+                    "/LongGong/tools/pyanitools/apps/pyNukeMngr/PyNukeMngr.exe", 
+                    "/LongGong/tools/pyanitools/apps/pyNukeMngr/images/pynukemngr.png", 
+                    "/LongGong/tools/pyanitools/apps/pyNukeMngr/images/pynukemngr_icon.ico"
+                ], 
+                "local path": "C:\\PyAniTools\\apps", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "New version management added"
+                        ], 
+                        "version": "1.1.4", 
+                        "desc": "A gui interface to manage plugin and scripts per sequence and shot."
+                    }, 
+                    {
+                        "notes": [
+                            "Fixed seq json error bug when a new plugin or template doesn't have an entry"
+                        ], 
+                        "version": "1.1.3"
+                    }, 
+                    {
+                        "notes": [
+                            "Sequences sort in order, as do shots", 
+                            "Fixed bug during seq setup that installed when seq already installed"
+                        ], 
+                        "version": "1.1.2"
+                    }, 
+                    {
+                        "notes": [
+                            "Fixed plugin copy, errored if folder wasn't there"
+                        ], 
+                        "version": "1.1.1"
+                    }, 
+                    {
+                        "notes": [
+                            "Added Error Logging", 
+                            "Added Hyperlink to Confluence Documentation", 
+                            "Disable Sequence Setup if Sequence Already Setup", 
+                            "Renamed some UI elements for clarity"
+                        ], 
+                        "version": "1.1.0"
+                    }, 
+                    {
+                        "versions": [
+                            {
+                                "notes": [
+                                    "First Release"
+                                ], 
+                                "version": "1.0.0"
+                            }
+                        ]
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/apps"
+            }
+        }, 
+        "lib": {
+            "menu": {
+                "files": [
+                    "/LongGong/tools/pyanitools/lib/menu.py"
+                ], 
+                "local path": "C:\\PyAniTools\\lib", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Nuke custom menu file to load show menu"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/lib"
+            }, 
+            "init": {
+                "files": [
+                    "/LongGong/tools/pyanitools/lib/init.py"
+                ], 
+                "local path": "C:\\PyAniTools\\lib", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First Release."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Nuke custom init file to load show plugins"
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/lib"
+            }, 
+            "scandir": {
+                "files": [
+                    "/LongGong/tools/pyanitools/lib/scandir.py"
+                ], 
+                "local path": "C:\\PyAniTools\\lib", 
+                "is dir": false, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Support file for scanning file systems."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/lib"
+            }, 
+            "pyani": {
+                "files": [
+                    "/LongGong/tools/pyanitools/lib/pyani/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/appvars.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/anivars.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/session.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/anivars.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/util.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/sessiongui.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/ui.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/util.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/ui.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/session.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/sessiongui.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/appvars.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/error_logging.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/error_logging.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/appmanager.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/tools_version_depr.json", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/using_progress_monitor_anitools_depr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/toolsinstall_no_dl_progress_depr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/toolsinstall_depr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/mayatoolsmngr_depr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/toolsinstallassist_depr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/appvars_depr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/depr/assetmngr_depr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/assets.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/core.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/core.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/assets.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/tools.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/mngr_tests.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/tools.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/setup.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/gui.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/core.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/core.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/gui.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/launcher.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/setup.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/launcher.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/update.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/core/mngr/ui/update.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/nuke/mngr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/nuke/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/nuke/session.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/nuke/mngr.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/nuke/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/viewer.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/data.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/data.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/viewer.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/data_generator.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/render/log/post_render_process_logs.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/create/core.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/create/core.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/create/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/create/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/create/ui.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/movie/create/ui.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/core.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/__init__.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/exr.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/viewer.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/seq.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/viewer.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/exr.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/core.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/media/image/seq.pyc", 
+                    "/LongGong/tools/pyanitools/lib/pyani/maya/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/maya/scripts/__init__.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/maya/scripts/visualize_camera_frustum.py", 
+                    "/LongGong/tools/pyanitools/lib/pyani/maya/scripts/texturecheck.py"
+                ], 
+                "local path": "C:\\PyAniTools\\lib", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "First release. Part of the new setup and update system."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Python library that supports pyAniTools ecosystem."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/lib"
+            }, 
+            "app_bridge": {
+                "files": [
+                    "/LongGong/tools/pyanitools/lib/app_bridge/cgt_core.py", 
+                    "/LongGong/tools/pyanitools/lib/app_bridge/cgt_download.py", 
+                    "/LongGong/tools/pyanitools/lib/app_bridge/cgt_get_notes.py", 
+                    "/LongGong/tools/pyanitools/lib/app_bridge/cgt_show_info.py",
+		    "/LongGong/tools/pyanitools/lib/app_bridge/new_app_bridge.py"
+                ], 
+                "local path": "C:\\PyAniTools\\lib", 
+                "is dir": true, 
+                "version info": [
+                    {
+                        "notes": [
+                            "Filter out OOP shots and sequences not starting with Seq or seq."
+                        ], 
+                        "version": "1.1.0", 
+                        "desc": "Python scripts to connect with CGT. Allows .exe files to use CGT."
+                    }, 
+                    {
+                        "notes": [
+                            "First release. Part of the new setup and update system."
+                        ], 
+                        "version": "1.0.0", 
+                        "desc": "Python scripts to connect with CGT. Allows .exe files to use CGT."
+                    }
+                ], 
+                "cgt cloud dir": "/LongGong/tools/pyanitools/lib"
+            }
+        }
+    }
+}

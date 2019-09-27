@@ -1,0 +1,1 @@
+This is a test, tetsing addition to root directory of scripts folder. Updated 9/17/19 at 2:16 pm.

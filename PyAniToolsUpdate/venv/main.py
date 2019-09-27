@@ -50,6 +50,7 @@ def main():
         "Checking updates for desktop shortcut for pyAniTools",
         "Checking updates for Nuke customization"
     ]
+
     window = update.AniUpdateGui(error_logging, steps)
 
     # setup stylesheet - note that in pyani.core.ui has some color overrides used by QFrame, and QButtons

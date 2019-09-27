@@ -51,3 +51,12 @@ v1.0.1
 * Auto-close window after update or install option pressed
 
 * sequence list removes non approved/published shots and sequences not starting with Seq or seq.
+
+v1.1.1
+======
+
+* Added not approved label for assets pulled from work folder
+
+* Added strikethrough for assets whose files are not on the server
+
+* Fixed download bug causing failures for assets whose files don't exist on the server.

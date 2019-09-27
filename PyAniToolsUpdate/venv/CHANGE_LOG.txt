@@ -26,3 +26,8 @@ v3.0.1
 ======
 
 * sequence list removes non approved/published shots and sequences not starting with Seq or seq.
+
+v3.0.2
+======
+
+* Fixed download bug causing failures when asset is missing files on server
