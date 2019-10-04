@@ -18,3 +18,8 @@ v1.2.0
 * New version management added
 
 * Switched storage location of session_env to persistent location in C:\Users\user_name\.pyanitools
+
+v1.2.1
+======
+
+* Help icons point to core\\images

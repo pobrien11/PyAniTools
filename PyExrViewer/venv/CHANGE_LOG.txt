@@ -42,3 +42,8 @@ v3.0.1
 =====
 
 * New version management added
+
+v3.0.2
+=====
+
+* Help icon points to core\\images

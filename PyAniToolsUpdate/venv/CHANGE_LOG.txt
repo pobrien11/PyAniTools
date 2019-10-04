@@ -17,17 +17,20 @@ v2.0.0
 
 * Added Maya Plugin updating support
 
-v3.0.0
+***************** REBUILT TO NEW ASSET BASED SYSTEM ************************************
+
+v1.0.0
 ======
 
 * Refactored completely to be asset based
 
-v3.0.1
+v1.0.1
 ======
 
 * sequence list removes non approved/published shots and sequences not starting with Seq or seq.
 
-v3.0.2
+v1.0.2
 ======
 
 * Fixed download bug causing failures when asset is missing files on server
+* Added asset update report that let's artists know what assets were added, modified, or removed.

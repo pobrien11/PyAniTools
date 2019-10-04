@@ -77,8 +77,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2338" />
-    <option name="y" value="49" />
+    <option name="x" value="1949" />
+    <option name="y" value="188" />
     <option name="width" value="1936" />
     <option name="height" value="1159" />
   </component>
@@ -88,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +139,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +233,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2338" y="49" width="1936" height="1159" extended-state="0" />
+    <frame x="1949" y="188" width="1936" height="1159" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947916" />
@@ -241,7 +241,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32725528" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32682925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39849624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

@@ -14,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="92" />
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -108,8 +108,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2088" />
-    <option name="y" value="137" />
+    <option name="x" value="2208" />
+    <option name="y" value="288" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -119,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2088" y="137" width="1936" height="1176" extended-state="0" />
+    <frame x="2208" y="288" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23802084" />
@@ -477,7 +477,7 @@
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="92" />
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="92" />
         </state>
       </provider>
     </entry>

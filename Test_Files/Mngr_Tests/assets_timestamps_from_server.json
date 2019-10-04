@@ -1,46 +1,10 @@
 {
-  "maya": {
-    "plugins": {
-      "2016.5": {
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\relaxDeformer.mll": 1562024624.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\createCurveNode.mll": 1565095132.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\cvwrap.bundle": 1565546350.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\cgt_metadata.json": 1565816166.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\cvwrap.mll": 1565096676.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\xformOnCurveLocator.mll": 1565095198.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\createCurveNode.bundle": 1565009763.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\sampleMultiplyNode.mll": 1565095081.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\eyeBallNode.mll": 1565815111.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\eyeBallNode.bundle": 1565706473.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\sampleMultiplyNode.bundle": 1564788465.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\relaxDeformer.bundle": 1562026651.0,
-        "Z:\\LongGong\\tools\\maya\\plugins\\2016.5\\xformOnCurveLocator.bundle": 1564705834.0
-      }
-    },
-    "scripts": {
-      "render_logs": {
-        "Z:\\LongGong\\tools\\maya\\scripts\\cgt_metadata.json": 1568933535.0,
-        "Z:\\LongGong\\tools\\maya\\scripts\\render_logs\\post_render_process_logs.py": 1559595678.0,
-        "Z:\\LongGong\\tools\\maya\\scripts\\render_logs\\analyzer.py": 1568747815.88
-      }
+    "set": {
+        "rig": {
+            "setGarageInside": {
+                "Z:\\LongGong\\assets\\set\\setGarageInside\\rig\\approved\\setGarageInside_rig_high.mb": 1559416193.0, 
+                "Z:\\LongGong\\assets\\set\\setGarageInside\\rig\\approved\\setGarageInside_rig_high_s060.mb": 1563406294.0
+            }
+        }
     }
-  },
-  "pyanitools": {
-    "core": {
-      "update": {
-        "C:\\PyAniTools\\core\\update.exe": 1568933817.0,
-        "C:\\PyAniTools\\core\\cgt_metadata.json": 1568741689.0
-      }
-    },
-    "lib": {
-      "app_bridge": {
-        "C:\\PyAniTools\\lib\\app_bridge\\cgt_get_notes.py": 1565120397.0,
-        "C:\\PyAniTools\\lib\\app_bridge\\cgt_show_info.py": 1568821486.0,
-        "C:\\PyAniTools\\lib\\cgt_metadata.json": 1568741811.0,
-        "C:\\PyAniTools\\lib\\app_bridge\\cgt_download.py": 1566497703.0,
-        "C:\\PyAniTools\\lib\\app_bridge\\cgt_core.py": 1563850368.0
-      }
-    }
-  }
 }
-

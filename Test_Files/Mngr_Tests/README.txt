@@ -18,7 +18,6 @@ tools_timestamps_from_server.json is the server timestamps file - what is genera
 
 cgt_asset_info_cache_before.json is the cache before sync
 	- adds AAA_Test_charFishSoldierB to char, rigs
-	- 
 
 cgt_asset_info_cache_after.json is the cache aftersync
 	- asset_modified check (file deleted): remove file in char, rig, TestCharDog : TestCharDog_A_rig_high.ma

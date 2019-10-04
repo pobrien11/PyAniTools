@@ -19,6 +19,14 @@
   ],
   "update": [
     {
+      "version": "1.0.2",
+      "notes": [
+        "Added asset update report that let's artists know what assets were added, modified, or removed.",
+        "Fixed download bug causing failures when asset is missing files on server"
+      ],
+      "desc": "Updates assets : can be tools, rigs, and any other show assets."
+    },
+    {
       "version": "1.0.1",
       "notes": [
         "Sequence list filters out OOP shots and test sequences."
