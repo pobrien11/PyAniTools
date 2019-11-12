@@ -19,6 +19,13 @@
   ],
   "update": [
     {
+      "version": "1.1.0",
+      "notes": [
+        "Asset update report shows files that were added, modified, and/or deleted for Updated Assets"
+      ],
+      "desc": "Updates assets : can be tools, rigs, and any other show assets."
+    },
+    {
       "version": "1.0.2",
       "notes": [
         "Added asset update report that let's artists know what assets were added, modified, or removed.",

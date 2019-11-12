@@ -90,3 +90,15 @@ v1.4.3
 ======
 
 * Help icons point to core\\images
+
+v1.4.4
+======
+
+* Fixed steps, wasn't working
+
+* Fixed color space issue
+
+v1.5.0
+======
+
+* New ui with images for buttons and labels

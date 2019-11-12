@@ -31,6 +31,21 @@
   "pyShoot": [
     {
       "desc": "A gui interface create movies with common animation settings like steps and holding frames.",
+      "version" : "1.5.0",
+      "notes": [
+        "New ui with images for buttons and labels"
+      ]
+    },
+    {
+      "desc": "A gui interface create movies with common animation settings like steps and holding frames.",
+      "version" : "1.4.4",
+      "notes": [
+        "Fixed steps, wasn't working",
+        "Fixed color space issue"
+      ]
+    },
+    {
+      "desc": "A gui interface create movies with common animation settings like steps and holding frames.",
       "version" : "1.4.3",
       "notes": [
         "Help icon now points to core\\images"

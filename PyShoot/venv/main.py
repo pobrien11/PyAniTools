@@ -27,7 +27,7 @@ Making Executable - Pyinstaller
      ---------
 
      cd C:\Users\Patrick\PycharmProjects\PyAniTools\PyShoot\venv\
-     pyinstaller --onefile --noconsole --icon=images\pyshoot_icon.ico --name PyShoot main.py
+     pyinstaller --onefile --console --icon=images\pyshoot_icon.ico --name PyShoot main.py
 '''
 
 import sys
@@ -55,7 +55,7 @@ def main():
     error_logging.setup_logging()
 
     # path to ffmpeg executable, bundled with PyShoot
-    movie_generation = "C:\\PyAniTools\\installed\\ffmpeg\\bin\\ffmpeg"
+    movie_generation = "C:\\PyAniTools\\apps\\pyShoot\\ffmpeg\\bin\\ffmpeg"
     # path to playback tool, using rv
     movie_playback = r'C:\Program Files\Shotgun\RV-7.2.1\bin\rv'
     # enforce strict padding

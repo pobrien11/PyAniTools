@@ -34,3 +34,8 @@ v1.0.2
 
 * Fixed download bug causing failures when asset is missing files on server
 * Added asset update report that let's artists know what assets were added, modified, or removed.
+
+v1.1.0
+======
+
+* Asset update report shows files that were added, modified, and/or deleted for Updated Assets

@@ -117,9 +117,7 @@ class CGTDownload():
         file_list = []
         try:
             # get file list from cgt as list of dicts
-            files_in_path = self.connection.send_web(
-                "c_media_file", "search_folder", {"db": self.database, "dir": dir_path}
-            )
+            files_in_path = self._get_cgt_dir_listing(dir_path)
             # remove blank files
             files_in_path = [file_path for file_path in files_in_path if file_path['name'].strip() != ""]
             for file_path in files_in_path:
@@ -262,13 +260,36 @@ class CGTDownload():
         # folder or file to check
         name = path_parts[-1]
         # get file list from cgt as list of dicts
-        files_in_path = self.connection.send_web(
-            "c_media_file", "search_folder", {"db": self.database, "dir": parent_dir}
-        )
+        files_in_path = self._get_cgt_dir_listing(parent_dir)
+
         for file_info in files_in_path:
             if file_info['name'] == name:
                 return file_info
         return None
+    
+    def _get_cgt_dir_listing(self, dir_path):
+        """
+        utility function to get file list from cgt. 
+        :param dir_path: path to get file listing
+        :return: a list of dicts
+        """
+
+        '''
+        with open(r"C:\users\Patrick\Desktop\call_count.json", "r") as myfile:
+            call_count = json.load(myfile)
+
+        count = int(call_count['count'])
+
+        count = count + 1
+        call_count['count'] = count
+
+        with open(r"C:\users\Patrick\Desktop\call_count.json", "w") as myfile:
+            json.dump(call_count, myfile, indent=4)
+        '''
+
+        return self.connection.send_web(
+            "c_media_file", "search_folder", {"db": self.database, "dir": dir_path}
+        )
 
 
 def main():
