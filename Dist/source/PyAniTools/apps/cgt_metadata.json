@@ -2,6 +2,14 @@
   "pyAssetMngr": [
     {
       "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
+      "version" : "1.1.2",
+      "notes": [
+        "Fixed error when update process / windows task is disabled.",
+        "When windows task is re-enabled, grabs the time and updates ui"
+      ]
+    },
+    {
+      "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
       "version" : "1.1.1",
       "notes": [
         "Added asset update report that let's artists know what assets were added, modified, or removed.",

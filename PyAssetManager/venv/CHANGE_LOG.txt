@@ -64,3 +64,10 @@ v1.1.1
 * Added asset update report that let's artists know what assets were added, modified, or removed.
 
 * Help icon now points to core\\images
+
+v1.1.2
+======
+
+* Fixed error when update process / windows task is disabled.
+
+* When windows task is re-enabled, grabs the time and updates ui
