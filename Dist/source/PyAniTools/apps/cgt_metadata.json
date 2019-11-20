@@ -121,6 +121,13 @@
   [
     {
         "desc": "A gui interface to view exrs and play exr sequences.",
+        "version": "3.1.2",
+        "notes": [
+      	  "Tab name changes to file name of image(s) once image(s) are loaded"
+        ]
+    },
+    {
+        "desc": "A gui interface to view exrs and play exr sequences.",
         "version": "3.0.2",
         "notes": [
       	  "Help icon now points to core\\images"

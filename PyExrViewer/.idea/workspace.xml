@@ -58,8 +58,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2334" />
-    <option name="y" value="183" />
+    <option name="x" value="2570" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -230,7 +229,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2334" y="183" width="1936" height="1176" extended-state="0" />
+    <frame x="2570" y="0" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24322917" />
@@ -239,7 +238,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32949087" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49739584" weight="0.3502879" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.39769453" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.39731285" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -319,6 +318,13 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/test.1107.json" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_14.py" />
+    <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="1998" selection-start-line="1998" selection-end-line="1998" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">

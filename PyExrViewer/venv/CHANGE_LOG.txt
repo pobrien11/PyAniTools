@@ -47,3 +47,8 @@ v3.0.2
 =====
 
 * Help icon points to core\\images
+
+v3.1.2
+=====
+
+* Tab name changes to file name of image(s) once image(s) are loaded
