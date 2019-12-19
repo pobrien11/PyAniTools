@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
+            <state relative-caret-position="416">
+              <caret line="28" column="71" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
               <folding>
                 <element signature="e#625#635#0" expanded="true" />
               </folding>
@@ -40,6 +40,7 @@
       <find>pyShoot</find>
       <find>AAAT</find>
       <find>AAA</find>
+      <find>Angler</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,7 +80,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt" />
         <option value="$USER_HOME$/.nuke/init.py" />
         <option value="$USER_HOME$/.PyAniTools/update_config.json" />
-        <option value="$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json" />
         <option value="Z:/LongGong/sequences/Seq040/Shot090/audio/approved/cgt_metadata.json" />
         <option value="Z:/LongGong/sequences/Seq040/Shot030/audio/approved/cgt_metadata.json" />
         <option value="$USER_HOME$/.PyAniTools/cgt_tools_cache.json" />
@@ -87,12 +87,17 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_48.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_50.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_51.py" />
+        <option value="Z:/LongGong/assets/char/charBossPi/rig/approved/cgt_metadata.json" />
+        <option value="Z:/LongGong/assets/char/charCuttleFish/rig/approved/cgt_metadata.json" />
+        <option value="$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json" />
+        <option value="Z:/LongGong/assets/char/charAnglerFish/rig/approved/cgt_metadata.json" />
+        <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/lib/cgt_metadata.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2552" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="312" />
+    <option name="y" value="165" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -102,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,7 +124,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,10 +281,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="312" y="165" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3328125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3328125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -299,11 +304,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/PyAniTools/installed/PyExrViewer/app_pref.json" />
-    <entry file="file://C:/PyAniTools/app_data/PyAppMngr/app_data.json" />
-    <entry file="file://C:/PyAniTools/installed/PyShoot/app_pref.json" />
-    <entry file="file://C:/PyAniTools/installed/PyAppMngr/app_pref.json" />
-    <entry file="file://C:/PyAniTools/app_data/PyShoot/app_data.json" />
     <entry file="file://$USER_HOME$/Desktop/python code .py" />
     <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/depr/appmanager.py" />
     <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/app_data/PyNukeMngr/app_data.json" />
@@ -369,9 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/lib/cgt_metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/core/cgt_metadata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -432,13 +429,6 @@
     <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_show_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2589" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="993" column="19" lean-forward="true" selection-start-line="993" selection-start-column="19" selection-end-line="993" selection-end-column="19" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyAniTools/update_config.json">
@@ -511,10 +501,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://Z:/LongGong/assets/char/charBossPi/rig/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/LongGong/assets/char/charCuttleFish/rig/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="744" column="23" selection-start-line="744" selection-start-column="17" selection-end-line="744" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/LongGong/assets/char/charGuard/rig/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://Z:/LongGong/assets/prop/propAlleyBag/rig/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/lib/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/LongGong/assets/char/charAnglerFish/rig/approved/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
+        <state relative-caret-position="416">
+          <caret line="28" column="71" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
           <folding>
             <element signature="e#625#635#0" expanded="true" />
           </folding>

@@ -10,6 +10,14 @@
   ],
   "setup": [
     {
+      "version" : "1.1.0",
+      "notes": [
+        "Added version to window",
+        "Post timeout fix: Asset file information is retrieved from CGT server per asset component"
+      ],
+      "desc": "Sets up tools and asset management system."
+    },
+    {
       "version" : "1.0.0",
       "notes": [
         "First release. Part of the new setup and update system."
@@ -18,6 +26,14 @@
     }
   ],
   "update": [
+    {
+      "version": "1.2.0",
+      "notes": [
+        "Added version to window",
+        "Post timeout fix: Asset file information is retrieved from CGT server per asset component"
+      ],
+      "desc": "Updates assets : can be tools, rigs, and any other show assets."
+    },
     {
       "version": "1.1.0",
       "notes": [

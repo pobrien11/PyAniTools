@@ -22,7 +22,16 @@ v2.0.0
 
 * Added maya plugin download support
 
-v3.0.0
+***************** REBUILT TO NEW ASSET BASED SYSTEM ************************************
+
+v1.0.0
 ======
 
 * Refactored completely to be asset based
+
+v1.1.0
+======
+
+* Added version to window
+
+* Post timeout fix: Asset file information is retrieved from CGT server per asset component

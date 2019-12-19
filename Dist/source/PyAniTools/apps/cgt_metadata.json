@@ -2,6 +2,13 @@
   "pyAssetMngr": [
     {
       "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
+      "version" : "1.2.0",
+      "notes": [
+        "Post timeout fix: Asset file information is retrieved from CGT server per asset component"
+      ]
+    },
+    {
+      "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
       "version" : "1.1.2",
       "notes": [
         "Fixed error when update process / windows task is disabled.",

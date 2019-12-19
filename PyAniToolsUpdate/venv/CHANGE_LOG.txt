@@ -39,3 +39,10 @@ v1.1.0
 ======
 
 * Asset update report shows files that were added, modified, and/or deleted for Updated Assets
+
+v1.2.0
+======
+
+* Added version to window
+
+* Post timeout fix: Asset file information is retrieved from CGT server per asset component

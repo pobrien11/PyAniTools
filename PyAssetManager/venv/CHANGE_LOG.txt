@@ -71,3 +71,8 @@ v1.1.2
 * Fixed error when update process / windows task is disabled.
 
 * When windows task is re-enabled, grabs the time and updates ui
+
+v1.2.0
+======
+
+* Post timeout fix: Asset file information is retrieved from CGT server per asset component
