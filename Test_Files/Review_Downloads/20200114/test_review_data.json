@@ -1,0 +1,242 @@
+{
+    "Seq210": {
+        "Shot030": {
+            "animation": [
+                {
+                    "file name": "Seq210_Shot030_Ani_SPL_v002.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq210_Shot030_Ani_SPL_v002.mov"
+                }
+            ],
+            "BG": [
+                {
+                    "file name": "Seq210_Shot030_Ani_bg_SPL_v002.mov",
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\BG",
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq210_Shot030_Ani_bg_SPL_v002.mov"
+                }
+            ]
+        }
+    }, 
+    "Seq130": {
+        "Shot410": {
+            "nCloth": [
+                {
+                    "file name": "Seq130_Shot410_nCloth_v002.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nCloth", 
+                    "server path": "/LongGong/LA_review/20200114/nCloth/Seq130_Shot410_nCloth_v002.mov"
+                }
+            ],
+            "animation": [
+                {
+                    "file name": "Seq130_Shot410_Ani_v003.mov",
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation",
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq130_Shot410_Ani_v003.mov"
+                }
+            ],
+            "nHair": [
+                {
+                    "file name": "Seq130_Shot410_nHair_v003.mov",
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nHair",
+                    "server path": "/LongGong/LA_review/20200114/nHair/Seq130_Shot410_nHair_v003.mov"
+                }
+            ]
+        }, 
+        "Shot430": {
+            "nCloth": [
+                {
+                    "file name": "Seq130_Shot430_nCloth_v002.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nCloth", 
+                    "server path": "/LongGong/LA_review/20200114/nCloth/Seq130_Shot430_nCloth_v002.mov"
+                }
+            ]
+        }, 
+        "Shot120": {
+            "nCloth": [
+                {
+                    "file name": "Seq130_Shot120_nCloth_v001.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nCloth", 
+                    "server path": "/LongGong/LA_review/20200114/nCloth/Seq130_Shot120_nCloth_v001.mov"
+                }
+            ], 
+            "nHair": [
+                {
+                    "file name": "Seq130_Shot120_nHair_v002.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nHair", 
+                    "server path": "/LongGong/LA_review/20200114/nHair/Seq130_Shot120_nHair_v002.mov"
+                }
+            ]
+        }
+    }, 
+    "Seq120": {
+        "Shot330": {
+            "nCloth": [
+                {
+                    "file name": "Seq120_Shot330_nCloth_v004.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nCloth", 
+                    "server path": "/LongGong/LA_review/20200114/nCloth/Seq120_Shot330_nCloth_v004.mov"
+                }
+            ]
+        }, 
+        "Shot350": {
+            "nCloth": [
+                {
+                    "file name": "Seq120_Shot350_nCloth_v003.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nCloth", 
+                    "server path": "/LongGong/LA_review/20200114/nCloth/Seq120_Shot350_nCloth_v003.mov"
+                }
+            ]
+        }, 
+        "Shot310": {
+            "nCloth": [
+                {
+                    "file name": "Seq120_Shot310_nCloth_v003.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nCloth", 
+                    "server path": "/LongGong/LA_review/20200114/nCloth/Seq120_Shot310_nCloth_v003.mov"
+                }
+            ]
+        }
+    }, 
+    "Seq360": {
+        "Shot260": {
+            "nHair": [
+                {
+                    "file name": "Seq360_Shot260_nHair_v001.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\nHair", 
+                    "server path": "/LongGong/LA_review/20200114/nHair/Seq360_Shot260_nHair_v001.mov"
+                }
+            ]
+        }
+    }, 
+    "Seq380": {
+        "Shot580": {
+            "animation": [
+                {
+                    "file name": "Seq380_Shot580_Ani_SPL_v001.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq380_Shot580_Ani_SPL_v001.mov"
+                }
+            ]
+        }, 
+        "Shot350": {
+            "animation": [
+                {
+                    "file name": "Seq380_Shot350_Ani_BLO_v002.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq380_Shot350_Ani_BLO_v002.mov"
+                }
+            ]
+        }, 
+        "Shot630": {
+            "animation": [
+                {
+                    "file name": "Seq380_Shot630_Ani_SPL_v007.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq380_Shot630_Ani_SPL_v007.mov"
+                }
+            ]
+        }
+    }, 
+    "Seq260": {
+        "Shot140": {
+            "animation": [
+                {
+                    "file name": "Seq260_Shot140_Ani_POL_v004.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq260_Shot140_Ani_POL_v004.mov"
+                }
+            ]
+        },
+        "editorial": [
+            {
+                "file name": "Seq260_movie_v097.mov",
+                "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\editorial",
+                "server path": "/LongGong/LA_review/20200114/editorial/Seq260_movie_v097.mov"
+            }
+        ]
+    }, 
+    "Seq140": {
+        "Shot120": {
+            "animation": [
+                {
+                    "file name": "Seq140_Shot120_Ani_SPL_v032.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq140_Shot120_Ani_SPL_v032.mov"
+                }
+            ]
+        }, 
+        "Shot040": {
+            "animation": [
+                {
+                    "file name": "Seq140_Shot040_Ani_SPL_v015.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq140_Shot040_Ani_SPL_v015.mov"
+                }
+            ]
+        }, 
+        "Shot010": {
+            "animation": [
+                {
+                    "file name": "Seq140_Shot010_Ani_SPL_v031.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq140_Shot010_Ani_SPL_v031.mov"
+                }
+            ]
+        }, 
+        "Shot030": {
+            "animation": [
+                {
+                    "file name": "Seq140_Shot030_Ani_SPL_v039.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq140_Shot030_Ani_SPL_v039.mov"
+                }
+            ]
+        }, 
+        "Shot190": {
+            "animation": [
+                {
+                    "file name": "Seq140_Shot190_Ani_SPL_v019.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq140_Shot190_Ani_SPL_v019.mov"
+                }
+            ]
+        }
+    }, 
+    "Seq240": {
+        "Shot240": {
+            "animation": [
+                {
+                    "file name": "Seq240_Shot240_Ani_SPL_v001.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq240_Shot240_Ani_SPL_v001.mov"
+                }
+            ]
+        }, 
+        "Shot480": {
+            "animation": [
+                {
+                    "file name": "Seq240_Shot480_Ani_POL_v001.mov", 
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation", 
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq240_Shot480_Ani_POL_v001.mov"
+                }
+            ]
+        },
+        "Shot190": {
+            "animation": [
+                {
+                    "file name": "Seq240_Shot190_Ani_SPL_v001.mov",
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\animation",
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq240_Shot190_Ani_SPL_v001.mov"
+                }
+            ]
+        },
+        "Shot030": {
+            "BG": [
+                {
+                    "file name": "Seq240_Shot030_Ani_bg_SPL_v002.mov",
+                    "local download path": "C:\\Users\\Patrick\\Downloads\\20200114\\BG",
+                    "server path": "/LongGong/LA_review/20200114/animation/Seq240_Shot030_Ani_bg_SPL_v002.mov"
+                }
+            ]
+        }
+    }
+}

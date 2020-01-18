@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="28" column="71" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
               <folding>
                 <element signature="e#625#635#0" expanded="true" />
               </folding>
@@ -73,7 +73,6 @@
         <option value="$USER_HOME$/Desktop/cgt_metadata.json" />
         <option value="Z:/LongGong/tools/maya/scripts/cgt_metadata.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" />
-        <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/apps/cgt_metadata.json" />
         <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/core/cgt_metadata.json" />
         <option value="C:/PyAniTools/apps/cgt_metadata.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
@@ -92,12 +91,14 @@
         <option value="$USER_HOME$/.PyAniTools/cgt_asset_info_cache.json" />
         <option value="Z:/LongGong/assets/char/charAnglerFish/rig/approved/cgt_metadata.json" />
         <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/lib/cgt_metadata.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_57.py" />
+        <option value="$PROJECT_DIR$/../Dist/source/PyAniTools/apps/cgt_metadata.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="312" />
-    <option name="y" value="165" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2957" />
+    <option name="y" value="65" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -119,6 +120,15 @@
               <item name="PyAssetManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyAssetManager" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyAssetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="PyAssetManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -281,15 +291,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="312" y="165" width="1936" height="1176" extended-state="0" />
-    <editor active="true" />
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3328125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3328125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34357005" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34261036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39827254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,8 +313,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/python code .py" />
-    <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/depr/appmanager.py" />
     <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/app_data/PyNukeMngr/app_data.json" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/tabs_example.py">
@@ -376,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/apps/cgt_metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_47.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -419,13 +419,6 @@
     </entry>
     <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_core.py" />
     <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_download.py" />
-    <entry file="file://$USER_HOME$/.PyAniTools/pref.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/PyAniTools/lib/app_bridge/cgt_show_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2589" />
@@ -466,13 +459,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/cgt_metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cgt_metadata.json" />
     <entry file="file://C:/Python27/Lib/smtplib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -542,10 +529,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../PyAniLib/pyani/core/ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_57.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="823" selection-start-line="823" selection-end-line="840" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyAniTools/pref.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dist/source/PyAniTools/apps/cgt_metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="71" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="98" />
           <folding>
             <element signature="e#625#635#0" expanded="true" />
           </folding>

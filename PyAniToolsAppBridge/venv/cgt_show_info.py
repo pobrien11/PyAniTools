@@ -40,9 +40,10 @@ def update_sequence_shot_list(json_path, database=None, ip_addr=None, username=N
     if password == "":
         password = None
 
-    t_tw, t_db, error = cgt_core.login_cgt(ip_addr=ip_addr, username=username, password=password, database=database)
-    if error:
-        return error
+    cgt_core_obj = cgt_core.CGTCore(database=database, ip_addr=ip_addr, username=username, password=password)
+    # make sure we connected
+    if not cgt_core_obj.valid_connection():
+        return cgt_dl.cgt_core.connection_error_msg
 
     # Grab only sequences whose names start with seq
     seq_filter_list = [
@@ -61,7 +62,7 @@ def update_sequence_shot_list(json_path, database=None, ip_addr=None, username=N
     seq_shot_frames = {}
     # get sequences, shots, and frame ranges
     try:
-        sequences = get_seq_list(t_tw, t_db, seq_filter_list)
+        sequences = get_seq_list(cgt_core_obj.connection, cgt_core_obj.database, seq_filter_list)
         for sequence in sorted(sequences):
             seq_shot_frames[sequence] = []
     except Exception as e:
@@ -69,8 +70,8 @@ def update_sequence_shot_list(json_path, database=None, ip_addr=None, username=N
         return error
     try:
         for sequence in sequences:
-            shots = get_shot_list(sequence, t_tw, t_db, shot_filter_list)
-            shot_frames = get_shot_frames(sequence, t_tw, t_db)
+            shots = get_shot_list(sequence, cgt_core_obj.connection, cgt_core_obj.database, shot_filter_list)
+            shot_frames = get_shot_frames(sequence, cgt_core_obj.connection, cgt_core_obj.database)
             for shot in sorted(shots):
                 first_frame = shot_frames[shot]["first_frame"]
                 last_frame = shot_frames[shot]["last_frame"]
@@ -165,6 +166,7 @@ def get_shot_frames(sequence, t_tw, t_db):
         temp[i['shot.shot']] = te
 
     return temp
+
 
 def main():
     debug = False

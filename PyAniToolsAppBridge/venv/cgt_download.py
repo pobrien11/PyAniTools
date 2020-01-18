@@ -140,7 +140,7 @@ class CGTDownload:
 
 
 def main():
-    debug = False
+    debug = True
 
     if debug:
         # To Test multi file d/l:
@@ -158,8 +158,8 @@ def main():
         # download_path.append("C:\Users\Patrick\Documents\maya\plug-ins\\")
 
         # cgt_path = "/LongGong/tools/maya/plugins/AOV_CC.gizmo"
-        cgt_path = u'/LongGong/tools/maya/plugins/lt_awesome.lt'
-        download_path = u'c:\\users\\patrick\\appdata\\local\\temp\\pyanitools\\maya_plugins'
+        cgt_path = u'/LongGong/LA_review/20200117/animation/Seq140_Shot030_Ani_POL_v043.mov'
+        download_path = "C:\\Users\\Patrick\Downloads\\20200117\\animation"
 
         ip_addr = "172.18.100.246"
         username = "publish"

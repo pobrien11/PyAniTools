@@ -8,6 +8,7 @@ import ct
 
 import cgt_core
 
+
 def get_note(pipeline_component, asset_name, database=None, ip_addr=None, username=None, password=None):
     """
     Gets the note from CGT's note section
@@ -24,15 +25,14 @@ def get_note(pipeline_component, asset_name, database=None, ip_addr=None, userna
     if password == "":
         password = None
 
-    connection, database, error = cgt_core.login_cgt(
-        ip_addr=ip_addr, username=username, password=password, database=database
-    )
-    if error:
-        return error, ""
+    cgt_core_obj = cgt_core.CGTCore(database=database, ip_addr=ip_addr, username=username, password=password)
+    # make sure we connected
+    if not cgt_core_obj.valid_connection():
+        return cgt_dl.cgt_core.connection_error_msg, ""
     
     # get asset task id
-    task_id_list = connection.task.get_id(
-        database,
+    task_id_list = cgt_core_obj.connection.task.get_id(
+        cgt_core_obj.database,
         'asset',
         [
             ['task.pipeline','=',pipeline_component],
@@ -42,8 +42,8 @@ def get_note(pipeline_component, asset_name, database=None, ip_addr=None, userna
     )
 
     # get note id
-    note_id_list =  connection.note.get_id(
-        database,
+    note_id_list = cgt_core_obj.connection.note.get_id(
+        cgt_core_obj.database,
         [
             ['module','=','asset'],
             'and',
@@ -53,9 +53,9 @@ def get_note(pipeline_component, asset_name, database=None, ip_addr=None, userna
         ]
     )
 
-    fields = connection.note.fields()
+    fields = cgt_core_obj.connection.note.fields()
     # gets all notes
-    notes = connection.note.get(database, note_id_list, fields)
+    notes = cgt_core_obj.connection.note.get(cgt_core_obj.database, note_id_list, fields)
     # get the latest version which is the last element in list of notes
     note_as_str = notes[-1]['text']
     # notes field returns a string, but really it should be a dict because its formatted as {"data": ..., "image": ...}
@@ -69,24 +69,23 @@ def get_note(pipeline_component, asset_name, database=None, ip_addr=None, userna
         return "", note_unformatted[note_link_index:]
     else:
         return "", note_unformatted
-    
+
+
 def main():
+    debug = False
 
-
-    pipeline_component = sys.argv[1]
-    asset_name = sys.argv[2]
-    ip_addr = sys.argv[3]
-    username = sys.argv[4]
-    password = sys.argv[5]
-    
-    """
-    # Testing:
-    pipeline_component = "Rig"
-    asset_name = "charMei"
-    ip_addr = "172.18.100.246"
-    username = "Patrick"
-    password = "longgong19"
-    """
+    if debug:
+        ip_addr = "172.18.100.246"
+        username = "publish"
+        password = "publish"
+        pipeline_component = "Rig"
+        asset_name = "charMei"
+    else:
+        pipeline_component = sys.argv[1]
+        asset_name = sys.argv[2]
+        ip_addr = sys.argv[3]
+        username = sys.argv[4]
+        password = sys.argv[5]
 
     error, note = get_note(pipeline_component, asset_name, ip_addr=ip_addr, username=username, password=password)
 
@@ -94,6 +93,7 @@ def main():
         print error
     else:
         print note
+
 
 if __name__ == '__main__':
     main()

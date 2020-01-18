@@ -76,3 +76,8 @@ v1.2.0
 ======
 
 * Post timeout fix: Asset file information is retrieved from CGT server per asset component
+
+v1.3.0
+======
+
+* Added Review tab

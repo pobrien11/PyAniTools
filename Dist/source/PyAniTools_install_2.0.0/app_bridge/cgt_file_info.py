@@ -196,7 +196,7 @@ class CGTFileListing:
         :return: a list of dicts
         """
         return self.cgt_core.connection.send_web(
-            "c_media_file", "search_folder", {"db": self.cgt_core.database, "dir": dir_path}
+            "c_media_file", "search_folder", {"db": self.cgt_core.database, "dir": dir_path + "/"}
         )
 
 
