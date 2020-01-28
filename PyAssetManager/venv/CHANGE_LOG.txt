@@ -81,3 +81,8 @@ v1.3.0
 ======
 
 * Added Review tab
+
+v1.3.5
+======
+
+* Added finer control over downloads, removed precedence

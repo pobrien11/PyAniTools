@@ -6,3 +6,8 @@ v1.0.0
 ======
 
 * Initial Release
+
+v1.5.0
+======
+
+* Added finer control over downloads, removed precedence
