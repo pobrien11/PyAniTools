@@ -1,6 +1,13 @@
 {
   "pyAppRoamingLauncher": [
     {
+      "version" : "1.0.1",
+      "notes": [
+        "Fixed issue with closing a running instance of an app."
+      ],
+      "desc": "Support tool for setup and update tasks."
+    },
+    {
       "version" : "1.0.0",
       "notes": [
         "First release. Part of the new setup and update system."

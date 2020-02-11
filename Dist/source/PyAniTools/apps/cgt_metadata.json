@@ -2,6 +2,13 @@
   "pyReview": [
     {
       "desc": "A tool to download movies for reviews.",
+      "version" : "1.5.1",
+      "notes": [
+        "Added back precedence / one movie per dept feature."
+      ]
+    },
+    {
+      "desc": "A tool to download movies for reviews.",
       "version" : "1.5.0",
       "notes": [
         "Added finer control over downloads, removed precedence."
@@ -16,6 +23,13 @@
     }
   ],
   "pyAssetMngr": [
+    {
+      "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
+      "version" : "1.3.6",
+      "notes": [
+        "Added back precedence / one movie per dept feature."
+      ]
+    },
     {
       "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
       "version" : "1.3.5",

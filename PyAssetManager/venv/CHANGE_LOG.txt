@@ -86,3 +86,9 @@ v1.3.5
 ======
 
 * Added finer control over downloads, removed precedence
+
+
+v1.3.6
+======
+
+* Added back precedence / one movie per dept feature
