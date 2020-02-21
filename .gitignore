@@ -111,3 +111,4 @@ venv.bak/
 *.zip
 *.rar
 mockups/
+sh.exe.stackdump
