@@ -25,6 +25,13 @@
   "pyAssetMngr": [
     {
       "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
+      "version" : "1.3.7",
+      "notes": [
+        "Fixed review download task creation error - path was wrong."
+      ]
+    },
+    {
+      "desc": "A gui interface to manage tool, show and shot assets. Provides update and other asset information.",
       "version" : "1.3.6",
       "notes": [
         "Added back precedence / one movie per dept feature."

@@ -92,3 +92,8 @@ v1.3.6
 ======
 
 * Added back precedence / one movie per dept feature
+
+v1.3.7
+======
+
+* Fixed review download task creation error - path was wrong
