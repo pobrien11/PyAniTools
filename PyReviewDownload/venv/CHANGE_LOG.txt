@@ -16,3 +16,8 @@ v1.5.1
 ======
 
 * Added back precedence / one movie per dept feature
+
+v1.5.2
+======
+
+* Fixed precedence logic, was running even when assets don't share a dl location

@@ -97,3 +97,8 @@ v1.3.7
 ======
 
 * Fixed review download task creation error - path was wrong
+
+v1.3.8
+======
+
+* Fixed precedence logic, was running even when assets don't share a dl location
